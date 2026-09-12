@@ -107,6 +107,20 @@ class SingleInstanceLock:
             self.path.unlink(missing_ok=True)
 
 
+def determinar_origem_execucao() -> str:
+    """Distingue o disparo agendado (cron 6h) de um disparo manual, via a variável
+    que o GitHub Actions preenche automaticamente (`GITHUB_EVENT_NAME`). Rodando
+    localmente (sem essa variável), é sempre 'manual_local'. Isso é o que permite à
+    interface tratar um erro do cron das 6h como algo a alarmar de verdade, e um erro
+    de uma execução manual (ex.: um teste local sem token) como algo bem menos grave."""
+    evento = os.environ.get("GITHUB_EVENT_NAME")
+    if evento == "schedule":
+        return "agendado"
+    if evento:
+        return "manual_actions"  # workflow_dispatch, ou outro evento do Actions
+    return "manual_local"
+
+
 @dataclass
 class CollectionStatus:
     org: str
@@ -120,6 +134,7 @@ class CollectionStatus:
     error: str | None = None
     csv_path: str | None = None
     csv_sha256: str | None = None
+    execution_origin: str = field(default_factory=determinar_origem_execucao)
 
     def to_json(self) -> dict:
         return {
@@ -134,6 +149,7 @@ class CollectionStatus:
             "erro": self.error,
             "arquivo_csv": self.csv_path,
             "sha256_csv": self.csv_sha256,
+            "origem_execucao": self.execution_origin,
         }
 
 

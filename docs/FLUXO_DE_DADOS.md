@@ -35,6 +35,15 @@ Isso sobrescreve `data/output/github_repos_apache.csv`,
 `web/public/data/`. Rodar automaticamente todo dia às 6h é feito pelo workflow
 `.github/workflows/coleta-github-diaria.yml` (ver README para detalhes de fuso).
 
+**Importante — escopo da automação:** o workflow agendado roda *só* o
+`collect_repos.py` e publica os dois arquivos da Parte 1 (`github_repos_apache.csv`
+e `github_collection_status.json`). Ele **não** dispara `build_database.py`,
+`export_web.py` nem `classify.py` — a análise comercial (Parte 2) e a classificação
+de pré-vendas (Parte 3) não são reexecutadas automaticamente. Se novos CSVs
+comerciais ou novas conversas forem adicionados, os comandos das seções abaixo
+precisam ser rodados manualmente (ou adicionados a um workflow à parte, o que não
+existe hoje).
+
 ## Parte 2 — novos CSVs de mídia/leads/vendas
 
 Se `dados/investimento_midia.csv`, `dados/leads.csv` ou `dados/vendas.csv` forem

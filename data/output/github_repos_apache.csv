@@ -195,7 +195,7 @@ aries-site,Apache aries website,HTML,2,1,2019-07-02T17:44:06Z,2026-07-22T02:45:4
 aries-site-pub,Apache aries published website,HTML,1,2,2020-08-17T23:32:54Z,2026-07-22T02:53:46Z
 aries-tx-control,Apache Aries Transaction Control,Java,2,4,2018-01-04T16:03:10Z,2026-07-22T02:35:34Z
 aries-typedevent,Apache aries,Java,3,7,2020-09-11T17:00:39Z,2026-07-22T02:54:22Z
-arrow,Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics,C++,17099,4296,2016-02-17T08:00:23Z,2026-09-12T16:44:36Z
+arrow,Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics,C++,17099,4297,2016-02-17T08:00:23Z,2026-09-12T16:44:36Z
 arrow-adbc,Database connectivity API standard and libraries for Apache Arrow,C#,627,217,2022-06-01T15:08:49Z,2026-09-10T04:57:41Z
 arrow-cookbook,Apache Arrow Cookbook,C++,108,49,2021-07-13T12:31:51Z,2026-09-01T20:14:00Z
 arrow-dist,Apache Arrow,Shell,4,13,2017-06-20T14:26:14Z,2023-08-22T17:04:59Z
@@ -885,7 +885,7 @@ daffodil-schema.g8,Apache Daffodil DFDL Schema Template,Scala,3,7,2021-02-25T18:
 daffodil-site,Apache Daffodil Website,HTML,5,16,2017-12-04T12:49:03Z,2026-09-08T12:56:36Z
 daffodil-vscode,Apache Daffodil™ Extension for Visual Studio Code,TypeScript,18,33,2021-05-04T21:42:39Z,2026-09-04T20:09:42Z
 datafu,Mirror of Apache DataFu,Java,124,67,2014-01-14T08:00:07Z,2026-07-22T02:10:33Z
-datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2401,2021-04-17T15:40:23Z,2026-09-12T14:28:22Z
+datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2401,2021-04-17T15:40:23Z,2026-09-12T21:45:14Z
 datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2135,320,2022-05-19T14:32:27Z,2026-09-12T21:21:10Z
 datafusion-ballista-python,Apache Arrow Ballista Python bindings,Shell,42,9,2023-01-30T13:53:36Z,2026-07-22T03:05:05Z
 datafusion-benchmarks,Apache DataFusion Benchmarks,Python,23,19,2024-05-14T12:59:32Z,2026-07-22T03:09:55Z
@@ -963,7 +963,7 @@ dolphinscheduler-studio,Apache dolphinscheduler,TypeScript,5,7,2022-08-29T02:57:
 dolphinscheduler-website,Apache DolphinScheduler website,JavaScript,146,220,2019-09-04T17:57:45Z,2026-09-08T15:06:06Z
 doris,Apache Doris is a real-time analytics and hybrid search database for AI agents.,Java,15896,3940,2017-08-10T12:13:30Z,2026-09-12T20:44:02Z
 doris-cli,Agent Doris CLI,Rust,17,4,2026-05-29T02:54:05Z,2026-09-08T13:52:09Z
-doris-flink-connector,Flink Connector for Apache Doris,Java,382,278,2022-02-11T14:48:32Z,2026-09-11T06:13:22Z
+doris-flink-connector,Flink Connector for Apache Doris,Java,383,278,2022-02-11T14:48:32Z,2026-09-12T21:32:56Z
 doris-jeager,Apache doris,não informado,0,0,2024-10-29T13:43:21Z,2026-07-22T03:11:45Z
 doris-kafka-connector,Kafka Connector for Apache Doris,Java,29,19,2024-03-03T08:18:50Z,2026-09-11T06:14:58Z
 doris-manager,Cluster manager for Apache Doris,Java,194,93,2022-02-10T03:42:12Z,2026-07-27T07:28:04Z
@@ -1314,7 +1314,7 @@ httpd-flood,Mirror of Apache Flood,C,11,3,2010-05-26T23:38:07Z,2026-08-02T02:45:
 httpd-mod_fcgid,Mirror of SVN Apache HTTPD mod_fcgid,C,2,2,2020-10-19T19:30:20Z,2026-07-22T02:54:45Z
 httpd-site,Apache httpd Website,HTML,8,14,2021-06-16T22:44:51Z,2026-09-08T14:30:35Z
 httpd-tests,Perl-based test framework module for Apache httpd,Perl,8,10,2020-02-26T23:56:21Z,2026-08-29T16:00:57Z
-hudi,"Upserts, Deletes And Incremental Processing on Big Data.",Java,6237,2518,2016-12-14T15:53:41Z,2026-09-12T05:38:08Z
+hudi,"Upserts, Deletes And Incremental Processing on Big Data.",Java,6237,2519,2016-12-14T15:53:41Z,2026-09-12T05:38:08Z
 hudi-rs,"The native Rust implementation for Apache Hudi, with C++ & Python API bindings.",Rust,279,67,2024-05-02T21:40:33Z,2026-09-11T01:35:41Z
 hugegraph,"A graph database that supports more than 100+ billion data, high performance and scalability (Include OLTP Engine & REST-API & Backends)",Java,3175,636,2018-07-18T03:30:20Z,2026-09-09T14:17:33Z
 hugegraph-ai,The integration of HugeGraph with AI/LLM & GraphRAG,Python,143,89,2023-10-08T12:03:07Z,2026-09-10T05:53:33Z
@@ -1327,8 +1327,8 @@ iceberg,Apache Iceberg,Java,9227,3526,2018-11-19T16:26:46Z,2026-09-12T20:02:29Z
 iceberg-cpp,Apache Iceberg C++,C++,221,124,2024-11-22T08:45:21Z,2026-09-11T23:34:05Z
 iceberg-docs,Apache Iceberg Documentation Site,SCSS,41,95,2021-11-23T21:16:00Z,2026-07-31T19:58:22Z
 iceberg-go,Apache Iceberg - Go,Go,463,232,2023-08-11T06:07:45Z,2026-09-11T23:34:07Z
-iceberg-python,PyIceberg,Python,1131,581,2023-08-11T06:07:31Z,2026-09-12T18:15:04Z
-iceberg-rust,Apache Iceberg,Rust,1403,566,2023-07-21T06:16:00Z,2026-09-12T01:53:21Z
+iceberg-python,PyIceberg,Python,1131,581,2023-08-11T06:07:31Z,2026-09-12T21:49:24Z
+iceberg-rust,Apache Iceberg,Rust,1404,566,2023-07-21T06:16:00Z,2026-09-12T21:52:33Z
 iceberg-verification,Verification framework for Apache Iceberg implementations,não informado,8,4,2026-08-24T19:17:26Z,2026-09-11T14:23:03Z
 iggy,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,Rust,4862,430,2023-03-18T21:39:42Z,2026-09-12T21:17:55Z
 iggy-setup,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,TypeScript,2,2,2025-06-28T11:59:40Z,2026-07-24T17:26:46Z
@@ -1686,7 +1686,7 @@ juddi-styles,Mirror of Apache jUDDI,XSLT,1,2,2014-02-21T08:00:08Z,2023-07-25T13:
 juneau,Apache Juneau,Java,96,42,2016-08-02T07:00:07Z,2026-09-12T20:56:00Z
 juneau-petstore,Apache Juneau,Java,9,12,2019-09-09T19:31:24Z,2026-07-22T02:46:57Z
 juneau-website,Apache Juneau,HTML,9,15,2016-07-11T07:00:06Z,2026-07-22T02:17:22Z
-kafka,Apache Kafka - A distributed event streaming platform,Java,33708,15510,2011-08-15T18:06:16Z,2026-09-12T15:16:40Z
+kafka,Apache Kafka - A distributed event streaming platform,Java,33709,15510,2011-08-15T18:06:16Z,2026-09-12T21:46:34Z
 kafka-merge-queue-sandbox,Apache kafka,Java,1,2,2024-07-02T16:42:10Z,2026-07-22T03:10:33Z
 kafka-site,Mirror of Apache Kafka site,HTML,88,404,2015-08-25T07:00:05Z,2026-09-12T17:13:57Z
 kalumet,Mirror of Apache Kalument (Incubating),Java,9,4,2011-11-06T07:00:10Z,2026-07-23T11:03:20Z
@@ -1797,7 +1797,7 @@ magpie,"Agent-assisted maintainership and development framework for Apache proje
 magpie-economics,Apache magpie,não informado,1,0,2026-07-05T09:42:39Z,2026-07-22T06:09:16Z
 magpie-site,Website for Apache Magpie — agent-assisted repository maintainership and development.,TypeScript,7,6,2026-06-27T20:03:28Z,2026-09-12T11:34:29Z
 mahout,"Apache Mahout - an environment for quickly creating scalable, performant machine learning applications.",Rust,2308,998,2014-05-23T07:00:07Z,2026-09-10T09:04:57Z
-maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,TypeScript,5277,491,2026-05-27T15:46:05Z,2026-09-12T21:19:53Z
+maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,TypeScript,5278,491,2026-05-27T15:46:05Z,2026-09-12T21:37:48Z
 manifoldcf,Mirror of Apache ManifoldCF,Java,86,68,2012-06-22T07:00:16Z,2026-08-06T10:37:29Z
 manifoldcf-integration-elasticsearch,Mirror of git.apache.org/manifoldcf-integration-elasticsearch.git,Java,1,1,2018-03-25T22:18:40Z,2026-07-22T02:36:36Z
 manifoldcf-integration-elasticsearch-1.5,Mirror of git.apache.org/manifoldcf-integration-elasticsearch-1.5.git,Java,1,0,2018-03-25T22:33:19Z,2026-07-22T02:36:38Z
@@ -2042,7 +2042,7 @@ nifi-site,Apache NiFi website,HTML,19,54,2015-08-23T07:00:06Z,2026-08-19T18:24:5
 nifi-standard-libraries,A collection of standard implementations used across the Apache NiFi ecosystem.,não informado,11,7,2019-09-06T14:28:53Z,2026-04-13T12:50:29Z
 npanday,Mirror of Apache NPanday,C#,16,13,2010-09-18T07:00:08Z,2026-07-23T06:22:21Z
 npanday-its,Mirror of Apache NPanday ITs,C#,4,5,2011-08-15T07:00:09Z,2026-07-23T15:13:32Z
-nutch,Apache Nutch is an extensible and scalable web crawler,Java,3289,1279,2009-05-21T01:17:48Z,2026-09-12T15:34:09Z
+nutch,Apache Nutch is an extensible and scalable web crawler,Java,3290,1279,2009-05-21T01:17:48Z,2026-09-12T21:36:49Z
 nutch-airflow-tools,Apache nutch,não informado,0,0,2023-09-28T13:42:46Z,2026-07-22T03:07:47Z
 nutch-site,Apache Nutch Website,CSS,5,3,2020-09-16T10:27:43Z,2026-09-08T11:11:34Z
 nutch-webapp,Apache Nutch is an extensible and scalable web crawler,Java,10,3,2021-07-12T15:02:02Z,2026-07-22T02:58:14Z
@@ -2906,7 +2906,7 @@ sourcelume-reports,Apache sourcelume,não informado,1,0,2026-09-01T13:07:51Z,202
 sourcelume-site,Apache Sourcelume,CSS,2,1,2026-08-23T10:20:02Z,2026-09-10T13:00:33Z
 sourcelume-spec,"Apache Sourcelume is open-source instrumentation for AI training-data provenance — a metadata specification, a reference registry, and tooling that let dataset curators and model producers publish signed, independently verifiable records of where their data came from and what terms it carries.",Python,3,2,2026-08-23T17:13:59Z,2026-09-12T19:11:15Z
 spamassassin,Read-only mirror of Apache SpamAssassin.,Perl,345,88,2009-05-20T01:47:48Z,2026-09-12T08:33:13Z
-spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,43983,29369,2014-02-25T08:00:08Z,2026-09-12T20:34:32Z
+spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,43984,29369,2014-02-25T08:00:08Z,2026-09-12T21:45:40Z
 spark-connect-gateway,Apache Spark Connect Gateway,Rust,7,3,2026-08-09T17:40:22Z,2026-09-10T20:52:15Z
 spark-connect-go,Apache Spark Connect Client for Golang,Go,252,53,2023-05-30T10:09:28Z,2026-09-10T11:56:52Z
 spark-connect-rust,Apache Spark Connect Client for Rust (Rust core + Python wrapper),Python,43,18,2025-05-26T07:22:15Z,2026-09-11T07:09:17Z
@@ -2952,7 +2952,7 @@ struts1,Mirror of Apache Struts 1,Java,35,100,2009-05-21T01:36:19Z,2026-08-11T05
 submarine,Submarine is Cloud Native Machine Learning Platform.,Java,704,248,2019-09-19T04:00:17Z,2026-08-19T15:17:59Z
 submarine-site,Apache Submarine website,HTML,6,6,2019-10-29T15:16:26Z,2024-07-10T10:51:25Z
 subversion,Mirror of Apache Subversion,C,642,196,2009-12-31T09:00:10Z,2026-09-11T20:56:23Z
-superset,Apache Superset is a Data Visualization and Data Exploration Platform,Python,74737,18260,2015-07-21T18:55:34Z,2026-09-12T19:22:15Z
+superset,Apache Superset is a Data Visualization and Data Exploration Platform,Python,74737,18261,2015-07-21T18:55:34Z,2026-09-12T21:41:34Z
 superset-kubernetes-operator,Apache Superset Kubernetes Operator,Go,24,9,2025-02-25T00:51:19Z,2026-09-11T23:13:18Z
 superset-site,Apache superset (Incubating) website,HTML,11,19,2017-06-27T07:00:08Z,2026-09-12T19:23:19Z
 synapse,Apache Synapse is a lightweight and high-performance Enterprise Service Bus (ESB),Java,84,65,2009-05-21T01:01:59Z,2026-09-10T03:38:42Z
@@ -2986,7 +2986,7 @@ terraform-provider-paimon,Terraform and OpenTofu provider for Apache Paimon,Go,2
 terraform-provider-polaris,"Terraform provider for Apache Polaris, the interoperable, open source catalog for Apache Iceberg",não informado,1,1,2026-08-24T19:24:43Z,2026-08-25T22:06:29Z
 texera,Human-AI Collaborative Data Science Using Visual Workflows,Scala,314,187,2016-03-15T20:38:46Z,2026-09-12T20:36:54Z
 tez,Apache Tez,Java,519,443,2013-04-08T07:20:23Z,2026-08-24T13:26:38Z
-thrift,Apache Thrift,C++,10957,4109,2009-09-18T08:00:17Z,2026-09-12T15:16:40Z
+thrift,Apache Thrift,C++,10957,4109,2009-09-18T08:00:17Z,2026-09-12T21:39:22Z
 thrift-website,Apache Thrift Website,CSS,2,8,2020-10-30T10:11:47Z,2026-07-30T21:17:45Z
 tika,"The Apache Tika toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF).",Java,4055,969,2009-05-21T02:12:11Z,2026-09-12T17:04:20Z
 tika-docker,Convenience Docker images for Apache Tika Server,Dockerfile,245,82,2020-01-08T22:06:03Z,2026-08-15T01:49:47Z
@@ -3167,6 +3167,6 @@ yunikorn-scheduler-interface,Apache YuniKorn Scheduler Interface,Makefile,36,76,
 yunikorn-site,Apache Yunikorn website - see the master branch for instructions,MDX,31,93,2020-03-20T04:03:45Z,2026-08-25T06:49:51Z
 yunikorn-web,Apache YuniKorn Web UI,TypeScript,39,84,2019-06-13T15:18:49Z,2026-08-24T11:46:50Z
 zeppelin,"Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",Java,6657,2839,2015-03-25T07:00:06Z,2026-09-12T14:13:30Z
-zeppelin-site,Apache zeppelin,JavaScript,13,25,2023-09-09T05:38:36Z,2026-07-22T03:07:37Z
+zeppelin-site,Apache zeppelin,JavaScript,13,26,2023-09-09T05:38:36Z,2026-07-22T03:07:37Z
 zetacomponents,Mirror of Apache Zeta Components,PHP,48,13,2011-03-06T08:00:07Z,2026-07-22T02:10:56Z
 zookeeper,Apache ZooKeeper,Java,12803,7317,2009-03-27T15:41:56Z,2026-09-11T19:05:28Z

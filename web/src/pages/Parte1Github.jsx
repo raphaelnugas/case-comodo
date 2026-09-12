@@ -5,10 +5,26 @@ import { formatarData, formatarDataCurta, formatarNumero } from '../lib/format'
 import { baixarCsv } from '../lib/csv'
 
 const ROTULOS_STATUS = {
-  sucesso: 'Sucesso',
+  sucesso: 'Atualizado',
   erro: 'Erro',
   sucesso_com_divergencia: 'Sucesso (com divergência)',
   em_andamento: 'Em andamento',
+}
+
+// Um "erro" na última tentativa não significa que os dados exibidos estão errados —
+// a escrita é atômica, então a tabela abaixo continua sendo a da última coleta bem-
+// sucedida. Só tratamos isso como erro "de verdade" (vermelho) quando quem falhou foi
+// a execução agendada das 6h — o que de fato é um problema de produção a resolver.
+// Qualquer outra falha (um teste manual, um rate-limit local sem token) é só um sinal
+// de que o snapshot pode estar desatualizado, não de que algo está incorreto.
+function calcularExibicaoStatus(status) {
+  if (status.status === 'erro') {
+    if (status.origem_execucao === 'agendado') {
+      return { classe: 'erro', rotulo: 'Erro na coleta agendada' }
+    }
+    return { classe: 'desatualizado', rotulo: 'Desatualizado' }
+  }
+  return { classe: status.status, rotulo: ROTULOS_STATUS[status.status] ?? status.status }
 }
 
 export default function Parte1Github() {
@@ -30,8 +46,10 @@ export default function Parte1Github() {
       <header className="pagina-cabecalho">
         <h1 className="pagina-titulo">Parte 1 — Coleta GitHub</h1>
         <span className="pagina-fonte-nota">
-          Dados extraídos em tempo real da API pública do GitHub
-          (<code>api.github.com/orgs/&#123;org&#125;/repos</code>), sem amostragem.
+          Dados coletados pela API pública do GitHub
+          (<code>api.github.com/orgs/&#123;org&#125;/repos</code>), sem amostragem, e
+          disponibilizados aqui pelo último snapshot processado — esta página lê um
+          arquivo estático, não chama a API a cada visita.
         </span>
       </header>
 
@@ -122,7 +140,9 @@ export default function Parte1Github() {
 }
 
 function LogExecucao({ status }) {
-  const classeBadge = `badge badge-${status.status}`
+  const exibicao = calcularExibicaoStatus(status)
+  const eDesatualizado = exibicao.classe === 'desatualizado'
+
   return (
     <div className="card" style={{ padding: 18, marginBottom: 8 }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, alignItems: 'center' }}>
@@ -132,7 +152,7 @@ function LogExecucao({ status }) {
             {formatarData(status.inicio)} → {formatarData(status.fim)}
           </div>
         </div>
-        <span className={classeBadge}>{ROTULOS_STATUS[status.status] ?? status.status}</span>
+        <span className={`badge badge-${exibicao.classe}`}>{exibicao.rotulo}</span>
       </div>
 
       <div
@@ -149,9 +169,16 @@ function LogExecucao({ status }) {
         <Metrica label="Duração" valor={`${status.duracao_segundos}s`} />
       </div>
 
-      {status.erro && (
-        <p style={{ marginTop: 14, fontSize: 12.5, color: 'var(--destaque-secundario)' }}>
-          <strong>Observação:</strong> {status.erro}
+      {status.erro && eDesatualizado && (
+        <p style={{ marginTop: 14, fontSize: 12.5, color: '#8a6d1a' }}>
+          <strong>A tabela abaixo é da última coleta bem-sucedida.</strong> A tentativa
+          de atualização mais recente não deu certo (detalhe técnico: {status.erro}),
+          mas nenhum dado exibido está incorreto por causa disso.
+        </p>
+      )}
+      {status.erro && !eDesatualizado && (
+        <p style={{ marginTop: 14, fontSize: 12.5, color: 'var(--destaque)' }}>
+          <strong>A coleta agendada das 6h falhou:</strong> {status.erro}
         </p>
       )}
       {status.sha256_csv && (
