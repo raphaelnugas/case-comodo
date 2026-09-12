@@ -100,7 +100,7 @@ Pensado para o cenário descrito no case — "roda sozinho às 6h, ninguém acom
 | Timeout / retry | `requests` com `Retry` (backoff exponencial) em 403/429/5xx, timeout de 15s |
 | Execução concorrente | Lock file com PID e expiração (30 min) |
 | Validação antes/depois | Compara `public_repos` da API da org com o total paginado |
-| Log da execução | `data/output/github_collection_status.json`: início, fim, duração, páginas, registros, status, erro, SHA-256 |
+| Log da execução | `data/output/github_collection_status.json`: início, fim, duração, páginas, registros, status, erro, SHA-256, origem da execução |
 | Agendamento 6h | `.github/workflows/coleta-github-diaria.yml` (cron `0 9 * * *` UTC = 6h BRT) |
 | Execução manual | `workflow_dispatch` no mesmo workflow, ou rodar o script direto |
 
@@ -110,6 +110,15 @@ reexecuta a análise comercial (Parte 2) nem a classificação de pré-vendas (P
 — se chegarem novos CSVs comerciais ou novas conversas, os comandos correspondentes
 precisam ser rodados manualmente. Detalhes em
 [`docs/FLUXO_DE_DADOS.md`](docs/FLUXO_DE_DADOS.md).
+
+**Sobre o badge de status na interface:** como a escrita do CSV é atômica, uma falha
+na coleta nunca deixa dado errado na tela — só um snapshot mais antigo. Por isso a
+interface distingue duas coisas que parecem iguais mas não são: se a **coleta
+agendada das 6h** falhar, o badge fica vermelho ("Erro na coleta agendada") — é um
+problema de produção de verdade. Se uma execução manual falhar (um teste local sem
+token, por exemplo), o badge fica amarelo ("Desatualizado") — os dados exibidos
+continuam corretos, só não são os mais recentes possíveis. Raciocínio completo em
+[`DECISOES_TECNICAS.md`](DECISOES_TECNICAS.md#parte-1--coleta-github).
 
 **Caso real de falha, não simulado:** sem `GITHUB_TOKEN` configurado neste ambiente
 de desenvolvimento, a segunda execução em sequência excedeu o limite de 60

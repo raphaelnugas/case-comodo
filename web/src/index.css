@@ -74,6 +74,7 @@ button {
 .badge-falha_tecnica { background: rgba(204, 51, 102, 0.15); color: var(--destaque-secundario); }
 .badge-sucesso { background: rgba(79, 172, 71, 0.14); color: var(--verde); }
 .badge-erro { background: rgba(248, 59, 29, 0.14); color: var(--destaque); }
+.badge-desatualizado { background: rgba(217, 164, 6, 0.16); color: #8a6d1a; }
 .badge-sucesso_com_divergencia { background: rgba(204, 51, 102, 0.12); color: var(--destaque-secundario); }
 
 input[type='text'],

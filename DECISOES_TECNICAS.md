@@ -46,6 +46,19 @@ intacto. Isso valida o requisito "precisa ficar claro... se algo deu errado" com
 caso real, não fabricado. Em produção (cron diário), usar `GITHUB_TOKEN` (5.000
 req/hora) evita esse cenário quase por completo.
 
+**"Erro" na interface é reservado para a coleta agendada, não para qualquer
+tentativa.** A escrita atômica garante que a tabela exibida é sempre a da última
+coleta bem-sucedida — então um `status: "erro"` na última tentativa não significa
+"os dados na tela estão errados", significa "não consegui atualizar agora". Tratar
+os dois casos com o mesmo vermelho alarmante confundiria "dado desatualizado" com
+"dado incorreto", que são coisas bem diferentes para quem só quer olhar o relatório
+às 9h. Por isso o status carrega também `origem_execucao` (derivado de
+`GITHUB_EVENT_NAME`, que o GitHub Actions preenche sozinho: `"schedule"` para o cron,
+qualquer outra coisa para disparo manual/local): a interface só usa o vermelho de
+"erro" quando quem falhou foi a execução agendada das 6h — o alarme de produção de
+verdade. Uma falha manual (um teste local sem token, por exemplo) aparece como
+"Desatualizado" em amarelo, com o motivo técnico disponível mas sem alarme.
+
 ---
 
 ## Parte 2 — Análise comercial

@@ -8,6 +8,7 @@ import requests
 
 from src.parte1_github.collect_repos import (
     SingleInstanceLock,
+    determinar_origem_execucao,
     normalize_repo,
     run,
     sha256_of_file,
@@ -51,6 +52,21 @@ def test_sha256_of_file_e_deterministico(tmp_path: Path):
     h2 = sha256_of_file(f)
     assert h1 == h2
     assert len(h1) == 64
+
+
+def test_origem_execucao_local_sem_variavel_do_actions(monkeypatch):
+    monkeypatch.delenv("GITHUB_EVENT_NAME", raising=False)
+    assert determinar_origem_execucao() == "manual_local"
+
+
+def test_origem_execucao_agendada_via_cron(monkeypatch):
+    monkeypatch.setenv("GITHUB_EVENT_NAME", "schedule")
+    assert determinar_origem_execucao() == "agendado"
+
+
+def test_origem_execucao_manual_no_actions(monkeypatch):
+    monkeypatch.setenv("GITHUB_EVENT_NAME", "workflow_dispatch")
+    assert determinar_origem_execucao() == "manual_actions"
 
 
 def test_lock_impede_execucao_simultanea(tmp_path: Path):
