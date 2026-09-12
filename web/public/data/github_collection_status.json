@@ -1,0 +1,13 @@
+{
+  "organizacao": "apache",
+  "inicio": "2026-09-12T20:41:56.183263+00:00",
+  "fim": "2026-09-12T20:42:44.805916+00:00",
+  "duracao_segundos": 48.62,
+  "paginas_percorridas": 26,
+  "registros_esperados": 3171,
+  "registros_processados": 0,
+  "status": "erro",
+  "erro": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /orgs/apache/repos?type=public&per_page=100&page=27&sort=full_name (Caused by ResponseError('too many 403 error responses'))",
+  "arquivo_csv": null,
+  "sha256_csv": null
+}

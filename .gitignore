@@ -1,0 +1,35 @@
+# Segredos e ambiente
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Banco de dados gerado (reproduzível a partir dos scripts)
+data/db/*.sqlite
+data/db/*.sqlite-journal
+
+# Arquivos temporários de escrita atômica
+*.csv.tmp
+
+# Checkpoints de execução (contêm progresso local, não precisam ir pro histórico)
+data/output/checkpoints/*.json
+!data/output/checkpoints/.gitkeep
+
+# Logs
+*.log
+
+# Node / React
+web/node_modules/
+web/dist/
+web/.vite/
+
+# OS
+.DS_Store
+Thumbs.db

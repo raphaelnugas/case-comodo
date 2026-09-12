@@ -1,0 +1,525 @@
+[
+  {
+    "conversa_id": "CV001",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:01:32.890078+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "O lead recém-recebeu as chaves de um apartamento de 68m² e já possui a planta feita por arquiteto. Pretende projetar a cozinha e dois quartos, com verba reservada de R$ 60 mil e expectativa de entrega até dezembro. Agendou visita presencial ao showroom para quinta-feira à tarde.",
+    "sinais": [
+      "Imóvel recém-entregue com planta pronta fornecida por arquiteto (68m²)",
+      "Escopo definido: cozinha e dois quartos",
+      "Orçamento estipulado de R$ 60 mil",
+      "Prazo de entrega desejado para dezembro",
+      "Aceite de próximo passo concreto: visita ao showroom agendada para quinta-feira à tarde"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "Peguei as chaves do apto semana passada e queria orcar a cozinha e os dois quartos"
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "Tenho sim, o arquiteto ja mandou. Sao 68m2"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "A gente separou uns 60 mil pros planejados. Queria entregar ate dezembro se dar"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "Pode ser quinta a tarde"
+      }
+    ],
+    "proxima_acao": "Preparar a recepção para o atendimento presencial na quinta-feira à tarde e solicitar previamente a planta para estudo de layout dentro do orçamento de R$ 60 mil.",
+    "alertas": [
+      "Atentar para a viabilidade do prazo de entrega solicitado para dezembro em relação ao cronograma de produção da fábrica"
+    ],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV002",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:01:48.872499+00:00",
+    "classificacao": "frio",
+    "prioridade": 4,
+    "resumo_para_o_vendedor": "O lead entrou em contato apenas para saber o preço médio de uma cozinha planejada. Ele informou que não possui as medidas e está somente pesquisando para um projeto previsto para daqui a 2 anos. Não há intenção de compra imediata.",
+    "sinais": [
+      "Apenas pesquisando preços",
+      "Não possui medidas do espaço",
+      "Timeline muito distante (daqui a 2 anos)"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 3,
+        "trecho": "nao, so queria saber o preco medio"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "nem um nem outro, to so pesquisando pra daqui uns 2 anos"
+      }
+    ],
+    "proxima_acao": "Inserir o lead em um fluxo de nutrição de marketing para longo prazo e agendar um contato futuro.",
+    "alertas": [
+      "Prazo de compra incompatível com atendimento imediato (2 anos)"
+    ],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV003",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:02:02.640616+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "Lead adquiriu apartamento de R$ 850 mil com entrega prevista para março e deseja projetar o imóvel completo (3 dormitórios, cozinha, área de serviço e sala). Já possui a planta em PDF da construtora e sinaliza disposição para alto investimento. Oportunidade de alto valor com prazo bem definido.",
+    "sinais": [
+      "Prazo definido de entrega do imóvel em março",
+      "Escopo abrangente e claro (3 dormitórios, cozinha, área de serviço e sala)",
+      "Possui arquivo PDF da planta fornecido pela construtora",
+      "Sinalização de alto ticket/investimento (imóvel de R$ 850 mil)"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "comprei um apartamento na planta, entrega em marco."
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "Sao 3 dormitorios, quero fazer tudo. Cozinha, quartos, area de servico e sala"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "Tenho o PDF da construtora"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "o apto foi 850 mil entao imagino que da pra investir bem nos moveis"
+      }
+    ],
+    "proxima_acao": "Solicitar o envio do PDF da planta e agendar uma reunião presencial ou online para briefing e elaboração do projeto inicial.",
+    "alertas": [],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV004",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:02:10.756584+00:00",
+    "classificacao": "fora_do_perfil",
+    "prioridade": 4,
+    "resumo_para_o_vendedor": "O lead entrou em contato buscando serviço de conserto/manutenção para uma porta de armário solta. O atendente informou que a empresa trabalha apenas com projetos novos de móveis planejados. O lead agradeceu e a conversa foi encerrada.",
+    "sinais": [
+      "Solicitação de conserto/manutenção de móvel existente",
+      "Pedido fora do escopo de produtos e serviços da empresa"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "voces fazem conserto de armario? o meu ta com a porta solta"
+      },
+      {
+        "numero_mensagem": 2,
+        "trecho": "Nos trabalhamos com projetos novos de moveis planejados, nao fazemos manutencao"
+      }
+    ],
+    "proxima_acao": "Nenhuma ação de vendas necessária. Arquivar o contato por estar fora do perfil de atendimento da empresa.",
+    "alertas": [
+      "Pedido fora do escopo de atuação da empresa"
+    ],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV005",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:02:22.047724+00:00",
+    "classificacao": "morno",
+    "prioridade": 3,
+    "resumo_para_o_vendedor": "O lead busca um guarda-roupa de casal de cerca de 3 metros para troca em reforma. Definiu um teto de investimento de até R$ 8 mil, porém informou não ter pressa para a compra. Vale a pena apresentar opções dentro da verba informada e tentar avançar para um agendamento de medição.",
+    "sinais": [
+      "Escopo claro de móvel (guarda-roupa de casal de ~3m)",
+      "Orçamento limite estipulado em R$ 8 mil",
+      "Sem prazo urgente definido ('sem pressa')"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 3,
+        "trecho": "quarto do casal, 3 metros mais ou menos"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "sem pressa, quando der certo"
+      },
+      {
+        "numero_mensagem": 9,
+        "trecho": "ate uns 8 mil"
+      }
+    ],
+    "proxima_acao": "Contatar o lead para apresentar um projeto prévio dentro da faixa de R$ 8 mil e propor a medição técnica.",
+    "alertas": [],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV006",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:02:33.261229+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "O lead retornou após 3 meses porque sua obra foi liberada e demonstrou alta intenção de compra. O escopo foi ampliado para cozinha, lavanderia e home office. Além disso, aceitou agendar a medição presencial para a próxima semana com total flexibilidade de horário.",
+    "sinais": [
+      "Liberação da obra e prontidão imediata para dar seguimento",
+      "Escopo definido e ampliado para múltiplos ambientes (cozinha, lavanderia e home office)",
+      "Aceite explícito do próximo passo (agendamento de medição presencial na próxima semana)"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 3,
+        "trecho": "faz uns 3 meses, mas na epoca a obra tava atrasada. Agora ja liberou"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "sim, cozinha e lavanderia. E agora quero incluir o home office tambem"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "semana que vem qualquer dia, to em casa"
+      }
+    ],
+    "proxima_acao": "Entrar em contato para agendar o dia e horário exatos da medição presencial na próxima semana.",
+    "alertas": [],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV007",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:02:39.630237+00:00",
+    "classificacao": "frio",
+    "prioridade": 4,
+    "resumo_para_o_vendedor": "O lead apenas solicitou um orçamento de forma genérica no primeiro contato e ainda não respondeu ao questionamento sobre os ambientes. Como a conversa está no início, falta engajamento e informações do projeto. Vale aguardar ou fazer uma tentativa de follow-up.",
+    "sinais": [
+      "Contato inicial extremamente sucinto",
+      "Falta de informações sobre ambientes, prazo ou orçamento"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "quero um orcamento"
+      }
+    ],
+    "proxima_acao": "Aguardar resposta do lead ou enviar uma mensagem amigável de acompanhamento para identificar quais ambientes deseja projetar.",
+    "alertas": [],
+    "revisao_humana_recomendada": true,
+    "motivo_revisao_humana": "Conversa muito curta e sem informações suficientes para avaliar o real potencial de compra do lead."
+  },
+  {
+    "conversa_id": "CV008",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:02:52.146740+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "O lead tem um projeto de cozinha e sala com orçamento de referência de 31 mil reais e decisão marcada até o fim do mês. Ele está cotando ativamente com 4 empresas e buscando o melhor preço. Entre em contato rápido para pegar a planta/detalhes e apresentar uma proposta competitiva.",
+    "sinais": [
+      "Escopo definido para cozinha e sala",
+      "Orçamento de referência de R$ 31.000,00 informado",
+      "Prazo de decisão curto e definido (até o fim do mês)",
+      "Comparação ativa entre concorrentes com alto interesse de fechamento"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "Estou fazendo cotacao com 4 empresas. Voces conseguem cobrir o orcamento da concorrencia?"
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "tenho um de 31 mil pra cozinha e sala"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "ate o fim do mes, quem der o melhor preco leva"
+      }
+    ],
+    "proxima_acao": "Solicitar os detalhes do projeto/orçamento concorrente para elaborar uma proposta comercial agressiva antes do fim do mês.",
+    "alertas": [
+      "Comparação ativa com 4 concorrentes",
+      "Sensibilidade alta a preço (leilão de preço)"
+    ],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV009",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:03:03.255733+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "A conversa é com uma arquiteta buscando parceria para o projeto de uma casa de 220m² (cozinha, 4 quartos, closet e escritório). O cliente final já possui verba definida de R$ 180 mil e previsão de término da obra para novembro. Oportunidade de alto valor com potencial de parceria recorrente.",
+    "sinais": [
+      "Lead é profissional de arquitetura buscando parceria",
+      "Escopo completo e definido (casa de 220m² com múltiplos ambientes)",
+      "Orçamento alto e definido (R$ 180 mil)",
+      "Prazo de entrega/obra definido (novembro)"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "sou arquiteta e tenho um cliente que precisa de planejados. Voces trabalham com parceria?"
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "e uma casa de 220m2 em condominio. Cozinha, 4 quartos, closet e escritorio"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "a obra termina em novembro, os moveis entram depois"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "sim, 180 mil"
+      }
+    ],
+    "proxima_acao": "Entrar em contato com a arquiteta para solicitar as plantas do projeto e agendar uma reunião comercial para alinhar os detalhes da parceria.",
+    "alertas": [],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV010",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:03:12.084917+00:00",
+    "classificacao": "frio",
+    "prioridade": 4,
+    "resumo_para_o_vendedor": "O lead entrou em contato informando que viu um anúncio, mas a conversa parou no início. Não foram informados ambientes, prazos ou orçamento. Recomendado acompanhar para tentar avançar o atendimento.",
+    "sinais": [
+      "Origem por anúncio",
+      "Conversa interrompida na qualificação inicial"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 3,
+        "trecho": "vi um anuncio"
+      }
+    ],
+    "proxima_acao": "Aguardar resposta do lead ou enviar mensagem de acompanhamento questionando quais ambientes ele deseja projetar.",
+    "alertas": [],
+    "revisao_humana_recomendada": true,
+    "motivo_revisao_humana": "Conversa extremamente curta e sem dados suficientes para qualificação de escopo, prazo ou orçamento."
+  },
+  {
+    "conversa_id": "CV011",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:03:23.572321+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "Lead com intenção real de compra para projeto de cozinha de 6m² em imóvel alugado com autorização do proprietário. Declarou orçamento entre R$ 12.000 e R$ 15.000 e demonstrou prontidão ao disponibilizar o sábado de manhã para a medição. Atendimento deve focar em confirmar o agendamento.",
+    "sinais": [
+      "Escopo claro (cozinha de 6m²)",
+      "Orçamento definido (R$ 12 a 15 mil)",
+      "Autorização prévia do proprietário do imóvel",
+      "Concordância com próximo passo concreto de medição neste sábado"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "Alugamos um apartamento e queremos montar so a cozinha."
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "ele autoriza. Sao 6m2 de cozinha, bem pequena"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "uns 12 a 15 mil"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "esse sabado de manha eu to livre"
+      }
+    ],
+    "proxima_acao": "Confirmar o agendamento da medição presencial para este sábado de manhã e solicitar o endereço completo.",
+    "alertas": [],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV012",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:03:35.294318+00:00",
+    "classificacao": "frio",
+    "prioridade": 4,
+    "resumo_para_o_vendedor": "O lead iniciou o contato demonstrando forte objeção de preço baseada no relato de uma amiga, antes mesmo de solicitar um orçamento. A conversa foi interrompida sem que o lead informasse o escopo do projeto ou respondesse à pergunta do atendente. É necessário entender a necessidade real do cliente para contornar a objeção.",
+    "sinais": [
+      "Objeção de preço prévia baseada em relato de terceiros",
+      "Ausência de escopo, prazo e orçamento definidos",
+      "Conversa curta sem engajamento ativo no momento"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "MUITO CARO"
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "nao, mas amiga minha fez ai e pagou uma fortuna"
+      }
+    ],
+    "proxima_acao": "Enviar mensagem contornando a objeção de preço, explicando que os valores variam conforme materiais e escopo, e perguntar qual ambiente o lead tem interesse em planejar.",
+    "alertas": [
+      "Objeção de preço explícita"
+    ],
+    "revisao_humana_recomendada": true,
+    "motivo_revisao_humana": "Conversa muito curta e ambígua, sem resposta do lead à tentativa do atendente de dar continuidade ao atendimento."
+  },
+  {
+    "conversa_id": "CV013",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:03:46.497331+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "Lead com altíssima intenção de compra para projeto de cozinha e quarto, com verba reservada de R$ 45 mil. Possui urgência no prazo de entrega (30 dias) devido ao casamento e mudança antes de setembro. Afirmou que fecha o contrato ainda esta semana se o prazo for atendido.",
+    "sinais": [
+      "Orçamento reservado de R$ 45.000",
+      "Ambientes definidos (cozinha e quarto)",
+      "Urgência e prazo definido (30 dias para mudança antes do casamento)",
+      "Intenção clara de fechar o contrato na mesma semana"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 3,
+        "trecho": "preciso pra 30 dias, meu casamento e em setembro e a gente muda antes"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "cozinha e quarto. Ja temos 45 mil separados pra isso"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "por favor, se der eu fecho essa semana"
+      }
+    ],
+    "proxima_acao": "Verificar com a produção a possibilidade de exceção para o prazo de 30 dias e retornar ao lead imediatamente para fechar a venda.",
+    "alertas": [
+      "Prazo solicitado (30 dias) é incompatível com o prazo padrão da empresa (45 dias)"
+    ],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV014",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:03:56.618913+00:00",
+    "classificacao": "frio",
+    "prioridade": 4,
+    "resumo_para_o_vendedor": "O lead recusou dar prosseguimento ao atendimento após saber que o showroom fica na Zona Sul, pois mora em Guarulhos. O atendente ofereceu reunião online e medição no local, mas o cliente preferiu não avançar e informou que procurará uma empresa mais próxima.",
+    "sinais": [
+      "Objeção de localização/distância geográfica",
+      "Recusa do atendimento online/remoto",
+      "Desistência explícita para buscar concorrente/empresa mais próxima"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 3,
+        "trecho": "e muito longe de mim, moro em Guarulhos"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "ah nao, prefiro ver pessoalmente. Vou procurar mais perto"
+      }
+    ],
+    "proxima_acao": "Registrar a perda do lead por motivo de localização/distância e arquivar a conversa.",
+    "alertas": [
+      "Desistência explícita motivada por distância do showroom"
+    ],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  },
+  {
+    "conversa_id": "CV015",
+    "status": "classificado",
+    "avisos_validacao": [],
+    "modelo_usado": "gemini-3.6-flash",
+    "tentativas_totais": 1,
+    "classificado_em": "2026-09-12T21:04:08.795440+00:00",
+    "classificacao": "quente",
+    "prioridade": 1,
+    "resumo_para_o_vendedor": "O lead comprou 3 apartamentos de 2 dormitórios para investimento e quer fazer os móveis planejados dos três simultaneamente. Possui orçamento declarado de R$ 150 mil com abertura para negociação se o projeto for bom. As chaves foram entregues no mês passado e uma reunião por vídeo ficou agendada para amanhã às 10h.",
+    "sinais": [
+      "Escopo definido para 3 apartamentos (dois iguais e um menor, de 2 dormitórios)",
+      "Desejo de fechar os três projetos agora",
+      "Imóveis prontos (chaves entregues no mês passado)",
+      "Orçamento declarado de R$ 150 mil com margem de negociação",
+      "Agendamento de videochamada para amanhã às 10h"
+    ],
+    "evidencias": [
+      {
+        "numero_mensagem": 1,
+        "trecho": "comprei 3 apartamentos para investimento e quero padronizar os planejados dos tres"
+      },
+      {
+        "numero_mensagem": 3,
+        "trecho": "dois iguais e um menor. Todos de 2 dormitorios"
+      },
+      {
+        "numero_mensagem": 5,
+        "trecho": "os tres agora se o preco fizer sentido. Entrega das chaves foi mes passado"
+      },
+      {
+        "numero_mensagem": 7,
+        "trecho": "150 mil pros tres, mas negocio se o projeto for bom"
+      },
+      {
+        "numero_mensagem": 9,
+        "trecho": "amanha as 10"
+      }
+    ],
+    "proxima_acao": "Realizar a videochamada agendada para amanhã às 10h e apresentar solução padronizada para os 3 apartamentos respeitando a teto orçamentário de R$ 150 mil.",
+    "alertas": [],
+    "revisao_humana_recomendada": false,
+    "motivo_revisao_humana": null
+  }
+]

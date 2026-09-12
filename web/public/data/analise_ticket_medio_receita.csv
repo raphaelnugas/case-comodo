@@ -1,0 +1,8 @@
+campanha_id,total_vendas,receita_total,ticket_medio,menor_contrato,maior_contrato,rank_ticket_medio,rank_receita_total,nome_campanha_amigavel
+(sem campanha atribuída),1,44909.27,44909.27,44909.27,44909.27,1,7,Sem campanha atribuída
+cmp_004,13,517203.67,39784.9,15701.89,68637.16,2,1,Busca Google — marca
+cmp_005,5,192034.78,38406.96,27220.42,57995.26,3,5,Busca Google — genérico
+cmp_001,4,152581.16,38145.29,16087.75,75624.1,4,6,Planejados de Cozinha (público frio)
+cmp_006,11,404065.89,36733.26,16953.45,62891.47,5,2,Leads — apartamento novo
+cmp_002,7,251637.65,35948.24,18596.89,70635.04,6,3,Planejados de Dormitório (público frio)
+cmp_003,8,235551.73,29443.97,18722.11,44892.25,7,4,Remarketing — visitantes do site

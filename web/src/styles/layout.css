@@ -1,0 +1,140 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  background: var(--preto);
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sidebar-marca {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+}
+
+.sidebar-subtitulo {
+  font-size: 12px;
+  color: #9c9c9c;
+  margin-bottom: 32px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-link {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: #d8d8d8;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-link small {
+  color: #8a8a8a;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.sidebar-link.ativo {
+  background: var(--destaque);
+  color: #fff;
+}
+
+.sidebar-link.ativo small {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sidebar-rodape {
+  margin-top: auto;
+  font-size: 11px;
+  color: #6f6f6f;
+  line-height: 1.5;
+}
+
+.conteudo {
+  flex: 1;
+  min-width: 0;
+  padding: 32px 40px 60px;
+}
+
+.pagina-cabecalho {
+  margin-bottom: 24px;
+}
+
+.pagina-titulo {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.pagina-fonte-nota {
+  font-size: 12.5px;
+  color: var(--texto-secundario);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.secao {
+  margin-top: 32px;
+}
+
+.secao-titulo {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.secao-descricao {
+  font-size: 12.5px;
+  color: var(--texto-secundario);
+  margin: 0 0 14px;
+}
+
+@media (max-width: 860px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 16px;
+  }
+  .sidebar-marca, .sidebar-subtitulo { display: none; }
+  .sidebar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sidebar-rodape { display: none; }
+  .conteudo {
+    padding: 20px;
+  }
+}

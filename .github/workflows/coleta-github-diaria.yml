@@ -1,0 +1,57 @@
+name: Coleta diária de repositórios GitHub
+
+# Roda todo dia às 06:00 no horário de Brasília (America/Sao_Paulo, UTC-3), que
+# corresponde a 09:00 UTC. GitHub Actions cron é sempre em UTC — não há campo de
+# timezone no `schedule`, então o ajuste é feito manualmente no horário abaixo.
+# Também pode ser disparado manualmente (workflow_dispatch), como pede o case.
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+# Evita duas execuções simultâneas (ex.: um disparo manual em cima do agendado) —
+# reforça, no nível do workflow, a mesma garantia que o lock file dá localmente.
+concurrency:
+  group: coleta-github
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar coleta
+        env:
+          # GITHUB_TOKEN é injetado automaticamente pelo Actions (não é um secret
+          # manual) e já é suficiente para elevar o limite de 60 para 5000 req/hora
+          # em endpoints públicos como este.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ORG: apache
+        run: python -m src.parte1_github.collect_repos --org "$GITHUB_ORG"
+
+      - name: Publicar log de execução no resumo do workflow
+        if: always()
+        run: |
+          echo '## Resultado da coleta' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat data/output/github_collection_status.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commitar dados atualizados
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/output/github_repos_*.csv data/output/github_collection_status.json web/public/data/github_repos_*.csv web/public/data/github_collection_status.json
+          git diff --cached --quiet && echo "Sem mudanças para commitar." || git commit -m "chore: atualiza coleta GitHub (execução automática 06h BRT)"
+          git push

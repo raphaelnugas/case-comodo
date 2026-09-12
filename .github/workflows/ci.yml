@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  testes-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar testes (pytest)
+        run: python -m pytest -q
+
+      - name: Verificar que as queries SQL rodam contra dados reais
+        run: |
+          python -m src.parte2_analise.build_database
+          python -m src.parte2_analise.export_web
+
+  build-react:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: web/package-lock.json
+
+      - name: Instalar dependências do front-end
+        working-directory: web
+        run: npm ci
+
+      - name: Build de produção
+        working-directory: web
+        run: npm run build
+
+  verificar-segredos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Garantir que nenhum .env foi commitado
+        run: |
+          if git ls-files | grep -E '(^|/)\.env$'; then
+            echo "Arquivo .env commitado no repositório — remova antes de mergear." >&2
+            exit 1
+          fi
+          echo "OK: nenhum arquivo .env versionado."

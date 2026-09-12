@@ -1,0 +1,9 @@
+campanha_id,nome_campanha_real,plataforma,total_leads,total_vendas,gasto_total,registros_midia,periodo_investimento_inicio,periodo_investimento_fim,receita_total,custo_por_lead,custo_por_venda,nome_campanha_amigavel
+cmp_004,PESQUISA_MOVEIS_PLANEJADOS_MARCA,Google,40,13,3679.14,59,2026-05-01,2026-06-30,517203.67,91.98,283.01,Busca Google — marca
+cmp_006,LEADS_APARTAMENTO_NOVO,Meta,71,11,7357.8099999999995,57,2026-05-01,2026-06-30,404065.89,103.63,668.89,Leads — apartamento novo
+cmp_003,REMARKETING_VISITANTES_SITE,Meta,71,8,7062.61,59,2026-05-01,2026-06-30,235551.73,99.47,882.83,Remarketing — visitantes do site
+cmp_002,PLANEJADOS_DORMITORIO_FRIO,Meta,96,7,11260.3,60,2026-05-01,2026-06-30,251637.65,117.29,1608.61,Planejados de Dormitório (público frio)
+cmp_005,PESQUISA_MOVEIS_PLANEJADOS_GENERICO,Google,95,5,11596.14,59,2026-05-01,2026-06-30,192034.78,122.06,2319.23,Busca Google — genérico
+cmp_001,PLANEJADOS_COZINHA_FRIO,Meta,95,4,10689.91,58,2026-05-01,2026-06-30,152581.16,112.53,2672.48,Planejados de Cozinha (público frio)
+(sem campanha atribuída),,,6,1,,,,,44909.27,,,Sem campanha atribuída
+cmp_999,,,4,0,,,,,,,,Origem não identificada (sem investimento associado)

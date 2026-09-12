@@ -1,0 +1,486 @@
+{
+  "gerado_em": "2026-09-12T20:37:16.888892+00:00",
+  "fontes_originais": [
+    "dados/investimento_midia.csv",
+    "dados/leads.csv",
+    "dados/vendas.csv"
+  ],
+  "contagens_fonte": {
+    "investimento_midia": 352,
+    "leads": 478,
+    "vendas": 49
+  },
+  "limitacoes": [
+    "Os dados cobrem maio e junho de 2026 para investimento em mídia; leads existem até 02/07/2026 e vendas fecham até 18/09/2026 — leads mais recentes ainda não tiveram tempo equivalente para converter, o que pode subestimar o desempenho de campanhas com leads mais novos.",
+    "O funil usa apenas a etapa ATUAL do lead (não há histórico de transições). Assumimos progressão monotônica para leads ativos/vendidos; leads 'perdido' são excluídos do cálculo degrau-a-degrau porque não sabemos em qual etapa eles pararam — são reportados como métrica agregada à parte.",
+    "'cmp_999' e leads sem campanha_id não têm investimento associado: o custo é exibido como indisponível (não como zero), pois ausência de registro de investimento não significa gasto zero.",
+    "'Cliente de maior valor' é calculado por ticket médio (valor médio por venda), não por receita total — campanhas com poucas vendas de alto valor podem ficar no topo mesmo com receita total menor. A campanha '(sem campanha atribuída)' tem apenas 1 venda, então seu ticket médio não é estatisticamente robusto."
+  ],
+  "secoes": {
+    "custo_por_campanha": {
+      "titulo": "Custo por lead e custo por venda, por campanha",
+      "descricao": "Ordenado do melhor para o pior custo por venda.",
+      "formula_custo_por_lead": "gasto_total (SOMA de investimento_midia.gasto) / total_leads (COUNT de leads.csv)",
+      "formula_custo_por_venda": "gasto_total / total_vendas (COUNT de vendas.csv ligadas via lead_id)",
+      "sql_arquivo": "sql/01_custo_por_lead_e_venda.sql",
+      "sql": "-- Parte 2 | Pergunta 1: Custo por lead e custo por venda, por campanha,\n-- considerando todo o período disponível. Ordenado do melhor para o pior custo por venda.\n--\n-- Decisões importantes (ver README/DECISOES_TECNICAS.md para detalhes):\n--   1. Cada fato (gasto, leads, vendas) é agregado por campanha SEPARADAMENTE antes de\n--      qualquer junção. Isso evita duplicação de valores: se juntássemos\n--      investimento_midia (352 linhas diárias) diretamente com leads ou vendas,\n--      cada linha de lead/venda seria multiplicada pelo número de linhas de mídia\n--      daquela campanha (produto cartesiano), inflando o gasto somado.\n--   2. `todas_campanhas` une as campanhas que aparecem em leads e em investimento_midia,\n--      preservando: (a) campanhas com mídia mas sem lead ainda (não existe no dataset,\n--      mas o UNION cobre o caso), e (b) campanhas com lead mas sem investimento\n--      registrado (ex.: cmp_999 no dataset atual).\n--   3. Quando não existe NENHUMA linha de investimento para a campanha, `gasto_total`\n--      fica NULL (não 0) — um LEFT JOIN sem correspondência produz NULL naturalmente,\n--      e não fazemos COALESCE para 0. Gasto ausente é \"não sabemos\", não \"gastou zero\".\n--   4. Leads/vendas sem campanha atribuída (campanha_id NULL ou vazio em leads.csv)\n--      são somados à parte, na linha \"(sem campanha atribuída)\", e não descartados.\n--   5. custo_por_lead e custo_por_venda usam NULLIF para nunca dividir por zero.\n\nWITH leads_norm AS (\n    SELECT\n        lead_id,\n        NULLIF(TRIM(campanha_id), '') AS campanha_id\n    FROM leads\n),\nleads_agg AS (\n    SELECT\n        COALESCE(campanha_id, '(sem campanha atribuída)') AS campanha_key,\n        COUNT(*) AS total_leads\n    FROM leads_norm\n    GROUP BY campanha_key\n),\nvendas_agg AS (\n    -- join 1:1 (cada venda referencia exatamente um lead) agregado imediatamente após o join,\n    -- então não há fan-out possível aqui.\n    SELECT\n        COALESCE(ln.campanha_id, '(sem campanha atribuída)') AS campanha_key,\n        COUNT(*) AS total_vendas,\n        SUM(v.valor_contrato) AS receita_total\n    FROM vendas v\n    JOIN leads_norm ln ON ln.lead_id = v.lead_id\n    GROUP BY campanha_key\n),\nmidia_agg AS (\n    SELECT\n        campanha_id AS campanha_key,\n        SUM(gasto) AS gasto_total,\n        COUNT(*) AS registros_midia,\n        MIN(data) AS periodo_inicio,\n        MAX(data) AS periodo_fim\n    FROM investimento_midia\n    GROUP BY campanha_id\n),\nnomes_campanha AS (\n    SELECT DISTINCT campanha_id AS campanha_key, nome_campanha, plataforma\n    FROM investimento_midia\n),\ntodas_campanhas AS (\n    SELECT campanha_key FROM leads_agg\n    UNION\n    SELECT campanha_key FROM midia_agg\n)\nSELECT\n    tc.campanha_key                                        AS campanha_id,\n    nc.nome_campanha                                        AS nome_campanha_real,\n    nc.plataforma                                           AS plataforma,\n    COALESCE(la.total_leads, 0)                             AS total_leads,\n    COALESCE(va.total_vendas, 0)                            AS total_vendas,\n    ma.gasto_total                                          AS gasto_total,          -- NULL = sem dado de investimento\n    ma.registros_midia                                      AS registros_midia,      -- NULL = nenhuma linha de investimento_midia.csv para essa campanha\n    ma.periodo_inicio                                       AS periodo_investimento_inicio,\n    ma.periodo_fim                                          AS periodo_investimento_fim,\n    va.receita_total                                        AS receita_total,\n    ROUND(ma.gasto_total * 1.0 / NULLIF(la.total_leads, 0), 2)  AS custo_por_lead,\n    ROUND(ma.gasto_total * 1.0 / NULLIF(va.total_vendas, 0), 2) AS custo_por_venda\nFROM todas_campanhas tc\nLEFT JOIN leads_agg  la ON la.campanha_key = tc.campanha_key\nLEFT JOIN vendas_agg va ON va.campanha_key = tc.campanha_key\nLEFT JOIN midia_agg  ma ON ma.campanha_key = tc.campanha_key\nLEFT JOIN nomes_campanha nc ON nc.campanha_key = tc.campanha_key\nORDER BY\n    CASE WHEN custo_por_venda IS NULL THEN 1 ELSE 0 END,  -- campanhas sem custo calculável vão para o final\n    custo_por_venda ASC;\n",
+      "fontes": [
+        "dados/investimento_midia.csv",
+        "dados/leads.csv",
+        "dados/vendas.csv"
+      ],
+      "registros_utilizados": {
+        "investimento_midia": 352,
+        "leads": 478,
+        "vendas": 49
+      },
+      "linhas": [
+        {
+          "campanha_id": "cmp_004",
+          "nome_campanha_real": "PESQUISA_MOVEIS_PLANEJADOS_MARCA",
+          "plataforma": "Google",
+          "total_leads": 40,
+          "total_vendas": 13,
+          "gasto_total": 3679.14,
+          "registros_midia": 59,
+          "periodo_investimento_inicio": "2026-05-01",
+          "periodo_investimento_fim": "2026-06-30",
+          "receita_total": 517203.67,
+          "custo_por_lead": 91.98,
+          "custo_por_venda": 283.01,
+          "nome_campanha_amigavel": "Busca Google — marca"
+        },
+        {
+          "campanha_id": "cmp_006",
+          "nome_campanha_real": "LEADS_APARTAMENTO_NOVO",
+          "plataforma": "Meta",
+          "total_leads": 71,
+          "total_vendas": 11,
+          "gasto_total": 7357.8099999999995,
+          "registros_midia": 57,
+          "periodo_investimento_inicio": "2026-05-01",
+          "periodo_investimento_fim": "2026-06-30",
+          "receita_total": 404065.89,
+          "custo_por_lead": 103.63,
+          "custo_por_venda": 668.89,
+          "nome_campanha_amigavel": "Leads — apartamento novo"
+        },
+        {
+          "campanha_id": "cmp_003",
+          "nome_campanha_real": "REMARKETING_VISITANTES_SITE",
+          "plataforma": "Meta",
+          "total_leads": 71,
+          "total_vendas": 8,
+          "gasto_total": 7062.61,
+          "registros_midia": 59,
+          "periodo_investimento_inicio": "2026-05-01",
+          "periodo_investimento_fim": "2026-06-30",
+          "receita_total": 235551.73,
+          "custo_por_lead": 99.47,
+          "custo_por_venda": 882.83,
+          "nome_campanha_amigavel": "Remarketing — visitantes do site"
+        },
+        {
+          "campanha_id": "cmp_002",
+          "nome_campanha_real": "PLANEJADOS_DORMITORIO_FRIO",
+          "plataforma": "Meta",
+          "total_leads": 96,
+          "total_vendas": 7,
+          "gasto_total": 11260.3,
+          "registros_midia": 60,
+          "periodo_investimento_inicio": "2026-05-01",
+          "periodo_investimento_fim": "2026-06-30",
+          "receita_total": 251637.65,
+          "custo_por_lead": 117.29,
+          "custo_por_venda": 1608.61,
+          "nome_campanha_amigavel": "Planejados de Dormitório (público frio)"
+        },
+        {
+          "campanha_id": "cmp_005",
+          "nome_campanha_real": "PESQUISA_MOVEIS_PLANEJADOS_GENERICO",
+          "plataforma": "Google",
+          "total_leads": 95,
+          "total_vendas": 5,
+          "gasto_total": 11596.14,
+          "registros_midia": 59,
+          "periodo_investimento_inicio": "2026-05-01",
+          "periodo_investimento_fim": "2026-06-30",
+          "receita_total": 192034.78,
+          "custo_por_lead": 122.06,
+          "custo_por_venda": 2319.23,
+          "nome_campanha_amigavel": "Busca Google — genérico"
+        },
+        {
+          "campanha_id": "cmp_001",
+          "nome_campanha_real": "PLANEJADOS_COZINHA_FRIO",
+          "plataforma": "Meta",
+          "total_leads": 95,
+          "total_vendas": 4,
+          "gasto_total": 10689.91,
+          "registros_midia": 58,
+          "periodo_investimento_inicio": "2026-05-01",
+          "periodo_investimento_fim": "2026-06-30",
+          "receita_total": 152581.16,
+          "custo_por_lead": 112.53,
+          "custo_por_venda": 2672.48,
+          "nome_campanha_amigavel": "Planejados de Cozinha (público frio)"
+        },
+        {
+          "campanha_id": "(sem campanha atribuída)",
+          "nome_campanha_real": null,
+          "plataforma": null,
+          "total_leads": 6,
+          "total_vendas": 1,
+          "gasto_total": null,
+          "registros_midia": null,
+          "periodo_investimento_inicio": null,
+          "periodo_investimento_fim": null,
+          "receita_total": 44909.27,
+          "custo_por_lead": null,
+          "custo_por_venda": null,
+          "nome_campanha_amigavel": "Sem campanha atribuída"
+        },
+        {
+          "campanha_id": "cmp_999",
+          "nome_campanha_real": null,
+          "plataforma": null,
+          "total_leads": 4,
+          "total_vendas": 0,
+          "gasto_total": null,
+          "registros_midia": null,
+          "periodo_investimento_inicio": null,
+          "periodo_investimento_fim": null,
+          "receita_total": null,
+          "custo_por_lead": null,
+          "custo_por_venda": null,
+          "nome_campanha_amigavel": "Origem não identificada (sem investimento associado)"
+        }
+      ]
+    },
+    "funil_por_campanha": {
+      "titulo": "Funil por campanha: leads por etapa e percentual de perda",
+      "descricao": "Quantidade de leads que alcançaram cada etapa e % de perda entre etapas consecutivas.",
+      "sql_arquivo": "sql/02_funil_por_campanha.sql",
+      "sql": "-- Parte 2 | Pergunta 2: Funil por campanha — quantos leads chegaram a cada etapa\n-- e qual o percentual de perda entre uma etapa e a seguinte.\n--\n-- LIMITAÇÃO DE DADOS IMPORTANTE (ver README/DECISOES_TECNICAS.md):\n-- `leads.csv` só traz a etapa ATUAL de cada lead (`etapa_atual`), não o histórico de\n-- transições. Não sabemos, por exemplo, em qual etapa um lead estava quando passou\n-- para \"perdido\". Por isso este funil faz uma inferência explícita e assumida:\n--\n--   1. Para leads que NÃO estão em \"perdido\", tratamos `etapa_atual` como a etapa\n--      mais avançada que o lead alcançou (progressão monotônica: novo -> em_atendimento\n--      -> qualificado -> briefing_realizado -> proposta -> vendido). É uma suposição\n--      razoável para um funil linear, mas é uma suposição, não um fato do dado.\n--   2. Leads \"perdido\" são EXCLUÍDOS do cálculo degrau-a-degrau, porque não sabemos em\n--      qual etapa eles pararam — incluí-los em qualquer etapa seria inventar dado.\n--      Em vez disso, \"perdido\" é reportado como uma métrica agregada por campanha,\n--      separada do funil (ver última coluna).\n--   3. Percentual de perda entre a etapa N e N+1 = (alcançou N - alcançou N+1) / alcançou N.\n\nWITH leads_norm AS (\n    SELECT\n        lead_id,\n        COALESCE(NULLIF(TRIM(campanha_id), ''), '(sem campanha atribuída)') AS campanha_key,\n        etapa_atual\n    FROM leads\n),\nalcance AS (\n    SELECT\n        campanha_key,\n        SUM(CASE WHEN etapa_atual != 'perdido' THEN 1 ELSE 0 END) AS alcancou_novo,\n        SUM(CASE WHEN etapa_atual IN ('em_atendimento','qualificado','briefing_realizado','proposta','vendido') THEN 1 ELSE 0 END) AS alcancou_em_atendimento,\n        SUM(CASE WHEN etapa_atual IN ('qualificado','briefing_realizado','proposta','vendido') THEN 1 ELSE 0 END) AS alcancou_qualificado,\n        SUM(CASE WHEN etapa_atual IN ('briefing_realizado','proposta','vendido') THEN 1 ELSE 0 END) AS alcancou_briefing,\n        SUM(CASE WHEN etapa_atual IN ('proposta','vendido') THEN 1 ELSE 0 END) AS alcancou_proposta,\n        SUM(CASE WHEN etapa_atual = 'vendido' THEN 1 ELSE 0 END) AS alcancou_vendido,\n        SUM(CASE WHEN etapa_atual = 'perdido' THEN 1 ELSE 0 END) AS total_perdidos,\n        COUNT(*) AS total_leads\n    FROM leads_norm\n    GROUP BY campanha_key\n)\nSELECT\n    campanha_key AS campanha_id,\n    total_leads,\n    alcancou_novo,\n    alcancou_em_atendimento,\n    alcancou_qualificado,\n    alcancou_briefing,\n    alcancou_proposta,\n    alcancou_vendido,\n    total_perdidos,\n    ROUND(100.0 * total_perdidos / NULLIF(total_leads, 0), 1)                                       AS pct_perdidos_do_total,\n    ROUND(100.0 * (alcancou_novo - alcancou_em_atendimento) / NULLIF(alcancou_novo, 0), 1)           AS pct_perda_novo_para_atendimento,\n    ROUND(100.0 * (alcancou_em_atendimento - alcancou_qualificado) / NULLIF(alcancou_em_atendimento, 0), 1) AS pct_perda_atendimento_para_qualificado,\n    ROUND(100.0 * (alcancou_qualificado - alcancou_briefing) / NULLIF(alcancou_qualificado, 0), 1)   AS pct_perda_qualificado_para_briefing,\n    ROUND(100.0 * (alcancou_briefing - alcancou_proposta) / NULLIF(alcancou_briefing, 0), 1)         AS pct_perda_briefing_para_proposta,\n    ROUND(100.0 * (alcancou_proposta - alcancou_vendido) / NULLIF(alcancou_proposta, 0), 1)          AS pct_perda_proposta_para_vendido\nFROM alcance\nORDER BY campanha_id;\n",
+      "fontes": [
+        "dados/leads.csv"
+      ],
+      "registros_utilizados": {
+        "leads": 478
+      },
+      "linhas": [
+        {
+          "campanha_id": "(sem campanha atribuída)",
+          "total_leads": 6,
+          "alcancou_novo": 3,
+          "alcancou_em_atendimento": 1,
+          "alcancou_qualificado": 1,
+          "alcancou_briefing": 1,
+          "alcancou_proposta": 1,
+          "alcancou_vendido": 1,
+          "total_perdidos": 3,
+          "pct_perdidos_do_total": 50.0,
+          "pct_perda_novo_para_atendimento": 66.7,
+          "pct_perda_atendimento_para_qualificado": 0.0,
+          "pct_perda_qualificado_para_briefing": 0.0,
+          "pct_perda_briefing_para_proposta": 0.0,
+          "pct_perda_proposta_para_vendido": 0.0,
+          "nome_campanha_amigavel": "Sem campanha atribuída"
+        },
+        {
+          "campanha_id": "cmp_001",
+          "total_leads": 95,
+          "alcancou_novo": 73,
+          "alcancou_em_atendimento": 56,
+          "alcancou_qualificado": 34,
+          "alcancou_briefing": 12,
+          "alcancou_proposta": 6,
+          "alcancou_vendido": 4,
+          "total_perdidos": 22,
+          "pct_perdidos_do_total": 23.2,
+          "pct_perda_novo_para_atendimento": 23.3,
+          "pct_perda_atendimento_para_qualificado": 39.3,
+          "pct_perda_qualificado_para_briefing": 64.7,
+          "pct_perda_briefing_para_proposta": 50.0,
+          "pct_perda_proposta_para_vendido": 33.3,
+          "nome_campanha_amigavel": "Planejados de Cozinha (público frio)"
+        },
+        {
+          "campanha_id": "cmp_002",
+          "total_leads": 96,
+          "alcancou_novo": 63,
+          "alcancou_em_atendimento": 44,
+          "alcancou_qualificado": 24,
+          "alcancou_briefing": 12,
+          "alcancou_proposta": 10,
+          "alcancou_vendido": 7,
+          "total_perdidos": 33,
+          "pct_perdidos_do_total": 34.4,
+          "pct_perda_novo_para_atendimento": 30.2,
+          "pct_perda_atendimento_para_qualificado": 45.5,
+          "pct_perda_qualificado_para_briefing": 50.0,
+          "pct_perda_briefing_para_proposta": 16.7,
+          "pct_perda_proposta_para_vendido": 30.0,
+          "nome_campanha_amigavel": "Planejados de Dormitório (público frio)"
+        },
+        {
+          "campanha_id": "cmp_003",
+          "total_leads": 71,
+          "alcancou_novo": 50,
+          "alcancou_em_atendimento": 39,
+          "alcancou_qualificado": 26,
+          "alcancou_briefing": 15,
+          "alcancou_proposta": 11,
+          "alcancou_vendido": 8,
+          "total_perdidos": 21,
+          "pct_perdidos_do_total": 29.6,
+          "pct_perda_novo_para_atendimento": 22.0,
+          "pct_perda_atendimento_para_qualificado": 33.3,
+          "pct_perda_qualificado_para_briefing": 42.3,
+          "pct_perda_briefing_para_proposta": 26.7,
+          "pct_perda_proposta_para_vendido": 27.3,
+          "nome_campanha_amigavel": "Remarketing — visitantes do site"
+        },
+        {
+          "campanha_id": "cmp_004",
+          "total_leads": 40,
+          "alcancou_novo": 34,
+          "alcancou_em_atendimento": 29,
+          "alcancou_qualificado": 27,
+          "alcancou_briefing": 18,
+          "alcancou_proposta": 16,
+          "alcancou_vendido": 13,
+          "total_perdidos": 6,
+          "pct_perdidos_do_total": 15.0,
+          "pct_perda_novo_para_atendimento": 14.7,
+          "pct_perda_atendimento_para_qualificado": 6.9,
+          "pct_perda_qualificado_para_briefing": 33.3,
+          "pct_perda_briefing_para_proposta": 11.1,
+          "pct_perda_proposta_para_vendido": 18.8,
+          "nome_campanha_amigavel": "Busca Google — marca"
+        },
+        {
+          "campanha_id": "cmp_005",
+          "total_leads": 95,
+          "alcancou_novo": 69,
+          "alcancou_em_atendimento": 50,
+          "alcancou_qualificado": 37,
+          "alcancou_briefing": 14,
+          "alcancou_proposta": 9,
+          "alcancou_vendido": 5,
+          "total_perdidos": 26,
+          "pct_perdidos_do_total": 27.4,
+          "pct_perda_novo_para_atendimento": 27.5,
+          "pct_perda_atendimento_para_qualificado": 26.0,
+          "pct_perda_qualificado_para_briefing": 62.2,
+          "pct_perda_briefing_para_proposta": 35.7,
+          "pct_perda_proposta_para_vendido": 44.4,
+          "nome_campanha_amigavel": "Busca Google — genérico"
+        },
+        {
+          "campanha_id": "cmp_006",
+          "total_leads": 71,
+          "alcancou_novo": 50,
+          "alcancou_em_atendimento": 39,
+          "alcancou_qualificado": 27,
+          "alcancou_briefing": 14,
+          "alcancou_proposta": 13,
+          "alcancou_vendido": 11,
+          "total_perdidos": 21,
+          "pct_perdidos_do_total": 29.6,
+          "pct_perda_novo_para_atendimento": 22.0,
+          "pct_perda_atendimento_para_qualificado": 30.8,
+          "pct_perda_qualificado_para_briefing": 48.1,
+          "pct_perda_briefing_para_proposta": 7.1,
+          "pct_perda_proposta_para_vendido": 15.4,
+          "nome_campanha_amigavel": "Leads — apartamento novo"
+        },
+        {
+          "campanha_id": "cmp_999",
+          "total_leads": 4,
+          "alcancou_novo": 3,
+          "alcancou_em_atendimento": 0,
+          "alcancou_qualificado": 0,
+          "alcancou_briefing": 0,
+          "alcancou_proposta": 0,
+          "alcancou_vendido": 0,
+          "total_perdidos": 1,
+          "pct_perdidos_do_total": 25.0,
+          "pct_perda_novo_para_atendimento": 100.0,
+          "pct_perda_atendimento_para_qualificado": null,
+          "pct_perda_qualificado_para_briefing": null,
+          "pct_perda_briefing_para_proposta": null,
+          "pct_perda_proposta_para_vendido": null,
+          "nome_campanha_amigavel": "Origem não identificada (sem investimento associado)"
+        }
+      ]
+    },
+    "ticket_medio_receita": {
+      "titulo": "Ticket médio e receita total por campanha",
+      "descricao": "Valor médio de contrato e receita somada por campanha, com o rank de cada uma.",
+      "sql_arquivo": "sql/03_ticket_medio_receita.sql",
+      "sql": "-- Parte 2 | Pergunta 3: Ticket médio e receita total por campanha,\n-- e qual campanha traz o cliente de maior valor.\n--\n-- \"Cliente de maior valor\" é interpretado como a campanha com maior TICKET MÉDIO\n-- (valor médio de contrato por venda) — não necessariamente a de maior receita total,\n-- que pode estar inflada por volume. As duas métricas são reportadas lado a lado\n-- para não esconder esse trade-off (uma campanha pode ter poucas vendas de alto valor,\n-- outra muitas vendas de valor menor).\n--\n-- Vendas e leads sem campanha atribuída são preservados na linha \"(sem campanha atribuída)\".\n\nWITH leads_norm AS (\n    SELECT\n        lead_id,\n        COALESCE(NULLIF(TRIM(campanha_id), ''), '(sem campanha atribuída)') AS campanha_key\n    FROM leads\n),\nvendas_por_campanha AS (\n    SELECT\n        ln.campanha_key,\n        COUNT(*)                    AS total_vendas,\n        SUM(v.valor_contrato)       AS receita_total,\n        ROUND(AVG(v.valor_contrato), 2) AS ticket_medio,\n        MIN(v.valor_contrato)       AS menor_contrato,\n        MAX(v.valor_contrato)       AS maior_contrato\n    FROM vendas v\n    JOIN leads_norm ln ON ln.lead_id = v.lead_id\n    GROUP BY ln.campanha_key\n)\nSELECT\n    campanha_key AS campanha_id,\n    total_vendas,\n    receita_total,\n    ticket_medio,\n    menor_contrato,\n    maior_contrato,\n    RANK() OVER (ORDER BY ticket_medio DESC) AS rank_ticket_medio,\n    RANK() OVER (ORDER BY receita_total DESC) AS rank_receita_total\nFROM vendas_por_campanha\nORDER BY ticket_medio DESC;\n",
+      "fontes": [
+        "dados/vendas.csv",
+        "dados/leads.csv"
+      ],
+      "registros_utilizados": {
+        "vendas": 49,
+        "leads": 478
+      },
+      "linhas": [
+        {
+          "campanha_id": "(sem campanha atribuída)",
+          "total_vendas": 1,
+          "receita_total": 44909.27,
+          "ticket_medio": 44909.27,
+          "menor_contrato": 44909.27,
+          "maior_contrato": 44909.27,
+          "rank_ticket_medio": 1,
+          "rank_receita_total": 7,
+          "nome_campanha_amigavel": "Sem campanha atribuída"
+        },
+        {
+          "campanha_id": "cmp_004",
+          "total_vendas": 13,
+          "receita_total": 517203.67,
+          "ticket_medio": 39784.9,
+          "menor_contrato": 15701.89,
+          "maior_contrato": 68637.16,
+          "rank_ticket_medio": 2,
+          "rank_receita_total": 1,
+          "nome_campanha_amigavel": "Busca Google — marca"
+        },
+        {
+          "campanha_id": "cmp_005",
+          "total_vendas": 5,
+          "receita_total": 192034.78,
+          "ticket_medio": 38406.96,
+          "menor_contrato": 27220.42,
+          "maior_contrato": 57995.26,
+          "rank_ticket_medio": 3,
+          "rank_receita_total": 5,
+          "nome_campanha_amigavel": "Busca Google — genérico"
+        },
+        {
+          "campanha_id": "cmp_001",
+          "total_vendas": 4,
+          "receita_total": 152581.16,
+          "ticket_medio": 38145.29,
+          "menor_contrato": 16087.75,
+          "maior_contrato": 75624.1,
+          "rank_ticket_medio": 4,
+          "rank_receita_total": 6,
+          "nome_campanha_amigavel": "Planejados de Cozinha (público frio)"
+        },
+        {
+          "campanha_id": "cmp_006",
+          "total_vendas": 11,
+          "receita_total": 404065.89,
+          "ticket_medio": 36733.26,
+          "menor_contrato": 16953.45,
+          "maior_contrato": 62891.47,
+          "rank_ticket_medio": 5,
+          "rank_receita_total": 2,
+          "nome_campanha_amigavel": "Leads — apartamento novo"
+        },
+        {
+          "campanha_id": "cmp_002",
+          "total_vendas": 7,
+          "receita_total": 251637.65,
+          "ticket_medio": 35948.24,
+          "menor_contrato": 18596.89,
+          "maior_contrato": 70635.04,
+          "rank_ticket_medio": 6,
+          "rank_receita_total": 3,
+          "nome_campanha_amigavel": "Planejados de Dormitório (público frio)"
+        },
+        {
+          "campanha_id": "cmp_003",
+          "total_vendas": 8,
+          "receita_total": 235551.73,
+          "ticket_medio": 29443.97,
+          "menor_contrato": 18722.11,
+          "maior_contrato": 44892.25,
+          "rank_ticket_medio": 7,
+          "rank_receita_total": 4,
+          "nome_campanha_amigavel": "Remarketing — visitantes do site"
+        }
+      ]
+    }
+  },
+  "indicadores_principais": [
+    {
+      "label": "Investimento total em mídia",
+      "valor": 51645.91,
+      "formato": "moeda",
+      "formula": "SOMA(gasto) de investimento_midia.csv em todas as campanhas identificadas",
+      "fonte": [
+        "dados/investimento_midia.csv"
+      ],
+      "sql_arquivo": "sql/01_custo_por_lead_e_venda.sql",
+      "registros_utilizados": 352
+    },
+    {
+      "label": "Total de leads",
+      "valor": 478,
+      "formato": "inteiro",
+      "formula": "COUNT(*) de leads.csv, incluindo leads sem campanha atribuída",
+      "fonte": [
+        "dados/leads.csv"
+      ],
+      "sql_arquivo": "sql/01_custo_por_lead_e_venda.sql",
+      "registros_utilizados": 478
+    },
+    {
+      "label": "Total de vendas",
+      "valor": 49,
+      "formato": "inteiro",
+      "formula": "COUNT(*) de vendas.csv, ligado a leads.csv por lead_id",
+      "fonte": [
+        "dados/vendas.csv",
+        "dados/leads.csv"
+      ],
+      "sql_arquivo": "sql/01_custo_por_lead_e_venda.sql",
+      "registros_utilizados": 49
+    },
+    {
+      "label": "Receita total",
+      "valor": 1797984.15,
+      "formato": "moeda",
+      "formula": "SOMA(valor_contrato) de vendas.csv em todas as campanhas",
+      "fonte": [
+        "dados/vendas.csv"
+      ],
+      "sql_arquivo": "sql/03_ticket_medio_receita.sql",
+      "registros_utilizados": 49
+    },
+    {
+      "label": "Melhor custo por venda",
+      "valor": "Busca Google — marca — R$ 283.01",
+      "formato": "texto",
+      "formula": "MIN(custo_por_venda) entre campanhas com investimento e vendas registrados",
+      "fonte": [
+        "dados/investimento_midia.csv",
+        "dados/leads.csv",
+        "dados/vendas.csv"
+      ],
+      "sql_arquivo": "sql/01_custo_por_lead_e_venda.sql",
+      "registros_utilizados": 13
+    },
+    {
+      "label": "Cliente de maior valor (ticket médio)",
+      "valor": "Busca Google — marca",
+      "detalhe": "ticket médio R$ 39784.90",
+      "formato": "texto",
+      "formula": "MAX(AVG(valor_contrato)) por campanha real (exclui vendas sem campanha atribuída)",
+      "nota": "Vendas sem campanha atribuída não entram nesse ranking por não terem uma campanha real por trás — aparecem à parte na tabela detalhada.",
+      "fonte": [
+        "dados/vendas.csv",
+        "dados/leads.csv"
+      ],
+      "sql_arquivo": "sql/03_ticket_medio_receita.sql",
+      "registros_utilizados": 13
+    }
+  ]
+}

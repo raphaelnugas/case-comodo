@@ -1,0 +1,9 @@
+campanha_id,total_leads,alcancou_novo,alcancou_em_atendimento,alcancou_qualificado,alcancou_briefing,alcancou_proposta,alcancou_vendido,total_perdidos,pct_perdidos_do_total,pct_perda_novo_para_atendimento,pct_perda_atendimento_para_qualificado,pct_perda_qualificado_para_briefing,pct_perda_briefing_para_proposta,pct_perda_proposta_para_vendido,nome_campanha_amigavel
+(sem campanha atribuída),6,3,1,1,1,1,1,3,50.0,66.7,0.0,0.0,0.0,0.0,Sem campanha atribuída
+cmp_001,95,73,56,34,12,6,4,22,23.2,23.3,39.3,64.7,50.0,33.3,Planejados de Cozinha (público frio)
+cmp_002,96,63,44,24,12,10,7,33,34.4,30.2,45.5,50.0,16.7,30.0,Planejados de Dormitório (público frio)
+cmp_003,71,50,39,26,15,11,8,21,29.6,22.0,33.3,42.3,26.7,27.3,Remarketing — visitantes do site
+cmp_004,40,34,29,27,18,16,13,6,15.0,14.7,6.9,33.3,11.1,18.8,Busca Google — marca
+cmp_005,95,69,50,37,14,9,5,26,27.4,27.5,26.0,62.2,35.7,44.4,Busca Google — genérico
+cmp_006,71,50,39,27,14,13,11,21,29.6,22.0,30.8,48.1,7.1,15.4,Leads — apartamento novo
+cmp_999,4,3,0,0,0,0,0,1,25.0,100.0,,,,,Origem não identificada (sem investimento associado)
