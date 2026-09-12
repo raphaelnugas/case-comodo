@@ -24,7 +24,6 @@ Python, queries `.sql`, prompt versionado) funcionam de ponta a ponta sem o Reac
 
 Decisões técnicas detalhadas: [`DECISOES_TECNICAS.md`](DECISOES_TECNICAS.md).
 Como atualizar os dados no futuro: [`docs/FLUXO_DE_DADOS.md`](docs/FLUXO_DE_DADOS.md).
-Roteiro para a conversa de 45 min: [`docs/ROTEIRO_APRESENTACAO.md`](docs/ROTEIRO_APRESENTACAO.md).
 
 ---
 

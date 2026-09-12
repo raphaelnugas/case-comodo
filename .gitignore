@@ -33,3 +33,7 @@ web/.vite/
 # OS
 .DS_Store
 Thumbs.db
+
+# Notas pessoais de preparação para a apresentação — não fazem parte da entrega
+/ROTEIRO_APRESENTACAO.md
+docs/ROTEIRO_APRESENTACAO.md
