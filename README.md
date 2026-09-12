@@ -310,6 +310,10 @@ Parte 1, não simulado), conferindo os números da Parte 2 na mão antes de acei
 travando as invariantes mais importantes em testes automatizados. Detalhes em
 [`DECISOES_TECNICAS.md`](DECISOES_TECNICAS.md#sobre-o-uso-de-ia-neste-case).
 
+Custo real da sessão no Claude Code usada para construir este case:
+
+![Custo da sessão no Claude Code: US$ 20,84, 42min42s de API, 1h14min ativo, Sonnet 5](docs/images/custo_sessao_claude_code.png)
+
 ## Testes
 
 ```bash
