@@ -104,6 +104,13 @@ Pensado para o cenário descrito no case — "roda sozinho às 6h, ninguém acom
 | Agendamento 6h | `.github/workflows/coleta-github-diaria.yml` (cron `0 9 * * *` UTC = 6h BRT) |
 | Execução manual | `workflow_dispatch` no mesmo workflow, ou rodar o script direto |
 
+**Escopo da automação:** o workflow agendado atualiza *só* os dois arquivos desta
+parte (`github_repos_apache.csv` e `github_collection_status.json`). Ele não
+reexecuta a análise comercial (Parte 2) nem a classificação de pré-vendas (Parte 3)
+— se chegarem novos CSVs comerciais ou novas conversas, os comandos correspondentes
+precisam ser rodados manualmente. Detalhes em
+[`docs/FLUXO_DE_DADOS.md`](docs/FLUXO_DE_DADOS.md).
+
 **Caso real de falha, não simulado:** sem `GITHUB_TOKEN` configurado neste ambiente
 de desenvolvimento, a segunda execução em sequência excedeu o limite de 60
 requisições/hora da API não-autenticada e retornou 403. O status ficou:
