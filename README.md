@@ -17,6 +17,7 @@ Python, queries `.sql`, prompt versionado) funcionam de ponta a ponta sem o Reac
 - [Parte 1 — Coleta GitHub](#parte-1--coleta-github)
 - [Parte 2 — Análise comercial](#parte-2--análise-comercial-resultados)
 - [Parte 3 — Classificação de pré-vendas](#parte-3--classificação-de-pré-vendas)
+  - [A pergunta do case: 4.000 conversas, três meses depois](#a-pergunta-do-case-4000-conversas-três-meses-depois)
 - [O que ficou de fora, e por quê](#o-que-ficou-de-fora-e-por-quê)
 - [Uso de IA neste case](#uso-de-ia-neste-case)
 - [Testes](#testes)
@@ -284,6 +285,8 @@ detalhe que a interface mostra) estão em
 JSON de saída real (nunca editado à mão) por
 [`export_markdown.py`](src/parte3_prevendas/export_markdown.py) — rodar de novo após
 uma nova classificação regenera o arquivo automaticamente.
+
+### A pergunta do case: 4.000 conversas, três meses depois
 
 > **Como eu saberia, com 4.000 conversas e três meses depois, se a classificação
 > está funcionando?**
