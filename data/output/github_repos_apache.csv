@@ -69,7 +69,7 @@ airavata-portals,Apache airavata,JavaScript,5,9,2025-06-21T14:36:43Z,2026-07-22T
 airavata-sandbox,Sanbox repository for explaratory Apache Airavata features,JavaScript,1,23,2014-06-04T07:00:07Z,2026-07-22T02:11:47Z
 airavata-site,Apache Airavata Website,HTML,6,13,2016-04-02T07:00:06Z,2026-07-22T02:16:40Z
 airavata-user-docs,Apache Airavata User Documentation,não informado,0,0,2022-04-01T15:02:36Z,2026-07-22T03:01:35Z
-airflow,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",Python,46839,17817,2015-04-13T18:04:58Z,2026-09-12T20:11:40Z
+airflow,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",Python,46839,17817,2015-04-13T18:04:58Z,2026-09-12T21:01:52Z
 airflow-cancel-workflow-runs,Fork of potiukcancel-workflow-runs action,TypeScript,0,1,2020-12-27T13:18:16Z,2023-07-25T14:42:00Z
 airflow-checks-action,Fork of LouisBrunnerchecks-action action,TypeScript,1,1,2020-12-27T13:19:19Z,2023-07-25T14:42:00Z
 airflow-ci,Apache Airflow CI pipeline,Dockerfile,19,8,2018-08-19T17:55:59Z,2025-01-19T12:44:01Z
@@ -593,7 +593,7 @@ causeway-app-referenceapp,Apache causeway,Java,2,3,2023-06-16T18:25:20Z,2026-09-
 causeway-app-simpleapp,Apache Causeway™ software is a framework for rapidly developing domain-driven apps in Java. This repo contains a sample app to use as a template for getting you started.,Java,21,17,2019-07-08T10:43:43Z,2026-08-27T08:36:27Z
 causeway-blog,Apache causeway,não informado,1,0,2023-05-01T12:52:24Z,2026-07-22T03:06:20Z
 causeway-site,Apache Isis Website,HTML,2,1,2019-01-23T10:51:35Z,2026-07-22T02:42:35Z
-cayenne,Mirror of Apache Cayenne,Java,345,138,2009-05-21T01:05:37Z,2026-09-12T20:31:03Z
+cayenne,Mirror of Apache Cayenne,Java,345,138,2009-05-21T01:05:37Z,2026-09-12T21:07:40Z
 cayenne-examples,Apache Cayenne examples and tutorials,Java,5,4,2019-04-15T09:06:51Z,2026-07-24T12:13:47Z
 cayenne-modeler,Mirror of Apache Cayenne Modeler UI,Java,12,4,2017-01-04T08:00:07Z,2026-07-22T02:19:27Z
 cayenne-website,Mirror of Apache cayenne website,HTML,6,9,2017-05-30T07:00:07Z,2026-09-07T17:26:58Z
@@ -871,8 +871,8 @@ ctakes-site,Apache CTakes Website,Python,1,2,2021-05-31T18:34:53Z,2026-07-22T02:
 ctakes-website,Apache cTAKES is a Natural Language Processing (NLP) platform for clinical text.,HTML,1,2,2023-06-07T15:07:59Z,2026-07-22T03:06:48Z
 curator,Apache Curator,Java,3170,1248,2014-03-03T08:00:07Z,2026-09-04T10:41:43Z
 curator-site,Apache Curator Website,TypeScript,0,3,2023-08-15T08:01:33Z,2026-07-22T03:07:26Z
-cxf,Apache CXF,Java,929,1453,2014-02-19T08:00:08Z,2026-09-12T13:21:12Z
-cxf-build-utils,Mirror of Apache CXF,Java,8,9,2014-03-08T08:00:07Z,2026-09-11T23:38:20Z
+cxf,Apache CXF,Java,929,1453,2014-02-19T08:00:08Z,2026-09-12T21:15:10Z
+cxf-build-utils,Mirror of Apache CXF,Java,8,9,2014-03-08T08:00:07Z,2026-09-12T21:14:28Z
 cxf-dosgi,Mirror of Apache CXF,Java,28,26,2014-03-08T08:00:07Z,2026-03-10T04:54:04Z
 cxf-fediz,Mirror of Apache CXF,Java,27,36,2014-03-08T08:00:07Z,2026-08-11T09:41:10Z
 cxf-site,Apache CXF website,Java,1,4,2021-11-05T17:48:27Z,2026-07-22T03:00:02Z
@@ -885,8 +885,8 @@ daffodil-schema.g8,Apache Daffodil DFDL Schema Template,Scala,3,7,2021-02-25T18:
 daffodil-site,Apache Daffodil Website,HTML,5,16,2017-12-04T12:49:03Z,2026-09-08T12:56:36Z
 daffodil-vscode,Apache Daffodil™ Extension for Visual Studio Code,TypeScript,18,33,2021-05-04T21:42:39Z,2026-09-04T20:09:42Z
 datafu,Mirror of Apache DataFu,Java,124,67,2014-01-14T08:00:07Z,2026-07-22T02:10:33Z
-datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2400,2021-04-17T15:40:23Z,2026-09-12T14:28:22Z
-datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2135,320,2022-05-19T14:32:27Z,2026-09-12T15:03:10Z
+datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2401,2021-04-17T15:40:23Z,2026-09-12T14:28:22Z
+datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2135,320,2022-05-19T14:32:27Z,2026-09-12T21:21:10Z
 datafusion-ballista-python,Apache Arrow Ballista Python bindings,Shell,42,9,2023-01-30T13:53:36Z,2026-07-22T03:05:05Z
 datafusion-benchmarks,Apache DataFusion Benchmarks,Python,23,19,2024-05-14T12:59:32Z,2026-07-22T03:09:55Z
 datafusion-comet,Apache DataFusion Comet Spark Accelerator,Scala,1273,373,2024-01-15T17:33:42Z,2026-09-12T20:30:40Z
@@ -961,7 +961,7 @@ dolphinscheduler-operator,Apache DolphinScheduler Kubernetes Operator.,Go,31,19,
 dolphinscheduler-sdk-python,"Apache DolphinScheduler Python API, aka PyDolphinscheduler.",Python,71,26,2022-11-07T10:27:11Z,2026-08-17T15:52:05Z
 dolphinscheduler-studio,Apache dolphinscheduler,TypeScript,5,7,2022-08-29T02:57:49Z,2024-11-26T12:45:43Z
 dolphinscheduler-website,Apache DolphinScheduler website,JavaScript,146,220,2019-09-04T17:57:45Z,2026-09-08T15:06:06Z
-doris,Apache Doris is a real-time analytics and hybrid search database for AI agents.,Java,15895,3940,2017-08-10T12:13:30Z,2026-09-12T18:34:23Z
+doris,Apache Doris is a real-time analytics and hybrid search database for AI agents.,Java,15896,3940,2017-08-10T12:13:30Z,2026-09-12T20:44:02Z
 doris-cli,Agent Doris CLI,Rust,17,4,2026-05-29T02:54:05Z,2026-09-08T13:52:09Z
 doris-flink-connector,Flink Connector for Apache Doris,Java,382,278,2022-02-11T14:48:32Z,2026-09-11T06:13:22Z
 doris-jeager,Apache doris,não informado,0,0,2024-10-29T13:43:21Z,2026-07-22T03:11:45Z
@@ -1256,7 +1256,7 @@ groovy-user-site,Apache Groovy user documentation,não informado,1,1,2017-04-24T
 groovy-website,Apache Groovy content to generate sites,Groovy,47,72,2018-11-20T20:35:23Z,2026-09-11T10:48:59Z
 guacamole-client,"The Apache Guacamole web application, official extensions, and JavaScript library.",Java,1715,848,2016-03-22T07:00:06Z,2026-09-11T10:48:15Z
 guacamole-manual,Apache Guacamole's official documentation (the Guacamole User's Guide). A copy of this guide for each release of Guacamole can be found at the project website.,Jinja,62,64,2016-03-22T07:00:06Z,2026-09-01T14:53:22Z
-guacamole-server,"The Apache Guacamole proxy daemon (guacd), C API (libguac), and protocol support.",C,3984,804,2016-03-22T07:00:06Z,2026-09-12T17:03:33Z
+guacamole-server,"The Apache Guacamole proxy daemon (guacd), C API (libguac), and protocol support.",C,3985,804,2016-03-22T07:00:06Z,2026-09-12T21:25:26Z
 guacamole-website,The source and content of the public website of the Apache Guacamole project.,JavaScript,314,130,2016-04-27T07:00:06Z,2026-09-01T14:53:21Z
 hadoop,Apache Hadoop,Java,15656,9242,2014-08-28T07:00:08Z,2026-09-12T19:43:43Z
 hadoop-api-shim,Apache hadoop,Java,6,3,2023-06-02T17:15:28Z,2026-07-22T03:06:45Z
@@ -1294,7 +1294,7 @@ hertzbeat-helm-chart,An AI-powered next-generation open source real-time observa
 hive,Apache Hive,Java,6021,4800,2009-05-21T02:31:01Z,2026-09-11T13:11:28Z
 hive-dev-box,Apache hive,Shell,0,0,2024-01-23T06:03:59Z,2026-07-22T03:09:02Z
 hive-site,Apache Hive Website,CSS,12,63,2022-01-21T18:38:29Z,2026-09-03T07:22:02Z
-hop,Hop Orchestration Platform,Java,1461,476,2019-09-24T10:48:12Z,2026-09-12T11:31:15Z
+hop,Hop Orchestration Platform,Java,1461,476,2019-09-24T10:48:12Z,2026-09-12T21:06:04Z
 hop-website,Apache Hop Website,CSS,24,31,2020-10-11T15:00:14Z,2026-08-31T09:10:07Z
 horaedb,"Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.",Rust,2826,221,2022-05-26T06:22:14Z,2026-09-08T09:56:48Z
 horaedb-client-go,Apache HoraeDB (Incubating) Golang Client.,Go,6,11,2022-08-31T09:40:33Z,2026-03-12T16:25:21Z
@@ -1330,7 +1330,7 @@ iceberg-go,Apache Iceberg - Go,Go,463,232,2023-08-11T06:07:45Z,2026-09-11T23:34:
 iceberg-python,PyIceberg,Python,1131,581,2023-08-11T06:07:31Z,2026-09-12T18:15:04Z
 iceberg-rust,Apache Iceberg,Rust,1403,566,2023-07-21T06:16:00Z,2026-09-12T01:53:21Z
 iceberg-verification,Verification framework for Apache Iceberg implementations,não informado,8,4,2026-08-24T19:17:26Z,2026-09-11T14:23:03Z
-iggy,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,Rust,4860,430,2023-03-18T21:39:42Z,2026-09-12T20:26:38Z
+iggy,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,Rust,4862,430,2023-03-18T21:39:42Z,2026-09-12T21:17:55Z
 iggy-setup,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,TypeScript,2,2,2025-06-28T11:59:40Z,2026-07-24T17:26:46Z
 iggy-website,Apache Iggy Website,MDX,6,12,2025-02-09T09:04:54Z,2026-09-11T09:28:20Z
 ignite,Apache Ignite,Java,5082,1929,2015-02-19T08:00:05Z,2026-09-12T16:29:35Z
@@ -1683,7 +1683,7 @@ jspwiki-site,Apache JSPWiki's website,FreeMarker,5,7,2017-03-22T07:00:07Z,2026-0
 juddi,Mirror of Apache jUDDI,Java,19,14,2014-02-21T08:00:09Z,2026-05-12T07:04:44Z
 juddi-scout,Apache Juddi Scout,Java,1,0,2022-07-23T19:38:45Z,2023-02-27T20:55:17Z
 juddi-styles,Mirror of Apache jUDDI,XSLT,1,2,2014-02-21T08:00:08Z,2023-07-25T13:50:55Z
-juneau,Apache Juneau,Java,96,42,2016-08-02T07:00:07Z,2026-09-12T17:54:26Z
+juneau,Apache Juneau,Java,96,42,2016-08-02T07:00:07Z,2026-09-12T20:56:00Z
 juneau-petstore,Apache Juneau,Java,9,12,2019-09-09T19:31:24Z,2026-07-22T02:46:57Z
 juneau-website,Apache Juneau,HTML,9,15,2016-07-11T07:00:06Z,2026-07-22T02:17:22Z
 kafka,Apache Kafka - A distributed event streaming platform,Java,33708,15510,2011-08-15T18:06:16Z,2026-09-12T15:16:40Z
@@ -1710,7 +1710,7 @@ kibble-docker,Apache Kibble Docker Image,não informado,2,0,2018-10-21T09:59:29Z
 kibble-scanners,Apache Kibble Scanners,Python,16,10,2017-10-19T11:32:23Z,2026-01-03T17:44:50Z
 kibble-website,Apache Kibble Website,HTML,6,8,2017-10-19T10:14:34Z,2025-11-11T13:33:43Z
 knox,Mirror of Apache Knox,Java,219,283,2014-03-01T08:00:06Z,2026-09-11T11:49:42Z
-kudu,Mirror of Apache Kudu,C++,1913,659,2016-01-29T08:00:06Z,2026-09-10T15:04:51Z
+kudu,Mirror of Apache Kudu,C++,1914,659,2016-01-29T08:00:06Z,2026-09-12T21:07:06Z
 kudu-site,Apache Kudu Site,HTML,2,5,2019-01-09T18:08:44Z,2026-07-22T02:42:19Z
 kvrocks,Apache Kvrocks is a distributed key value NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol.,C++,4427,658,2019-08-15T06:04:51Z,2026-09-12T03:12:19Z
 kvrocks-controller,Apache Kvrocks Controller is a cluster management tool for Apache Kvrocks.,Go,141,76,2021-07-31T07:59:56Z,2026-07-30T09:11:25Z
@@ -1793,11 +1793,11 @@ lucy-charmonizer,Mirror of Apache Lucy,C,6,3,2014-01-06T17:23:04Z,2026-07-21T16:
 lucy-clownfish,Mirror of Apache Lucy,C,13,11,2014-01-06T17:23:04Z,2025-11-22T17:52:05Z
 madlib,Mirror of Apache MADlib,C++,476,149,2015-09-19T07:00:06Z,2026-09-02T14:26:41Z
 madlib-site,Mirror of Apache MADlib site,Jupyter Notebook,89,51,2015-09-19T07:00:06Z,2026-07-22T02:14:59Z
-magpie,"Agent-assisted maintainership and development framework for Apache projects — Triage, Mentoring, Drafting (agent-authored fixes with human review), and Pairing (developer-side dev-cycle) skills shipping; Agentic Autonomous (auto-merge) on the roadmap.",Python,91,90,2026-04-28T18:59:46Z,2026-09-12T19:54:34Z
+magpie,"Agent-assisted maintainership and development framework for Apache projects — Triage, Mentoring, Drafting (agent-authored fixes with human review), and Pairing (developer-side dev-cycle) skills shipping; Agentic Autonomous (auto-merge) on the roadmap.",Python,91,91,2026-04-28T18:59:46Z,2026-09-12T19:54:34Z
 magpie-economics,Apache magpie,não informado,1,0,2026-07-05T09:42:39Z,2026-07-22T06:09:16Z
 magpie-site,Website for Apache Magpie — agent-assisted repository maintainership and development.,TypeScript,7,6,2026-06-27T20:03:28Z,2026-09-12T11:34:29Z
 mahout,"Apache Mahout - an environment for quickly creating scalable, performant machine learning applications.",Rust,2308,998,2014-05-23T07:00:07Z,2026-09-10T09:04:57Z
-maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,TypeScript,5273,491,2026-05-27T15:46:05Z,2026-09-12T19:16:49Z
+maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,TypeScript,5277,491,2026-05-27T15:46:05Z,2026-09-12T21:19:53Z
 manifoldcf,Mirror of Apache ManifoldCF,Java,86,68,2012-06-22T07:00:16Z,2026-08-06T10:37:29Z
 manifoldcf-integration-elasticsearch,Mirror of git.apache.org/manifoldcf-integration-elasticsearch.git,Java,1,1,2018-03-25T22:18:40Z,2026-07-22T02:36:36Z
 manifoldcf-integration-elasticsearch-1.5,Mirror of git.apache.org/manifoldcf-integration-elasticsearch-1.5.git,Java,1,0,2018-03-25T22:33:19Z,2026-07-22T02:36:38Z
@@ -2000,7 +2000,7 @@ mynewt-site,Apache MyNewt Website Repo,HTML,31,62,2016-02-11T08:00:06Z,2026-07-2
 nano,Nano is now part of Apache CouchDB. Repo moved to https://GitHub.com/apache/couchdb-nano,JavaScript,1120,152,2011-08-11T23:17:21Z,2026-07-20T23:28:17Z
 netbeans,Apache NetBeans,Java,3139,936,2017-09-01T07:00:11Z,2026-09-12T16:23:45Z
 netbeans-antora,Apache netbeans,JavaScript,7,8,2023-10-04T13:41:10Z,2026-09-01T07:43:01Z
-netbeans-antora-site,Apache netbeans,HTML,15,1478,2023-10-04T13:42:10Z,2026-09-01T08:25:13Z
+netbeans-antora-site,Apache netbeans,HTML,15,1479,2023-10-04T13:42:10Z,2026-09-01T08:25:13Z
 netbeans-antora-tutorials,Apache netbeans,Java,9,583,2023-10-04T13:15:51Z,2026-08-20T20:34:58Z
 netbeans-antora-ui,Apache netbeans,SCSS,6,7,2023-10-04T11:56:07Z,2026-09-01T07:41:47Z
 netbeans-antora-wiki,Apache netbeans,não informado,3,32,2023-10-04T13:13:37Z,2026-08-20T20:34:58Z
@@ -2274,7 +2274,7 @@ plc4x-website,Apache PLC4X generated Website,HTML,12,12,2018-11-23T09:29:27Z,202
 pluto,Mirror of Apache Pluto,não informado,4,6,2009-05-21T01:09:18Z,2026-07-22T02:01:31Z
 poi,Mirror of Apache POI gitbox. The Java API for Microsoft Documents.,Java,2269,843,2009-05-21T01:15:15Z,2026-09-12T07:31:29Z
 poi-site,Apache POI Website,não informado,1,0,2021-07-13T17:05:26Z,2026-08-25T06:07:55Z
-poi-xmlbeans,Mirror of Apache XMLBeans gitbox.,Java,63,69,2009-08-06T08:06:50Z,2026-09-07T13:43:01Z
+poi-xmlbeans,Mirror of Apache XMLBeans gitbox.,Java,63,69,2009-08-06T08:06:50Z,2026-09-12T21:15:41Z
 poi-xmlbeans-site,Apache XMLBeans Website,HTML,1,0,2021-07-13T17:34:39Z,2026-08-25T06:07:48Z
 polaris,"Apache Polaris, the interoperable, open source catalog for Apache Iceberg",Java,2055,522,2024-05-29T18:44:27Z,2026-09-12T01:22:41Z
 polaris-tools,"Apache Polaris Tools, additional tooling for Apache Polaris",TypeScript,33,46,2025-02-25T13:50:06Z,2026-09-10T14:02:19Z
@@ -2286,7 +2286,7 @@ ponymail-foal,Apache Pony Mail Foal (Next Generation Suite),Python,45,23,2020-08
 ponymail-site,Apache Pony Mail,HTML,15,6,2016-05-30T07:00:06Z,2026-08-08T04:10:45Z
 ponymail-unit-tests,Apache Pony Mail Unit Tests,Python,0,0,2020-08-11T10:28:12Z,2026-08-04T18:18:05Z
 portals-pluto,Mirror of Apache Pluto,Java,27,39,2014-05-23T07:00:07Z,2026-05-13T11:53:15Z
-pouchdb,:kangaroo: - PouchDB is a pocket-sized database.,JavaScript,17605,1505,2010-06-10T18:34:24Z,2026-09-12T15:34:40Z
+pouchdb,:kangaroo: - PouchDB is a pocket-sized database.,JavaScript,17606,1505,2010-06-10T18:34:24Z,2026-09-12T20:40:31Z
 pouchdb-site,Apache pouchdb,HTML,1,1,2026-02-16T09:59:03Z,2026-07-22T06:09:53Z
 predictionio,"PredictionIO, a machine learning server for developers and ML engineers.",Scala,12519,1895,2013-01-25T19:42:32Z,2026-09-11T17:00:34Z
 predictionio-sdk-java,PredictionIO Java SDK,Java,109,53,2013-02-06T02:06:28Z,2026-03-19T08:10:35Z
@@ -2304,7 +2304,7 @@ predictionio-template-skeleton,PredictionIO vanilla engine template (Scala-based
 predictionio-template-text-classifier,Text Classification Engine,Scala,37,31,2015-05-06T22:11:46Z,2026-04-28T01:46:17Z
 privacy-website,Web site for Apache Data Privacy,SCSS,10,17,2020-12-23T12:48:05Z,2026-07-22T02:55:24Z
 publicaffairs-website,ASF Public Affairs Website,não informado,1,0,2023-07-24T07:02:27Z,2026-07-22T03:07:09Z
-pulsar,Apache Pulsar - distributed pub-sub messaging system,Java,15329,3756,2016-06-28T07:00:03Z,2026-09-12T19:52:39Z
+pulsar,Apache Pulsar - distributed pub-sub messaging system,Java,15329,3756,2016-06-28T07:00:03Z,2026-09-12T20:46:42Z
 pulsar-adapters,Apache Pulsar Adapters,Java,24,30,2020-04-12T18:37:05Z,2026-07-22T02:51:10Z
 pulsar-client-cpp,Apache Pulsar C++ client library,C++,71,90,2022-09-29T01:10:49Z,2026-09-01T17:43:54Z
 pulsar-client-go,Apache Pulsar Go Client Library,Go,745,389,2019-05-06T22:08:46Z,2026-08-26T02:35:05Z
@@ -2906,7 +2906,7 @@ sourcelume-reports,Apache sourcelume,não informado,1,0,2026-09-01T13:07:51Z,202
 sourcelume-site,Apache Sourcelume,CSS,2,1,2026-08-23T10:20:02Z,2026-09-10T13:00:33Z
 sourcelume-spec,"Apache Sourcelume is open-source instrumentation for AI training-data provenance — a metadata specification, a reference registry, and tooling that let dataset curators and model producers publish signed, independently verifiable records of where their data came from and what terms it carries.",Python,3,2,2026-08-23T17:13:59Z,2026-09-12T19:11:15Z
 spamassassin,Read-only mirror of Apache SpamAssassin.,Perl,345,88,2009-05-20T01:47:48Z,2026-09-12T08:33:13Z
-spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,43982,29369,2014-02-25T08:00:08Z,2026-09-12T19:51:57Z
+spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,43983,29369,2014-02-25T08:00:08Z,2026-09-12T20:34:32Z
 spark-connect-gateway,Apache Spark Connect Gateway,Rust,7,3,2026-08-09T17:40:22Z,2026-09-10T20:52:15Z
 spark-connect-go,Apache Spark Connect Client for Golang,Go,252,53,2023-05-30T10:09:28Z,2026-09-10T11:56:52Z
 spark-connect-rust,Apache Spark Connect Client for Rust (Rust core + Python wrapper),Python,43,18,2025-05-26T07:22:15Z,2026-09-11T07:09:17Z
@@ -2984,7 +2984,7 @@ template-site,Apache Website Template Repository,HTML,9,5,2021-04-09T16:20:58Z,2
 terraform-provider-iceberg,Iceberg Terraform Provider,Go,16,14,2025-11-24T09:36:38Z,2026-09-04T14:20:11Z
 terraform-provider-paimon,Terraform and OpenTofu provider for Apache Paimon,Go,2,2,2026-08-21T13:15:33Z,2026-09-09T05:55:18Z
 terraform-provider-polaris,"Terraform provider for Apache Polaris, the interoperable, open source catalog for Apache Iceberg",não informado,1,1,2026-08-24T19:24:43Z,2026-08-25T22:06:29Z
-texera,Human-AI Collaborative Data Science Using Visual Workflows,Scala,314,187,2016-03-15T20:38:46Z,2026-09-12T15:35:18Z
+texera,Human-AI Collaborative Data Science Using Visual Workflows,Scala,314,187,2016-03-15T20:38:46Z,2026-09-12T20:36:54Z
 tez,Apache Tez,Java,519,443,2013-04-08T07:20:23Z,2026-08-24T13:26:38Z
 thrift,Apache Thrift,C++,10957,4109,2009-09-18T08:00:17Z,2026-09-12T15:16:40Z
 thrift-website,Apache Thrift Website,CSS,2,8,2020-10-30T10:11:47Z,2026-07-30T21:17:45Z
@@ -3078,7 +3078,7 @@ tuscany-sca-1.x,Mirror of Apache Tuscany SCA 1.x,Java,3,6,2009-11-30T09:00:10Z,2
 tuscany-sca-2.x,Mirror of Apache Tuscany SCA 2.x,Java,25,14,2009-11-30T09:00:10Z,2026-07-22T02:11:27Z
 tuscany-sca-cpp,Mirror of Tuscany SCA C++,C++,9,5,2010-04-22T02:00:34Z,2026-07-23T21:28:23Z
 tuscany-sdo,Mirror of Apache Tuscany SDO,Java,8,9,2009-11-30T09:00:10Z,2026-07-23T14:10:55Z
-tvm,Open Machine Learning Compiler Framework,Python,13741,3973,2016-10-12T22:20:28Z,2026-09-12T18:17:30Z
+tvm,Open Machine Learning Compiler Framework,Python,13741,3974,2016-10-12T22:20:28Z,2026-09-12T18:17:30Z
 tvm-ffi,Open ABI and FFI for Machine Learning Systems,C++,462,98,2025-09-13T22:21:46Z,2026-09-12T15:00:55Z
 tvm-rfcs,A home for the final text of all TVM RFCs.,não informado,111,78,2021-02-24T21:06:54Z,2026-07-22T02:56:04Z
 tvm-site,repo for tvm,JavaScript,26,36,2019-10-08T18:44:15Z,2026-07-22T02:47:21Z
