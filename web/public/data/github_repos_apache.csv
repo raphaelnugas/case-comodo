@@ -195,7 +195,7 @@ aries-site,Apache aries website,HTML,2,1,2019-07-02T17:44:06Z,2026-07-22T02:45:4
 aries-site-pub,Apache aries published website,HTML,1,2,2020-08-17T23:32:54Z,2026-07-22T02:53:46Z
 aries-tx-control,Apache Aries Transaction Control,Java,2,4,2018-01-04T16:03:10Z,2026-07-22T02:35:34Z
 aries-typedevent,Apache aries,Java,3,7,2020-09-11T17:00:39Z,2026-07-22T02:54:22Z
-arrow,Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics,C++,17099,4297,2016-02-17T08:00:23Z,2026-09-12T16:44:36Z
+arrow,Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics,C++,17101,4297,2016-02-17T08:00:23Z,2026-09-12T22:26:29Z
 arrow-adbc,Database connectivity API standard and libraries for Apache Arrow,C#,627,217,2022-06-01T15:08:49Z,2026-09-10T04:57:41Z
 arrow-cookbook,Apache Arrow Cookbook,C++,108,49,2021-07-13T12:31:51Z,2026-09-01T20:14:00Z
 arrow-dist,Apache Arrow,Shell,4,13,2017-06-20T14:26:14Z,2023-08-22T17:04:59Z
@@ -710,12 +710,12 @@ commons-vfs,Apache Commons VFS,Java,251,221,2013-07-13T07:00:13Z,2026-09-07T19:4
 commons-weaver,Apache Commons Weaver,Java,29,17,2013-10-25T07:00:33Z,2026-09-08T10:23:00Z
 conferences-cc-website,CommunityOverCode Website,HTML,2,5,2026-07-07T18:19:35Z,2026-09-11T13:59:05Z
 continuum,Mirror of Apache Continuum,Java,8,9,2009-05-21T02:05:27Z,2026-07-22T02:02:17Z
-cordova,Apache Cordova,não informado,709,74,2018-02-13T10:02:11Z,2026-08-25T18:06:40Z
+cordova,Apache Cordova,não informado,710,75,2018-02-13T10:02:11Z,2026-09-12T22:23:09Z
 cordova-amazon-fireos,[DEPRECATED] Apache Cordova,Java,21,22,2014-01-06T17:23:03Z,2023-01-28T18:32:38Z
 cordova-android,Apache Cordova Android,JavaScript,3788,1575,2012-11-28T08:00:22Z,2026-09-09T11:49:28Z
 cordova-apache-board-reports,Apache Cordova - Board Reports,não informado,9,9,2012-02-19T03:08:40Z,2026-09-08T15:34:28Z
 cordova-app-harness,[DEPRECATED] Apache Cordova app harness,JavaScript,53,45,2013-04-08T07:20:19Z,2024-10-07T22:04:07Z
-cordova-app-hello-world,Apache Cordova Template App,CSS,201,219,2012-11-28T08:00:29Z,2026-08-26T17:09:27Z
+cordova-app-hello-world,Apache Cordova Template App,CSS,202,220,2012-11-28T08:00:29Z,2026-09-12T22:25:11Z
 cordova-bada,[DEPRECATED] Apache Cordova bada,C++,3,7,2012-11-28T08:00:23Z,2026-06-11T12:03:47Z
 cordova-bada-wac,[DEPRECATED] Apache Cordova bada wac,JavaScript,2,4,2012-11-28T08:00:20Z,2026-06-11T12:03:53Z
 cordova-blackberry,[DEPRECATED] Apache Cordova blackberry,JavaScript,29,57,2012-12-12T08:00:27Z,2026-04-10T17:33:10Z
@@ -746,7 +746,7 @@ cordova-plugin-camera,Apache Cordova Plugin camera,Objective-C,976,1559,2013-06-
 cordova-plugin-compat,[DEPRECATED] Apache Cordova Plugin Compatibility,Java,36,38,2016-04-05T07:00:06Z,2026-06-11T12:03:05Z
 cordova-plugin-console,[DEPRECATED] Apache Cordova Plugin console,JavaScript,146,84,2013-06-22T07:00:14Z,2024-04-17T21:18:36Z
 cordova-plugin-contacts,[DEPRECATED] Apache Cordova Plugin contacts,JavaScript,206,369,2013-06-22T07:00:14Z,2026-09-12T09:00:08Z
-cordova-plugin-device,Apache Cordova Device Plugin,JavaScript,393,423,2013-06-22T07:00:15Z,2026-09-12T09:00:08Z
+cordova-plugin-device,Apache Cordova Device Plugin,JavaScript,394,424,2013-06-22T07:00:15Z,2026-09-12T22:25:36Z
 cordova-plugin-device-motion,Apache Cordova Device Motion Plugin,JavaScript,75,128,2013-06-22T07:00:15Z,2026-08-13T10:56:17Z
 cordova-plugin-device-orientation,Apache Cordova Device Orientation Plugin,JavaScript,63,80,2013-06-22T07:00:15Z,2026-09-12T19:20:51Z
 cordova-plugin-dialogs,Apache Cordova Dialogs Plugin,JavaScript,294,352,2013-06-22T07:00:15Z,2026-09-02T15:25:04Z
@@ -758,7 +758,7 @@ cordova-plugin-inappbrowser,Apache Cordova InAppBrowser Plugin,Java,1139,2201,20
 cordova-plugin-legacy-whitelist,[DEPRECATED] Apache Cordova plugin legacy whitelist,Objective-C,4,9,2015-03-10T19:06:29Z,2026-06-11T12:03:15Z
 cordova-plugin-media,Apache Cordova Media Plugin,JavaScript,391,762,2013-06-22T07:00:17Z,2026-07-29T03:16:50Z
 cordova-plugin-media-capture,Apache Cordova Media Capture Plugin,JavaScript,312,492,2013-06-22T07:00:17Z,2026-07-27T16:07:16Z
-cordova-plugin-network-information,Apache Cordova Network Information Plugin,Objective-C,464,338,2013-06-22T07:00:18Z,2026-08-13T10:46:36Z
+cordova-plugin-network-information,Apache Cordova Network Information Plugin,Objective-C,465,339,2013-06-22T07:00:18Z,2026-09-12T22:25:56Z
 cordova-plugin-screen-orientation,Apache Cordova Screen Orientation Plugin,JavaScript,219,234,2016-06-02T07:00:06Z,2026-07-27T16:06:21Z
 cordova-plugin-splashscreen,Apache Cordova Plugin splashscreen,JavaScript,640,626,2013-06-22T07:00:18Z,2026-07-29T03:17:58Z
 cordova-plugin-statusbar,Apache Cordova Status Bar Plugin,Objective-C,615,485,2014-03-15T07:00:07Z,2026-09-12T09:00:12Z
@@ -889,7 +889,7 @@ datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2401,2021-04-17T15:40:23
 datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2135,320,2022-05-19T14:32:27Z,2026-09-12T21:21:10Z
 datafusion-ballista-python,Apache Arrow Ballista Python bindings,Shell,42,9,2023-01-30T13:53:36Z,2026-07-22T03:05:05Z
 datafusion-benchmarks,Apache DataFusion Benchmarks,Python,23,19,2024-05-14T12:59:32Z,2026-07-22T03:09:55Z
-datafusion-comet,Apache DataFusion Comet Spark Accelerator,Scala,1273,373,2024-01-15T17:33:42Z,2026-09-12T20:30:40Z
+datafusion-comet,Apache DataFusion Comet Spark Accelerator,Scala,1273,373,2024-01-15T17:33:42Z,2026-09-12T22:27:43Z
 datafusion-iceberg,Apache datafusion,não informado,7,1,2026-09-09T11:09:45Z,2026-09-11T13:58:34Z
 datafusion-java,Java bindings for Apache DataFusion,Java,32,12,2026-05-12T22:03:12Z,2026-08-29T07:49:20Z
 datafusion-python,Apache DataFusion Python Bindings,Python,604,173,2022-07-20T11:19:28Z,2026-09-11T22:52:49Z
@@ -941,7 +941,7 @@ directory-fortress-core,Mirror of Apache Directory Fortress Core,Java,53,35,2015
 directory-fortress-enmasse,Mirror of Apache Directory Fortress Enmasse,Java,8,7,2015-10-02T07:00:06Z,2026-07-22T02:15:07Z
 directory-fortress-realm,Mirror of Apache Directory Fortress Realm,Java,7,7,2015-10-02T07:00:06Z,2026-07-22T02:15:10Z
 directory-kerby,Mirror of Apache Directory Kerby,Java,119,83,2015-03-17T07:00:05Z,2026-09-04T01:31:30Z
-directory-ldap-api,Apache Directory LDAP API,Java,52,45,2017-08-18T06:58:13Z,2026-09-12T08:20:11Z
+directory-ldap-api,Apache Directory LDAP API,Java,52,45,2017-08-18T06:58:13Z,2026-09-12T21:57:48Z
 directory-mavibot,Apache Directory Mavibot,Java,17,7,2017-11-26T17:08:09Z,2026-07-22T02:33:10Z
 directory-project,Apache Directory Project,Shell,6,6,2017-10-18T19:34:54Z,2026-09-09T12:02:57Z
 directory-samples,Apache Directory Samples,Java,5,5,2009-05-21T00:57:36Z,2026-07-22T02:01:21Z
@@ -1240,7 +1240,7 @@ grails-redis,Base redis plugin for Grails,não informado,79,48,2011-06-06T08:05:
 grails-spring-security,Grails Spring Security Plugins,não informado,275,231,2010-03-22T17:44:03Z,2026-08-24T06:29:37Z
 grails-static-website,Apache Grails Website,Groovy,31,98,2015-01-14T14:41:50Z,2026-09-11T22:46:48Z
 grails-views,View Technologies for Grails,não informado,57,42,2015-08-26T12:57:17Z,2026-06-12T03:51:05Z
-grails-website,Apache Grails Website & Documentation,não informado,6,11,2025-09-19T19:35:05Z,2026-09-12T20:27:19Z
+grails-website,Apache Grails Website & Documentation,não informado,6,11,2025-09-19T19:35:05Z,2026-09-12T22:24:41Z
 grails-wrapper,Grails Wrapper,não informado,3,6,2016-11-02T14:45:27Z,2026-05-21T07:31:30Z
 gravitino,"World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.",Java,3218,936,2023-04-23T02:09:00Z,2026-09-12T06:58:18Z
 gravitino-playground,A playground to experience Gravitino,Jupyter Notebook,83,55,2023-12-08T09:00:46Z,2026-09-05T14:32:19Z
@@ -1294,7 +1294,7 @@ hertzbeat-helm-chart,An AI-powered next-generation open source real-time observa
 hive,Apache Hive,Java,6021,4800,2009-05-21T02:31:01Z,2026-09-11T13:11:28Z
 hive-dev-box,Apache hive,Shell,0,0,2024-01-23T06:03:59Z,2026-07-22T03:09:02Z
 hive-site,Apache Hive Website,CSS,12,63,2022-01-21T18:38:29Z,2026-09-03T07:22:02Z
-hop,Hop Orchestration Platform,Java,1461,476,2019-09-24T10:48:12Z,2026-09-12T21:06:04Z
+hop,Hop Orchestration Platform,Java,1462,476,2019-09-24T10:48:12Z,2026-09-12T22:34:07Z
 hop-website,Apache Hop Website,CSS,24,31,2020-10-11T15:00:14Z,2026-08-31T09:10:07Z
 horaedb,"Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.",Rust,2826,221,2022-05-26T06:22:14Z,2026-09-08T09:56:48Z
 horaedb-client-go,Apache HoraeDB (Incubating) Golang Client.,Go,6,11,2022-08-31T09:40:33Z,2026-03-12T16:25:21Z
@@ -1632,7 +1632,7 @@ infrastructure-website-template,Apache infrastructure,HTML,1,1,2022-06-21T23:10:
 infratest,,não informado,1,0,2019-05-31T15:38:02Z,2026-07-22T02:45:01Z
 inlong,"Apache InLong - a one-stop, full-scenario integration framework for massive data",Java,1499,572,2020-01-03T07:13:14Z,2026-09-10T14:19:05Z
 inlong-website,"Apache InLong - a one-stop, full-scenario integration framework for massive data",JavaScript,37,110,2020-01-08T13:42:09Z,2026-08-21T01:20:50Z
-iotdb,Apache IoTDB,Java,6394,1158,2018-11-24T21:29:17Z,2026-09-11T16:51:51Z
+iotdb,Apache IoTDB,Java,6394,1159,2018-11-24T21:29:17Z,2026-09-11T16:51:51Z
 iotdb-backup-tool,Apache IoTDB Backup Tool,Java,6,2,2023-02-07T12:17:52Z,2026-07-22T03:05:13Z
 iotdb-bin-resources,binary files that Apache IoTDBs website and documents use,não informado,16,23,2021-02-27T07:22:18Z,2026-07-22T02:56:09Z
 iotdb-client-csharp,Apache IoTDB Client for C#,C#,24,6,2023-05-24T12:51:32Z,2026-08-29T16:04:47Z
@@ -1783,7 +1783,7 @@ logging-slf4j,Bridges between Log4j API and SLF4J,Java,0,0,2024-11-06T08:15:05Z,
 lucene,Apache Lucene open-source search software,Java,3554,1431,2021-02-23T17:16:56Z,2026-09-12T14:22:02Z
 lucene-jira-archive,Jira archive for Apache Lucene,Python,4,6,2022-06-29T09:15:12Z,2026-07-22T03:02:24Z
 lucene-site,Apache Lucene website,CSS,6,32,2019-10-16T20:26:33Z,2026-09-03T08:14:08Z
-lucene-solr,Apache Lucene and Solr open-source search software,não informado,4366,2591,2016-01-23T08:00:06Z,2026-09-11T03:29:36Z
+lucene-solr,Apache Lucene and Solr open-source search software,não informado,4365,2591,2016-01-23T08:00:06Z,2026-09-12T22:24:49Z
 lucenenet,"Apache Lucene.NET is an open-source full-text search library written in C#, ported from the Apache Lucene project.",C#,2413,658,2009-03-27T15:41:57Z,2026-09-12T10:57:43Z
 lucenenet-codeanalysis-dev,Roslyn Code Analysis for Apache Lucene.NET,C#,6,7,2025-01-11T03:56:09Z,2026-08-06T14:07:59Z
 lucenenet-extensions,Apache lucenenet,não informado,1,0,2025-09-02T13:31:26Z,2026-07-22T06:10:33Z
@@ -1797,7 +1797,7 @@ magpie,"Agent-assisted maintainership and development framework for Apache proje
 magpie-economics,Apache magpie,não informado,1,0,2026-07-05T09:42:39Z,2026-07-22T06:09:16Z
 magpie-site,Website for Apache Magpie — agent-assisted repository maintainership and development.,TypeScript,7,6,2026-06-27T20:03:28Z,2026-09-12T11:34:29Z
 mahout,"Apache Mahout - an environment for quickly creating scalable, performant machine learning applications.",Rust,2308,998,2014-05-23T07:00:07Z,2026-09-10T09:04:57Z
-maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,TypeScript,5278,491,2026-05-27T15:46:05Z,2026-09-12T21:37:48Z
+maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,TypeScript,5280,491,2026-05-27T15:46:05Z,2026-09-12T22:29:10Z
 manifoldcf,Mirror of Apache ManifoldCF,Java,86,68,2012-06-22T07:00:16Z,2026-08-06T10:37:29Z
 manifoldcf-integration-elasticsearch,Mirror of git.apache.org/manifoldcf-integration-elasticsearch.git,Java,1,1,2018-03-25T22:18:40Z,2026-07-22T02:36:36Z
 manifoldcf-integration-elasticsearch-1.5,Mirror of git.apache.org/manifoldcf-integration-elasticsearch-1.5.git,Java,1,0,2018-03-25T22:33:19Z,2026-07-22T02:36:38Z
@@ -2029,7 +2029,7 @@ netbeans-vscode,Apache NetBeans for VS Code,TypeScript,11,13,2025-06-17T08:04:47
 netbeans-website,Apache NetBeans Website,não informado,242,176,2016-11-28T08:00:10Z,2026-07-22T02:19:01Z
 netbeans-website-cleanup,A repository to cleanup the older NetBeans website sources to have a clean repository for the new website to cleanup history and big files etc,HTML,5,5,2017-12-17T22:58:10Z,2025-10-17T17:54:56Z
 netbeans-webskin,Apache NetBeans maven site skin for maven build,JavaScript,0,1,2019-05-09T12:03:15Z,2025-10-17T18:06:58Z
-nifi,Apache NiFi,Java,6229,2974,2014-12-12T08:00:05Z,2026-09-11T13:42:59Z
+nifi,Apache NiFi,Java,6229,2974,2014-12-12T08:00:05Z,2026-09-12T22:33:38Z
 nifi-api,Apache NiFi API,Java,8,25,2024-09-09T19:13:30Z,2026-09-08T15:30:59Z
 nifi-container,Mirror of Apache NiFi containerization efforts,não informado,8,5,2017-11-21T08:00:10Z,2026-07-22T02:33:00Z
 nifi-fds,Mirror of Apache NiFi Flow Design System,HTML,48,25,2018-03-22T07:00:13Z,2026-08-14T07:09:31Z
@@ -2904,7 +2904,7 @@ solr-site,Apache solr website,HTML,16,38,2021-02-20T11:54:24Z,2026-09-01T22:09:1
 sourcelume-registry,Apache sourcelume,não informado,1,0,2026-08-23T17:18:19Z,2026-09-07T15:25:23Z
 sourcelume-reports,Apache sourcelume,não informado,1,0,2026-09-01T13:07:51Z,2026-09-07T15:25:26Z
 sourcelume-site,Apache Sourcelume,CSS,2,1,2026-08-23T10:20:02Z,2026-09-10T13:00:33Z
-sourcelume-spec,"Apache Sourcelume is open-source instrumentation for AI training-data provenance — a metadata specification, a reference registry, and tooling that let dataset curators and model producers publish signed, independently verifiable records of where their data came from and what terms it carries.",Python,3,2,2026-08-23T17:13:59Z,2026-09-12T19:11:15Z
+sourcelume-spec,"Apache Sourcelume is open-source instrumentation for AI training-data provenance — a metadata specification, a reference registry, and tooling that let dataset curators and model producers publish signed, independently verifiable records of where their data came from and what terms it carries.",Python,3,2,2026-08-23T17:13:59Z,2026-09-12T22:29:44Z
 spamassassin,Read-only mirror of Apache SpamAssassin.,Perl,345,88,2009-05-20T01:47:48Z,2026-09-12T08:33:13Z
 spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,43984,29369,2014-02-25T08:00:08Z,2026-09-12T21:45:40Z
 spark-connect-gateway,Apache Spark Connect Gateway,Rust,7,3,2026-08-09T17:40:22Z,2026-09-10T20:52:15Z
@@ -2954,7 +2954,7 @@ submarine-site,Apache Submarine website,HTML,6,6,2019-10-29T15:16:26Z,2024-07-10
 subversion,Mirror of Apache Subversion,C,642,196,2009-12-31T09:00:10Z,2026-09-11T20:56:23Z
 superset,Apache Superset is a Data Visualization and Data Exploration Platform,Python,74737,18261,2015-07-21T18:55:34Z,2026-09-12T21:41:34Z
 superset-kubernetes-operator,Apache Superset Kubernetes Operator,Go,24,9,2025-02-25T00:51:19Z,2026-09-11T23:13:18Z
-superset-site,Apache superset (Incubating) website,HTML,11,19,2017-06-27T07:00:08Z,2026-09-12T19:23:19Z
+superset-site,Apache superset (Incubating) website,HTML,11,19,2017-06-27T07:00:08Z,2026-09-12T22:26:32Z
 synapse,Apache Synapse is a lightweight and high-performance Enterprise Service Bus (ESB),Java,84,65,2009-05-21T01:01:59Z,2026-09-10T03:38:42Z
 synapse-go,Apache synapse,Go,6,5,2025-01-02T03:17:16Z,2026-07-22T03:12:41Z
 syncope,Apache Syncope,Java,341,210,2014-10-23T07:00:10Z,2026-09-11T05:47:04Z
@@ -3030,7 +3030,7 @@ tooling-asf-example,Apache tooling,Python,2,1,2025-08-12T18:24:23Z,2026-07-22T06
 tooling-asfswhid,Python bindings for the swhid-rs SWHID v1.2 reference implementation (ISO/IEC 18670:2025),Rust,0,1,2026-05-20T19:29:12Z,2026-06-24T14:10:38Z
 tooling-atr-maven-plugin,Apache Tooling ATR Maven Plugin,Java,5,2,2026-05-11T20:20:11Z,2026-08-29T10:31:14Z
 tooling-docs,ASF Tooling Team Documentation Repository,HTML,10,8,2024-12-11T10:22:25Z,2026-08-31T09:18:53Z
-tooling-llmao,llmao,Python,1,1,2026-08-05T16:35:33Z,2026-09-12T20:03:09Z
+tooling-llmao,llmao,Python,1,1,2026-08-05T16:35:33Z,2026-09-12T22:26:49Z
 tooling-releases-client,Apache Trusted Releases Client,Python,5,4,2025-07-08T17:39:29Z,2026-09-01T19:39:47Z
 tooling-trusted-releases,Apache Trusted Releases,Python,28,27,2025-02-10T16:20:05Z,2026-09-11T19:40:00Z
 trafficcontrol,Apache Traffic Control is an Open Source implementation of a Content Delivery Network,Go,1156,355,2016-09-02T07:00:06Z,2026-09-11T16:13:05Z
