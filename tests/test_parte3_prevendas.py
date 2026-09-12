@@ -3,6 +3,7 @@ import json
 import pytest
 
 from src.parte3_prevendas.avaliar_qualidade import avaliar_amostra
+from src.parte3_prevendas.export_markdown import formatar_conversa
 from src.parte3_prevendas.gemini_client import GeminiIndisponivel, gerar_classificacao
 from src.parte3_prevendas.validators import (
     parse_json_estrito,
@@ -196,3 +197,38 @@ def test_avaliar_amostra_ignora_conversas_sem_classificacao_do_modelo():
     metricas = avaliar_amostra(humanos, modelo)
     assert metricas.total_avaliado == 0
     assert metricas.concordancia_geral == 0.0
+
+
+CONVERSA_CV001 = {"conversa_id": "CV001", "campanha_id": "cmp_004", "mensagens": MENSAGENS}
+
+
+def test_formatar_conversa_inclui_evidencias_e_dialogo_original():
+    resultado = dict(
+        RESPOSTA_VALIDA,
+        status="classificado",
+        modelo_usado="gemini-3.6-flash",
+        classificado_em="2026-09-12T21:01:32.890078+00:00",
+    )
+    md = formatar_conversa(resultado, CONVERSA_CV001)
+
+    assert "CV001" in md
+    assert "QUENTE" in md
+    assert "gemini-3.6-flash" in md
+    assert "orçamento de 60 mil mencionado" in md
+    assert "[3]` \"A gente separou uns 60 mil pros planejados\"" in md
+    assert "Diálogo original completo" in md
+    assert "A gente separou uns 60 mil pros planejados" in md  # mensagem 3 no diálogo
+
+
+def test_formatar_conversa_falha_tecnica_nao_mostra_classificacao():
+    resultado = {
+        "conversa_id": "CV001",
+        "status": "falha_tecnica",
+        "erro": "todas as tentativas falharam",
+        "motivo_revisao_humana": "falha técnica na classificação automática",
+    }
+    md = formatar_conversa(resultado, CONVERSA_CV001)
+
+    assert "falha técnica" in md.lower()
+    assert "QUENTE" not in md and "FRIO" not in md
+    assert "todas as tentativas falharam" in md

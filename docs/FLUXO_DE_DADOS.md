@@ -79,6 +79,17 @@ comando funciona sem mudança — o gargalo passa a ser rate limit da API do Gem
 o código (o checkpoint por conversa já existe exatamente para tornar interrupções e
 reprocessamento parcial seguros nessa escala).
 
+Depois de classificar, gere (ou atualize) o relatório legível em Markdown que o
+README linka:
+
+```bash
+python -m src.parte3_prevendas.export_markdown
+```
+
+Isso regenera `docs/RESULTADOS_PREVENDAS.md` a partir de
+`data/output/classificacoes_prevendas.json` — nunca edite esse arquivo à mão, ele é
+sempre um espelho do JSON de saída real.
+
 ## Rodando tudo de uma vez
 
 ```bash
@@ -86,6 +97,7 @@ python -m src.parte1_github.collect_repos --org apache
 python -m src.parte2_analise.build_database
 python -m src.parte2_analise.export_web
 python -m src.parte3_prevendas.classify   # requer GEMINI_API_KEY em .env
+python -m src.parte3_prevendas.export_markdown
 ```
 
 Depois, `npm --prefix web run dev` (ou `npm run build` para produção) já lê os

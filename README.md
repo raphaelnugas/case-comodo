@@ -70,6 +70,7 @@ python -m src.parte2_analise.export_web
 
 # Parte 3 (requer GEMINI_API_KEY em .env)
 python -m src.parte3_prevendas.classify
+python -m src.parte3_prevendas.export_markdown   # gera docs/RESULTADOS_PREVENDAS.md
 
 # Testes
 python -m pytest -q
@@ -276,6 +277,14 @@ classificou como `frio`, mas marcou `revisao_humana_recomendada: true` com o mot
 "conversa muito curta e ambígua, sem resposta do lead à tentativa do atendente de dar
 continuidade". Nenhuma dessas conversas teve `lead_id`/vínculo com `leads.csv` no
 dado de origem — a leitura acima é só sobre o conteúdo da conversa em si.
+
+**As 15 classificações completas** (resumo, sinais, evidências com o trecho citado,
+próxima ação, alertas e o diálogo original de cada conversa — o mesmo nível de
+detalhe que a interface mostra) estão em
+[`docs/RESULTADOS_PREVENDAS.md`](docs/RESULTADOS_PREVENDAS.md). É gerado direto do
+JSON de saída real (nunca editado à mão) por
+[`export_markdown.py`](src/parte3_prevendas/export_markdown.py) — rodar de novo após
+uma nova classificação regenera o arquivo automaticamente.
 
 **Como eu avaliaria a qualidade disso daqui a 3 meses, com 4.000 conversas
 processadas** — resposta completa e concreta (métrica, contra o quê, frequência,
