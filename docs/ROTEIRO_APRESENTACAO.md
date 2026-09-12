@@ -93,12 +93,13 @@ por que tantos leads "frios" apareceram numa hora em que a API estava instável.
 
 ## 6. Se a pergunta for "e daqui a três meses, com 4.000 conversas?"
 
-Resposta curta, que eu detalho em `DECISOES_TECNICAS.md`: amostra humana semanal
-(~5%, viável em volume) comparada contra a classificação do modelo via
-`avaliar_qualidade.py` (já no código, não é só uma promessa em texto) — com atenção
-especial para confusão quente↔frio, que é o erro caro. Cruzamento mensal com o funil
-real da Parte 2 pra pegar deriva sem depender só de revisão humana. Gatilho de
-alerta: concordância abaixo de ~80%, ou qualquer caso quente↔frio na amostra semanal.
+Resposta que está no README: separar periodicamente 5% das conversas totais e
+delegar a outra LLM mais inteligente; se houver desacordo, passa para um Analista de
+Vendas humano classificar manualmente e comparamos com os mesmos 5% da IA. Se
+continuar divergente, revejo a automação de classificação; se estiver alinhado,
+uso esse sinal para melhorar tratamento de falsos negativos. O suporte de código pra
+esse cruzamento (concordância, matriz de confusão) já existe em
+`avaliar_qualidade.py`, não é só uma promessa em texto.
 
 ## 7. Se sobrar tempo / se perguntarem "o que você faria diferente com mais uma semana"
 

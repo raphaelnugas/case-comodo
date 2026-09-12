@@ -169,38 +169,12 @@ pula quem já foi classificado com sucesso — importante pensando em escala (a 
 do case sobre 4.000 conversas): reprocessar do zero a cada nova leva de dados
 desperdiçaria chamadas de API pagas em conversas que já deram certo.
 
-**Como eu saberia, com 4.000 conversas e três meses depois, se a classificação está
-funcionando?** (pergunta explícita do case)
-
-Concretamente:
-
-1. **Amostra humana semanal, não uma auditoria única.** Um vendedor (ou o próprio
-   time de pré-vendas) reclassifica manualmente uma amostra aleatória de ~5% das
-   conversas da semana (com 4.000 conversas/trimestre, isso é ~15-20/semana — viável
-   sem virar um projeto à parte). `src/parte3_prevendas/avaliar_qualidade.py` já
-   tem a função (`avaliar_amostra`) que cruza esses rótulos humanos com a
-   classificação do modelo e devolve: concordância geral, concordância por classe, e
-   a matriz de confusão completa.
-2. **O erro que dispara alerta não é "qualquer discordância" — é a confusão
-   quente↔frio (e quente→fora_do_perfil).** Confundir "morno" com "frio" custa uma
-   priorização levemente errada. Confundir "quente" com "frio" custa uma venda que
-   ninguém liga de volta a tempo. `PARES_CRITICOS` em `avaliar_qualidade.py` já isola
-   esses casos. Threshold prático: se a concordância geral cair abaixo de ~80%, ou se
-   aparecer mais de 1 caso crítico (quente↔frio) na amostra semanal, isso vira um
-   alerta para revisão do prompt — não um ajuste silencioso.
-3. **Contra o quê comparar, além do humano.** Cruzar `classificacao` (do modelo) com o
-   desfecho real em `vendas.csv`/`leads.csv` quando esse vínculo existir: leads
-   marcados "quente" que nunca avançam de etapa, ou "frio" que fecham venda, são o
-   sinal mais barato de deriva do modelo — não precisa de revisão humana para
-   detectar, só de um `JOIN` com o funil da Parte 2 rodado periodicamente.
-4. **Frequência.** Amostra humana: semanal (leve, contínuo). Cruzamento com funil
-   real: mensal (dá tempo de leads amadurecerem no funil). Revisão de prompt: sempre
-   que um alerta dispara, nunca "por rotina" sem gatilho — mexer no prompt sem um
-   motivo concreto é o jeito mais fácil de piorar sem perceber.
-5. **O que NÃO uso como métrica de qualidade:** volume de classificações "quente"
-   subindo ou descendo sozinho. Isso pode significar mudança real no mix de leads
-   (sazonalidade, campanha nova), não o modelo piorando — é um gatilho para olhar, não
-   uma conclusão por si só.
+A resposta para "como eu saberia, com 4.000 conversas e três meses depois, se a
+classificação está funcionando" está no README (pergunta explícita do case) — aqui
+fica só o suporte de código para isso:
+`src/parte3_prevendas/avaliar_qualidade.py` já implementa o cruzamento entre uma
+amostra rotulada por humano e a classificação do modelo (concordância geral, por
+classe, e matriz de confusão), pronto para ser usado quando essa amostra existir.
 
 ---
 

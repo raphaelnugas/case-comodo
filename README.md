@@ -286,11 +286,17 @@ JSON de saída real (nunca editado à mão) por
 [`export_markdown.py`](src/parte3_prevendas/export_markdown.py) — rodar de novo após
 uma nova classificação regenera o arquivo automaticamente.
 
-**Como eu avaliaria a qualidade disso daqui a 3 meses, com 4.000 conversas
-processadas** — resposta completa e concreta (métrica, contra o quê, frequência,
-gatilho de alerta) em
-[`DECISOES_TECNICAS.md`](DECISOES_TECNICAS.md#parte-3--classificação-de-pré-vendas).
-O suporte de código para isso já existe:
+> **Como eu saberia, com 4.000 conversas e três meses depois, se a classificação
+> está funcionando?**
+>
+> Podemos criar uma automação para separar periodicamente 5% das conversas totais e
+> delegarmos a uma outra LLM mais inteligente; se estiverem em desacordo, aplicamos
+> para um humano Analista de Vendas, para que ele possa classificar as conversas
+> manualmente e batermos com os mesmos 5% da IA. Se seguirem divergentes, podemos
+> rever a automação aplicada para classificação. Se estiverem alinhadas em quaisquer
+> das etapas, podemos praticar melhorias para tratar falsos negativos.
+
+O suporte de código para esse cruzamento já existe:
 [`src/parte3_prevendas/avaliar_qualidade.py`](src/parte3_prevendas/avaliar_qualidade.py).
 
 ---
