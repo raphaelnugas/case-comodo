@@ -885,7 +885,7 @@ daffodil-schema.g8,Apache Daffodil DFDL Schema Template,Scala,3,7,2021-02-25T18:
 daffodil-site,Apache Daffodil Website,HTML,5,16,2017-12-04T12:49:03Z,2026-09-08T12:56:36Z
 daffodil-vscode,Apache Daffodil™ Extension for Visual Studio Code,TypeScript,18,33,2021-05-04T21:42:39Z,2026-09-04T20:09:42Z
 datafu,Mirror of Apache DataFu,Java,124,67,2014-01-14T08:00:07Z,2026-07-22T02:10:33Z
-datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2401,2021-04-17T15:40:23Z,2026-09-12T14:28:22Z
+datafusion,Apache DataFusion SQL Query Engine,Rust,9308,2401,2021-04-17T15:40:23Z,2026-09-12T21:30:03Z
 datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2135,320,2022-05-19T14:32:27Z,2026-09-12T21:21:10Z
 datafusion-ballista-python,Apache Arrow Ballista Python bindings,Shell,42,9,2023-01-30T13:53:36Z,2026-07-22T03:05:05Z
 datafusion-benchmarks,Apache DataFusion Benchmarks,Python,23,19,2024-05-14T12:59:32Z,2026-07-22T03:09:55Z
@@ -1314,7 +1314,7 @@ httpd-flood,Mirror of Apache Flood,C,11,3,2010-05-26T23:38:07Z,2026-08-02T02:45:
 httpd-mod_fcgid,Mirror of SVN Apache HTTPD mod_fcgid,C,2,2,2020-10-19T19:30:20Z,2026-07-22T02:54:45Z
 httpd-site,Apache httpd Website,HTML,8,14,2021-06-16T22:44:51Z,2026-09-08T14:30:35Z
 httpd-tests,Perl-based test framework module for Apache httpd,Perl,8,10,2020-02-26T23:56:21Z,2026-08-29T16:00:57Z
-hudi,"Upserts, Deletes And Incremental Processing on Big Data.",Java,6237,2518,2016-12-14T15:53:41Z,2026-09-12T05:38:08Z
+hudi,"Upserts, Deletes And Incremental Processing on Big Data.",Java,6237,2519,2016-12-14T15:53:41Z,2026-09-12T05:38:08Z
 hudi-rs,"The native Rust implementation for Apache Hudi, with C++ & Python API bindings.",Rust,279,67,2024-05-02T21:40:33Z,2026-09-11T01:35:41Z
 hugegraph,"A graph database that supports more than 100+ billion data, high performance and scalability (Include OLTP Engine & REST-API & Backends)",Java,3175,636,2018-07-18T03:30:20Z,2026-09-09T14:17:33Z
 hugegraph-ai,The integration of HugeGraph with AI/LLM & GraphRAG,Python,143,89,2023-10-08T12:03:07Z,2026-09-10T05:53:33Z
