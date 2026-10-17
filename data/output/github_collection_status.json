@@ -1,14 +1,14 @@
 {
   "organizacao": "apache",
-  "inicio": "2026-10-16T13:38:00.640086+00:00",
-  "fim": "2026-10-16T13:38:44.486506+00:00",
-  "duracao_segundos": 43.85,
+  "inicio": "2026-10-17T12:35:14.853519+00:00",
+  "fim": "2026-10-17T12:35:51.203176+00:00",
+  "duracao_segundos": 36.35,
   "paginas_percorridas": 32,
-  "registros_esperados": 3182,
-  "registros_processados": 3182,
+  "registros_esperados": 3184,
+  "registros_processados": 3184,
   "status": "sucesso",
   "erro": null,
   "arquivo_csv": "data/output/github_repos_apache.csv",
-  "sha256_csv": "69b7fd2698d7cf2bbb59e31d9d41bcaa315837656036f6d809a56b47036eae48",
+  "sha256_csv": "096f58a492149bff8f882106f0372d577301e165b1e42a5d8b46062dfc32e749",
   "origem_execucao": "agendado"
 }
