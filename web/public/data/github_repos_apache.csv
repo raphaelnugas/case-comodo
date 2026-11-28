@@ -1,7 +1,7 @@
 nome,descricao,linguagem_principal,estrelas,forks,criado_em,atualizado_em
 .github,,não informado,48,142,2021-05-18T15:13:12Z,2026-11-27T01:09:16Z
 abdera,Mirror of Apache Abdera,Java,20,26,2009-05-21T03:21:27Z,2026-05-12T07:04:32Z
-accumulo,Apache Accumulo,Java,1186,502,2011-10-06T07:00:09Z,2026-11-26T20:37:09Z
+accumulo,Apache Accumulo,Java,1187,502,2011-10-06T07:00:09Z,2026-11-28T06:34:42Z
 accumulo-access,Apache Accumulo Access Control Library,Java,8,18,2023-09-07T16:07:02Z,2026-07-22T03:07:32Z
 accumulo-bsp,Apache Accumulo BSP,Java,5,7,2016-11-28T08:00:06Z,2026-08-11T09:41:14Z
 accumulo-bytes,Apache Fluo Bytes,não informado,4,6,2017-08-04T19:01:26Z,2026-08-12T19:48:06Z
@@ -69,7 +69,7 @@ airavata-portals,Apache airavata,JavaScript,5,9,2025-06-21T14:36:43Z,2026-07-22T
 airavata-sandbox,Sanbox repository for explaratory Apache Airavata features,JavaScript,1,24,2014-06-04T07:00:07Z,2026-07-22T02:11:47Z
 airavata-site,Apache Airavata Website,HTML,6,15,2016-04-02T07:00:06Z,2026-07-22T02:16:40Z
 airavata-user-docs,Apache Airavata User Documentation,não informado,0,2,2022-04-01T15:02:36Z,2026-07-22T03:01:35Z
-airflow,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",Python,47709,18416,2015-04-13T18:04:58Z,2026-11-27T18:02:57Z
+airflow,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",Python,47723,18421,2015-04-13T18:04:58Z,2026-11-28T17:07:56Z
 airflow-cancel-workflow-runs,Fork of potiukcancel-workflow-runs action,TypeScript,0,2,2020-12-27T13:18:16Z,2023-07-25T14:42:00Z
 airflow-checks-action,Fork of LouisBrunnerchecks-action action,TypeScript,1,2,2020-12-27T13:19:19Z,2023-07-25T14:42:00Z
 airflow-ci,Apache Airflow CI pipeline,Dockerfile,19,9,2018-08-19T17:55:59Z,2025-01-19T12:44:01Z
@@ -98,7 +98,7 @@ airflow-steward-test,Apache airflow,não informado,1,0,2026-04-29T08:26:53Z,2026
 airflow-upgrade-check,Apache airflow,não informado,0,0,2020-11-02T16:18:42Z,2023-01-28T10:58:56Z
 allura,"Apache Allura - a software forge to manage source code repositories, bug reports, discussions, wiki pages, blogs, and more",Python,151,40,2014-04-05T07:00:06Z,2026-11-10T21:26:13Z
 allura-site,Apache Allura Website,não informado,4,5,2019-01-17T20:59:41Z,2026-07-22T02:42:31Z
-ambari,"Apache Ambari simplifies provisioning, managing, and monitoring of Apache Hadoop clusters.",Java,2311,1742,2011-09-23T07:00:08Z,2026-11-20T01:17:58Z
+ambari,"Apache Ambari simplifies provisioning, managing, and monitoring of Apache Hadoop clusters.",Java,2312,1742,2011-09-23T07:00:08Z,2026-11-28T04:54:22Z
 ambari-deploy,Apache ambari,Python,2,3,2025-04-21T04:26:55Z,2026-07-22T03:13:29Z
 ambari-infra,Apache Ambari Infra is a sub project of Apache Ambari.,Java,22,47,2018-09-25T18:14:33Z,2026-07-22T02:40:29Z
 ambari-logsearch,Apache Ambari Logsearch is a sub project of Apache Ambari.,Java,30,54,2018-09-25T18:07:23Z,2026-11-01T01:50:47Z
@@ -108,7 +108,7 @@ ambari-website,Apache Ambari Site,MDX,4,17,2023-03-15T08:58:09Z,2026-09-30T03:44
 amoro,Apache Amoro(incubating) is a Lakehouse management system built on open data lake formats.,Java,1209,406,2022-07-14T01:54:10Z,2026-11-27T04:18:55Z
 amoro-shade,Apache Amoro(incubating) is a Lakehouse management system built on open data lake formats.,Java,3,5,2024-04-08T02:00:56Z,2026-11-25T14:31:03Z
 amoro-site,Apache Amoro Website,SCSS,8,19,2023-08-01T03:34:24Z,2026-07-22T03:07:16Z
-answer,"A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.",Go,15719,1397,2022-09-29T05:16:19Z,2026-11-27T11:58:02Z
+answer,"A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.",Go,15717,1397,2022-09-29T05:16:19Z,2026-11-28T14:01:43Z
 answer-plugins,The Apache Answer plugins repository.,Go,133,76,2023-02-01T08:02:09Z,2026-11-27T12:44:21Z
 answer-website,Apache Answer official website.,TypeScript,48,74,2022-10-13T02:58:21Z,2026-10-26T08:30:19Z
 ant,Apache Ant is a Java-based build tool.,Java,477,464,2014-05-28T07:00:08Z,2026-11-23T11:05:03Z
@@ -135,7 +135,7 @@ any23-committers,Apache Any23 - committers repo,Shell,2,1,2019-01-25T13:49:17Z,2
 any23-plugins,Apache Any23 Plugins Project,Java,1,2,2019-10-01T02:50:13Z,2023-07-03T13:39:31Z
 any23-server,Apache Any23 Server Project,Java,3,4,2019-10-01T02:49:53Z,2023-07-03T13:39:30Z
 apache-boxer-test,Apache apache,não informado,2,0,2025-08-12T18:49:00Z,2026-07-22T06:10:38Z
-apache-website-template,Apache Website Template,não informado,39,39,2015-11-19T08:00:05Z,2026-11-25T20:31:33Z
+apache-website-template,Apache Website Template,não informado,39,39,2015-11-19T08:00:05Z,2026-11-28T00:27:51Z
 apache.github.io,Top Level Github Pages for the Apache Software Foundation,HTML,2,5,2019-11-15T11:44:46Z,2026-07-22T02:48:05Z
 apachecon-acasia,Community Over Code Asia - Asia edition of the flagship ASF conference,HTML,22,96,2021-03-12T16:39:54Z,2026-08-14T10:31:32Z
 apachecon-eu,Community Over Code EU - EU edition of the flagship ASF conference,HTML,6,12,2023-08-01T15:42:32Z,2026-11-25T18:59:26Z
@@ -143,14 +143,14 @@ apachecon-site,ApacheCon Web Site,não informado,2,1,2019-05-17T15:02:51Z,2026-0
 apex-core,Mirror of Apache Apex core,Java,350,172,2015-08-25T07:00:05Z,2026-11-19T19:41:35Z
 apex-malhar,Mirror of Apache Apex malhar,Java,134,143,2015-08-25T07:00:05Z,2026-09-07T07:56:04Z
 apex-site,Mirror of Apache Apex site,CSS,10,23,2015-09-09T07:00:05Z,2025-08-20T16:03:06Z
-apisix,The Cloud-Native API Gateway and AI Gateway,Lua,17381,3021,2019-04-10T02:02:05Z,2026-11-27T14:00:18Z
+apisix,The Cloud-Native API Gateway and AI Gateway,Lua,17384,3023,2019-04-10T02:02:05Z,2026-11-28T14:01:44Z
 apisix-control-plane,The Control-Plane for APISIX,Go,33,17,2020-07-29T03:54:04Z,2026-07-22T02:53:14Z
-apisix-dashboard,Dashboard for Apache APISIX,TypeScript,1222,624,2019-07-01T09:50:11Z,2026-11-26T10:40:10Z
+apisix-dashboard,Dashboard for Apache APISIX,TypeScript,1222,623,2019-07-01T09:50:11Z,2026-11-26T10:40:10Z
 apisix-dashboard-built,,CSS,6,5,2019-10-14T04:12:31Z,2026-07-22T02:47:23Z
 apisix-docker,the docker for Apache APISIX,Dockerfile,874,496,2019-06-04T01:07:54Z,2026-11-26T18:06:10Z
-apisix-go-plugin-runner,Go Plugin Runner for APISIX,Go,199,70,2021-05-30T12:09:55Z,2026-11-02T06:16:30Z
+apisix-go-plugin-runner,Go Plugin Runner for APISIX,Go,198,70,2021-05-30T12:09:55Z,2026-11-28T14:01:45Z
 apisix-helm-chart,Apache APISIX Helm Chart,Shell,293,293,2020-06-19T02:06:59Z,2026-11-24T03:18:32Z
-apisix-ingress-controller,APISIX Ingress Controller for Kubernetes,Go,1153,398,2019-11-13T13:41:00Z,2026-11-22T14:46:48Z
+apisix-ingress-controller,APISIX Ingress Controller for Kubernetes,Go,1152,398,2019-11-13T13:41:00Z,2026-11-28T14:01:46Z
 apisix-ingress-docker,the docker for Apache APISIX ingress controller,Dockerfile,6,9,2020-12-15T01:41:11Z,2026-07-22T02:55:14Z
 apisix-java-plugin-runner,APISIX Plugin Runner in Java,Java,151,104,2021-05-13T05:42:58Z,2026-11-13T03:32:12Z
 apisix-profiler,Profiler for API Gateway Apache APISIX,C,21,14,2022-08-05T04:14:04Z,2026-07-22T03:02:48Z
@@ -196,8 +196,8 @@ aries-site,Apache aries website,HTML,2,2,2019-07-02T17:44:06Z,2026-07-22T02:45:4
 aries-site-pub,Apache aries published website,HTML,1,3,2020-08-17T23:32:54Z,2026-07-22T02:53:46Z
 aries-tx-control,Apache Aries Transaction Control,Java,2,6,2018-01-04T16:03:10Z,2026-07-22T02:35:34Z
 aries-typedevent,Apache aries,Java,3,8,2020-09-11T17:00:39Z,2026-11-04T14:46:55Z
-arrow,Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics,C++,17361,4503,2016-02-17T08:00:23Z,2026-11-27T14:59:38Z
-arrow-adbc,Database connectivity API standard and libraries for Apache Arrow,C#,640,247,2022-06-01T15:08:49Z,2026-11-21T20:37:01Z
+arrow,Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics,C++,17371,4508,2016-02-17T08:00:23Z,2026-11-28T16:38:51Z
+arrow-adbc,Database connectivity API standard and libraries for Apache Arrow,C#,641,248,2022-06-01T15:08:49Z,2026-11-28T11:30:13Z
 arrow-cookbook,Apache Arrow Cookbook,C++,107,51,2021-07-13T12:31:51Z,2026-11-18T13:18:37Z
 arrow-dist,Apache Arrow,Shell,4,14,2017-06-20T14:26:14Z,2026-10-09T02:57:55Z
 arrow-dotnet,Official .NET implementation of Apache Arrow,C#,45,33,2025-03-31T02:45:50Z,2026-11-09T12:37:18Z
@@ -206,12 +206,12 @@ arrow-experimental-rs-arrow2,Experimental Rust implementation of Apache Arrow,n�
 arrow-experimental-rs-parquet2,Experimental Rust implementation of Apache Arrow Parquet,não informado,2,1,2021-06-19T04:46:02Z,2026-10-09T02:58:09Z
 arrow-experiments,Apache Arrow Development Experiments,C++,25,20,2021-12-13T19:55:12Z,2026-11-18T13:22:59Z
 arrow-flight-sql-postgresql,Apache Arrow Flight SQL adapter for PostgreSQL,C++,118,11,2023-01-25T06:22:32Z,2026-10-25T13:46:00Z
-arrow-go,Official Go implementation of Apache Arrow,Assembly,423,186,2024-08-29T03:03:01Z,2026-11-18T13:12:57Z
-arrow-java,Official Java implementation of Apache Arrow,Java,103,185,2024-11-25T02:39:25Z,2026-11-23T15:36:38Z
-arrow-js,Official JavaScript implementation of Apache Arrow,TypeScript,114,33,2025-05-14T07:32:32Z,2026-11-26T04:50:12Z
+arrow-go,Official Go implementation of Apache Arrow,Assembly,423,188,2024-08-29T03:03:01Z,2026-11-18T13:12:57Z
+arrow-java,Official Java implementation of Apache Arrow,Java,103,186,2024-11-25T02:39:25Z,2026-11-28T06:52:04Z
+arrow-js,Official JavaScript implementation of Apache Arrow,TypeScript,114,34,2025-05-14T07:32:32Z,2026-11-26T04:50:12Z
 arrow-julia,Official Julia implementation of Apache Arrow,Julia,315,82,2020-08-28T12:54:32Z,2026-11-11T05:22:15Z
 arrow-nanoarrow,Helpers for Arrow C Data & Arrow C Stream interfaces,C,252,84,2022-07-07T13:08:51Z,2026-11-24T19:58:25Z
-arrow-rs,Official Rust implementation of Apache Arrow,Rust,3679,1465,2021-04-17T15:40:05Z,2026-11-27T15:37:47Z
+arrow-rs,Official Rust implementation of Apache Arrow,Rust,3681,1465,2021-04-17T15:40:05Z,2026-11-28T15:07:12Z
 arrow-rs-object-store,Rust object_store crate,Rust,340,246,2025-03-20T18:17:12Z,2026-11-27T03:07:08Z
 arrow-site,Apache Arrow Website,HTML,40,143,2016-02-17T08:00:06Z,2026-11-10T05:31:05Z
 arrow-skyhook,C++ component that interfaces Arrow with the Ceph distributed filesystem,C++,2,2,2025-06-16T06:55:26Z,2026-07-22T06:10:56Z
@@ -231,19 +231,19 @@ asterixdb-mcp,Apache asterixdb,não informado,0,0,2026-07-30T22:30:41Z,2026-07-3
 asterixdb-site,Mirror of Apache Asterix Site,HTML,1,5,2016-06-10T07:00:05Z,2026-07-22T02:17:08Z
 asyncband,"Apache Asyncband™ (Incubating): Composable, runtime-agnostic concurrency building blocks for async Rust.",Rust,310,66,2024-10-25T18:28:30Z,2026-11-27T03:27:20Z
 asyncband-site,Apache Asyncband™ (Incubating) Website,TypeScript,1,3,2026-08-23T16:10:23Z,2026-11-25T07:51:58Z
-atlas,Apache Atlas - Open Metadata Management and Governance capabilities across the Hadoop platform and beyond,Java,2163,913,2017-07-22T07:00:08Z,2026-11-23T18:11:56Z
+atlas,Apache Atlas - Open Metadata Management and Governance capabilities across the Hadoop platform and beyond,Java,2164,913,2017-07-22T07:00:08Z,2026-11-28T08:50:58Z
 atlas-website,Mirror of Apache Atlas Website,HTML,4,2,2017-07-22T07:00:07Z,2026-07-22T02:22:04Z
-attic,Attic,Ruby,3,316,2025-04-13T17:49:19Z,2026-11-03T23:18:54Z
+attic,Attic,Ruby,3,317,2025-04-13T17:49:19Z,2026-11-03T23:18:54Z
 attic-docker,Apache attic,Lua,0,1,2025-01-12T14:27:14Z,2025-10-13T08:55:23Z
 attic-site,Read-only Mirror of the Apache Attic Website,Python,2,6,2022-07-05T08:06:46Z,2025-04-26T06:48:46Z
 attic-test,Apache Attic Test Repo,Shell,2,1,2018-04-30T16:05:23Z,2026-10-12T08:53:25Z
-auron,"Apache Auron is an accelerator for big data engines, leveraging native vectorized execution to accelerate query processing.",Rust,1851,255,2021-06-28T07:29:43Z,2026-11-27T00:51:51Z
+auron,"Apache Auron is an accelerator for big data engines, leveraging native vectorized execution to accelerate query processing.",Rust,1853,255,2021-06-28T07:29:43Z,2026-11-28T11:59:16Z
 auron-sites,Apache Auron Site,TypeScript,4,9,2024-12-03T03:21:21Z,2026-11-11T05:56:49Z
 aurora,"Apache Aurora - A Mesos framework for long-running services, cron jobs, and ad-hoc jobs",Java,638,227,2013-11-05T08:00:13Z,2026-11-10T02:47:22Z
 aurora-packaging,Mirror of Apache Aurora,Shell,22,26,2015-08-05T07:00:05Z,2023-07-25T13:57:27Z
 aurora-website,Apache Aurora's website,HTML,2,2,2019-02-08T09:29:01Z,2025-08-20T16:11:53Z
 avro,Apache Avro is a data serialization system.,Java,3317,1797,2009-05-21T02:48:37Z,2026-11-24T09:15:24Z
-avro-rs,Rust SDK for Apache Avro - a data serialization system.,Rust,133,68,2024-09-23T11:00:00Z,2026-11-24T03:04:54Z
+avro-rs,Rust SDK for Apache Avro - a data serialization system.,Rust,133,69,2024-09-23T11:00:00Z,2026-11-24T03:04:54Z
 axis-axis1-c,Apache Axis1 C,C++,1,2,2020-03-20T01:57:25Z,2026-07-22T02:50:23Z
 axis-axis1-java,Apache Axis1 Java,Java,15,40,2020-03-20T01:57:50Z,2026-09-07T23:34:15Z
 axis-axis1-site-src,Apache axis,não informado,2,1,2020-03-24T18:18:17Z,2026-07-22T02:50:33Z
@@ -259,9 +259,9 @@ axis-axis2-java-savan,Apache Axis2-Java Savan,Java,1,1,2020-03-20T01:51:46Z,2026
 axis-axis2-java-transports,Apache Axis2-Java Transports,Java,1,1,2020-03-20T01:52:12Z,2026-10-29T13:41:28Z
 axis-site,Apache Axis Website,HTML,5,4,2020-03-20T02:01:54Z,2026-10-28T16:13:00Z
 bahir,Mirror of Apache Bahir,Scala,336,192,2016-05-29T07:00:06Z,2026-06-14T20:27:25Z
-bahir-flink,Mirror of Apache Bahir Flink,Java,773,412,2016-08-18T07:00:06Z,2026-11-03T06:16:51Z
+bahir-flink,Mirror of Apache Bahir Flink,Java,772,412,2016-08-18T07:00:06Z,2026-11-28T16:17:46Z
 bahir-website,Mirror of Apache Bahir Website,CSS,19,14,2016-05-29T07:00:05Z,2025-08-20T16:14:43Z
-beam,Apache Beam is a unified programming model for Batch and Streaming data processing.,Java,8727,4764,2016-02-02T08:00:06Z,2026-11-24T05:57:03Z
+beam,Apache Beam is a unified programming model for Batch and Streaming data processing.,Java,8730,4764,2016-02-02T08:00:06Z,2026-11-28T07:23:49Z
 beam-site,Apache Beam Site,não informado,30,124,2016-02-26T08:00:05Z,2026-07-22T02:16:20Z
 beam-starter-go,Apache Beam starter repo for Go,Go,11,7,2022-02-07T18:45:24Z,2026-07-22T03:00:51Z
 beam-starter-java,Apache Beam starter repo for Java,Java,10,13,2022-02-07T18:44:48Z,2026-10-31T08:42:47Z
@@ -289,7 +289,7 @@ brooklyn-docs,Mirror of Apache Brooklyn docs,JavaScript,10,37,2015-12-02T08:00:0
 brooklyn-library,Apache Brooklyn Library,Java,11,36,2015-12-02T08:00:06Z,2026-07-22T02:15:41Z
 brooklyn-server,Apache Brooklyn Server,Java,43,54,2015-12-02T08:00:06Z,2026-11-10T16:04:58Z
 brooklyn-ui,Apache Brooklyn UI,JavaScript,16,41,2015-12-02T08:00:06Z,2026-11-10T14:22:42Z
-brpc,"brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. ""brpc"" means ""better RPC"".",C++,17649,4157,2017-09-04T09:28:47Z,2026-11-25T23:58:28Z
+brpc,"brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. ""brpc"" means ""better RPC"".",C++,17649,4155,2017-09-04T09:28:47Z,2026-11-28T14:30:05Z
 brpc-website,Apache bRPC Website,CSS,18,31,2019-08-30T05:30:26Z,2026-11-21T08:33:46Z
 buildr,Mirror of Apache Buildr,Ruby,140,88,2009-05-21T03:16:15Z,2026-05-22T00:33:02Z
 buildstream,"BuildStream, the software integration tool",Python,158,55,2021-02-02T09:34:19Z,2026-11-21T14:46:44Z
@@ -302,14 +302,14 @@ calcite,Apache Calcite,Java,5218,2554,2014-06-25T07:00:07Z,2026-11-26T13:36:03Z
 calcite-avatica,Apache Calcite Avatica,Java,272,246,2017-03-22T07:00:06Z,2026-11-05T19:03:37Z
 calcite-avatica-go,Apache Calcite Go,Go,126,36,2017-08-08T07:00:08Z,2026-10-25T22:19:01Z
 calcite-site,Apache Calcite Website,HTML,6,10,2019-02-14T21:21:04Z,2026-11-08T18:27:31Z
-caldera,Automated Adversary Emulation Platform,Python,7564,1423,2017-11-29T01:25:10Z,2026-11-27T15:38:28Z
+caldera,Automated Adversary Emulation Platform,Python,7573,1422,2017-11-29T01:25:10Z,2026-11-28T14:36:41Z
 caldera-website,,HTML,2,3,2021-02-09T16:14:02Z,2026-07-22T02:55:48Z
-camel,"Apache Camel is an open source integration framework with 350+ connectors. Write routes in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.",Java,6427,5203,2009-05-21T00:25:36Z,2026-11-27T05:49:53Z
+camel,"Apache Camel is an open source integration framework with 350+ connectors. Write routes in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.",Java,6427,5203,2009-05-21T00:25:36Z,2026-11-28T14:01:49Z
 camel-examples,Apache Camel Examples,Java,487,385,2020-02-05T08:44:11Z,2026-11-19T21:41:36Z
 camel-jbang-examples,Apache Camel JBang Examples,Shell,15,16,2024-11-15T10:25:06Z,2026-11-11T21:20:44Z
 camel-k,"Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers",Go,938,415,2018-08-31T08:38:42Z,2026-11-27T14:38:02Z
 camel-k-examples,Apache Camel K Examples,Java,92,63,2020-04-17T09:58:05Z,2026-09-14T21:11:02Z
-camel-k-runtime,Apache Camel K runtime,Java,69,50,2019-02-20T09:33:17Z,2026-09-08T12:42:31Z
+camel-k-runtime,Apache Camel K runtime,Java,68,50,2019-02-20T09:33:17Z,2026-11-28T14:01:50Z
 camel-kafka-connector,Camel Kafka Connector allows you to use all Camel components as Kafka Connect connectors,Java,173,122,2019-12-04T08:39:07Z,2026-11-07T03:05:08Z
 camel-kafka-connector-examples,Apache Camel Kafka Connector Examples,Java,69,42,2020-04-28T15:07:18Z,2026-07-22T02:51:29Z
 camel-kameleon,Camel Kameleon is a project to scaffold new Camel project.,Java,42,13,2021-07-09T07:15:32Z,2026-07-22T02:58:06Z
@@ -317,7 +317,7 @@ camel-kamelets,Apache Camel Kamelets Repository,Java,74,93,2020-11-26T09:11:43Z,
 camel-kamelets-examples,Apache Camel Kamelets Examples,Java,25,21,2022-03-11T08:52:05Z,2026-11-04T15:33:35Z
 camel-karaf,Apache Camel Karaf support,Java,41,68,2020-03-14T09:48:41Z,2026-09-22T09:06:33Z
 camel-karaf-examples,Apache Camel Karaf Examples,não informado,6,5,2020-05-22T12:19:44Z,2026-07-22T02:52:09Z
-camel-karavan,Apache Camel Karavan a Low-code Data Integration Platform,TypeScript,598,219,2021-10-04T05:33:11Z,2026-11-19T22:21:13Z
+camel-karavan,Apache Camel Karavan a Low-code Data Integration Platform,TypeScript,599,219,2021-10-04T05:33:11Z,2026-11-27T23:40:57Z
 camel-kit,Apache Camel Kit,Java,4,4,2026-10-21T09:43:10Z,2026-11-23T08:38:10Z
 camel-performance-tests,Apache Camel Performances Tests Repository,Python,11,11,2021-02-23T14:17:42Z,2026-11-12T15:21:09Z
 camel-quarkus,Apache Camel Quarkus,Java,305,238,2019-06-21T08:55:25Z,2026-11-23T09:13:12Z
@@ -329,7 +329,7 @@ camel-website,Apache Camel Website,JavaScript,79,209,2018-02-11T07:14:27Z,2026-1
 camel-website-pub,Apache camel,HTML,6,6,2022-02-07T10:06:38Z,2026-11-12T09:19:00Z
 carbondata,High performance data store solution,Scala,1452,695,2016-06-28T07:00:06Z,2026-11-19T20:02:58Z
 carbondata-site,Mirror of Apache CarbonData Site,HTML,5,27,2016-12-08T08:00:07Z,2026-10-09T02:58:41Z
-casbin,"Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.",Go,20515,1775,2017-04-08T07:51:23Z,2026-11-27T12:13:54Z
+casbin,"Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.",Go,20514,1775,2017-04-08T07:51:23Z,2026-11-28T11:14:31Z
 casbin-3rd-party-casbin-pg-adapter,PostgreSQL adapter for Casbin,Go,1,1,2021-01-27T15:24:49Z,2026-07-22T02:55:38Z
 casbin-actix-casbin-auth,Casbin Actix-web access control middleware,Rust,58,15,2020-04-08T08:56:51Z,2026-07-22T02:50:55Z
 casbin-admission-webhook,Kubernetes admission webhook based on Casbin,Go,3,1,2025-12-21T13:37:37Z,2026-10-07T03:00:17Z
@@ -341,17 +341,17 @@ casbin-beego-authz,Beego's RBAC & ABAC Authorization middleware based on Casbin,
 casbin-beego-orm-adapter,Beego ORM adapter for Casbin,Go,23,18,2017-10-13T09:50:38Z,2026-07-22T02:23:38Z
 casbin-benchmark-data,,não informado,3,2,2026-01-08T04:00:08Z,2026-07-23T09:29:28Z
 casbin-casbin.js,"An authorization library that supports access control models like ACL, RBAC, ABAC in Frontend Javascript",TypeScript,213,42,2019-05-08T13:38:20Z,2026-10-31T18:42:51Z
-casbin-Casbin.NET,"An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)",C#,1344,132,2019-05-30T05:36:35Z,2026-11-19T21:24:55Z
+casbin-Casbin.NET,"An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)",C#,1344,133,2019-05-30T05:36:35Z,2026-11-19T21:24:55Z
 casbin-Casbin.NET-casbin-native,Provide firendly support for authorization of a .NET desktop app.,C#,2,2,2023-04-24T10:53:34Z,2026-07-22T03:06:15Z
 casbin-Casbin.NET-dotnet-cli,.NET CLI for Casbin,C#,2,2,2025-08-12T02:03:38Z,2026-10-07T03:00:22Z
-casbin-Casbin.NET-ef-adapter,Entity Framework Adapter for Casbin.NET,C#,7,5,2019-12-28T02:51:01Z,2026-10-07T03:14:01Z
+casbin-Casbin.NET-ef-adapter,Entity Framework Adapter for Casbin.NET,C#,6,5,2019-12-28T02:51:01Z,2026-11-28T14:01:52Z
 casbin-Casbin.NET-extensions,"Helpful extensions for Casbin.NET, such as frontend extension to casbin.js.",C#,1,2,2020-11-21T18:54:11Z,2026-07-22T02:55:07Z
 casbin-Casbin.NET-redis-adapter,Redis adapter for Casbin.NET,C#,2,2,2022-07-03T09:01:57Z,2026-07-22T03:02:25Z
 casbin-Casbin.NET-redis-watcher,Redis watcher for Casbin.NET,C#,2,5,2022-07-03T13:29:43Z,2026-07-22T03:02:28Z
 casbin-cassandra-adapter,Cassandra DB adapter for Casbin,Go,5,3,2017-05-05T04:52:44Z,2026-07-22T02:20:47Z
 casbin-chi-authz,Chi Authorization Middleware based on Casbin,Go,7,3,2023-09-17T18:35:21Z,2026-07-22T03:07:40Z
 casbin-core,"An authorization library that supports access control models like ACL, RBAC, ABAC in modern JavaScript platforms",TypeScript,8,3,2022-05-15T07:29:10Z,2026-07-22T03:02:01Z
-casbin-cpp,"An authorization library that supports access control models like ACL, RBAC, ABAC in C/C++",C++,257,68,2020-02-26T02:22:05Z,2026-11-07T02:13:39Z
+casbin-cpp,"An authorization library that supports access control models like ACL, RBAC, ABAC in C/C++",C++,257,70,2020-02-26T02:22:05Z,2026-11-07T02:13:39Z
 casbin-cpp-casbin-CMake-setup,This project demonstrates the intended way to integrate casbin library,CMake,0,3,2021-08-15T20:45:44Z,2026-07-22T02:58:53Z
 casbin-cpp-Cvaluate,Evaluator used by Casbin-CPP,C++,1,1,2021-12-23T11:10:36Z,2026-07-22T03:00:32Z
 casbin-cpp-nginx-casbin-module,NGINX RBAC & ABAC authorization module based on Casbin,C++,5,2,2021-10-15T11:52:03Z,2026-07-22T02:59:45Z
@@ -443,7 +443,7 @@ casbin-mysql-adapter,MySQL adapter for Casbin,Go,12,3,2017-06-12T12:55:36Z,2026-
 casbin-nats-watcher,Casbin watcher implementation with Nats.io,Go,0,1,2018-08-02T11:12:44Z,2026-07-22T02:39:15Z
 casbin-negroni-authz,negroni-authz is an authorization middleware for Negroni,Go,156,3,2017-06-17T02:02:22Z,2026-10-02T19:56:02Z
 casbin-nest-authz,"Nest.js RBAC & ABAC authorization module based on Node-Casbin, see example at: https://github.com/node-casbin/nest-authz-example",TypeScript,190,28,2019-02-26T01:08:24Z,2026-11-26T08:03:49Z
-casbin-node-casbin,"An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser",TypeScript,2924,234,2018-07-15T03:55:31Z,2026-11-27T17:58:59Z
+casbin-node-casbin,"An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser",TypeScript,2924,233,2018-07-15T03:55:31Z,2026-11-27T17:58:59Z
 casbin-node-casbin-basic-adapter,"Basic adapter for Node-Casbin supporting pg, sqlite3, mysql, mysql2, oracledb and mssql",TypeScript,13,11,2020-07-04T08:42:45Z,2026-07-22T02:52:57Z
 casbin-node-casbin-blitz-authz,blitz-authz is an authorization middleware for Blitz based on Casbin,não informado,0,2,2021-04-05T02:25:06Z,2026-07-22T02:56:42Z
 casbin-node-casbin-couchdb-adapter,CouchDB adapter for Casbin,TypeScript,3,4,2023-02-07T10:39:42Z,2026-07-22T03:05:11Z
@@ -480,7 +480,7 @@ casbin-pg-adapter,A go-pg adapter for casbin,Go,45,29,2019-12-28T00:58:04Z,2026-
 casbin-policyguard,,JavaScript,2,4,2026-01-11T14:15:48Z,2026-07-22T06:10:05Z
 casbin-prometheus-logger,Casbin Prometheus logger,Go,1,2,2026-01-03T16:25:35Z,2026-07-22T06:10:15Z
 casbin-protobuf-adapter,Google Protocol Buffers adapter for Casbin,Go,192,2,2017-06-28T05:02:09Z,2026-07-22T02:21:48Z
-casbin-pycasbin,"An authorization library that supports access control models like ACL, RBAC, ABAC in Python",Python,1780,224,2018-09-20T15:28:56Z,2026-11-26T02:01:16Z
+casbin-pycasbin,"An authorization library that supports access control models like ACL, RBAC, ABAC in Python",Python,1781,224,2018-09-20T15:28:56Z,2026-11-28T05:08:28Z
 casbin-pycasbin-on-cpp,"An authorization library that supports access control models like ACL, RBAC, ABAC in Python, based on C/C++ (Casbin-CPP)",não informado,1,1,2021-02-26T05:18:31Z,2026-07-22T02:56:07Z
 casbin-python-async-django-orm-adapter,Async Django ORM Adapter for PyCasbin,Python,0,2,2024-10-26T15:07:17Z,2026-07-22T03:11:34Z
 casbin-python-async-postgres-watcher,Async PostgreSQL adapter for PyCasbin,Python,0,3,2024-11-12T02:51:54Z,2026-10-20T15:01:10Z
@@ -552,7 +552,7 @@ casbin-website-v3.github.io,,não informado,1,1,2026-02-05T09:46:42Z,2026-07-22T
 casbin-xacml-to-casbin-translator,Translate XACML policy to Casbin policy,HTML,4,3,2017-06-25T13:00:32Z,2026-07-22T02:21:42Z
 casbin-xorm-adapter,Xorm adapter for Casbin,Go,382,58,2017-07-11T10:38:28Z,2026-11-19T20:32:42Z
 casbin-zap-logger,Zap logger for Casbin,Go,5,7,2020-10-21T08:18:02Z,2026-10-07T03:12:23Z
-cassandra,Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.,Java,10164,4062,2009-05-21T02:10:09Z,2026-11-27T18:09:39Z
+cassandra,Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.,Java,10164,4056,2009-05-21T02:10:09Z,2026-11-28T16:59:16Z
 cassandra-accord,Accord library for Apache Cassandra®,Java,97,31,2021-10-17T23:01:13Z,2026-11-10T13:10:28Z
 cassandra-analytics,Apache cassandra,Java,43,38,2023-05-08T18:58:56Z,2026-10-19T19:00:24Z
 cassandra-builds,Infrastructure build scripts for Apache Cassandra®,Shell,8,54,2016-11-28T08:00:08Z,2026-11-07T12:35:04Z
@@ -568,11 +568,11 @@ cassandra-in-jvm-dtest-api,In-JVM API for distributed tests for Apache Cassandra
 cassandra-java-driver,Java Driver for Apache Cassandra®,Java,1382,897,2012-11-19T18:44:41Z,2026-11-19T18:52:31Z
 cassandra-nodejs-driver,Node.js Driver for Apache Cassandra,JavaScript,1266,211,2014-09-05T14:46:37Z,2026-11-20T15:44:51Z
 cassandra-python-driver,Python Driver for Apache Cassandra®,Python,1427,602,2013-07-08T19:02:31Z,2026-11-27T12:33:22Z
-cassandra-sidecar,Sidecar for Apache Cassandra®,Java,64,68,2018-12-18T14:07:06Z,2026-11-12T18:35:11Z
+cassandra-sidecar,Sidecar for Apache Cassandra®,Java,65,68,2018-12-18T14:07:06Z,2026-11-28T02:27:48Z
 cassandra-simulator,Apache cassandra,Java,1,1,2026-05-25T18:05:09Z,2026-07-22T06:09:27Z
 cassandra-spark-connector,Apache Spark to Apache Cassandra connector,Scala,1957,933,2014-06-27T15:45:54Z,2026-11-25T08:27:02Z
 cassandra-website,Website for Apache Cassandra®,CSS,28,94,2019-10-02T23:17:45Z,2026-10-25T15:47:24Z
-causeway,"Use Apache Causeway™ to rapidly develop domain-driven apps or modular monoliths in Java, on top of the Spring Boot platform. Write your business logic in entities, domain services or view models, and the framework dynamically generates a representation of that domain model as a webapp, GraphQL or RESTful API. For prototyping or production.",Java,910,316,2012-11-30T08:00:24Z,2026-11-26T13:56:05Z
+causeway,"Use Apache Causeway™ to rapidly develop domain-driven apps or modular monoliths in Java, on top of the Spring Boot platform. Write your business logic in entities, domain services or view models, and the framework dynamically generates a representation of that domain model as a webapp, GraphQL or RESTful API. For prototyping or production.",Java,909,316,2012-11-30T08:00:24Z,2026-11-28T14:01:53Z
 causeway-antora,"Customised version of Antora UI default, used for the Apache Causeway documentation.",CSS,1,4,2019-07-08T10:44:41Z,2026-07-22T02:46:02Z
 causeway-app-helloworld,Apache Causeway™ software is a framework for rapidly developing domain-driven apps in Java. This repo contains a sample app to help you quickly learn the essentials of the framework.,Java,12,9,2019-07-08T10:40:28Z,2026-07-22T02:45:58Z
 causeway-app-petclinic,Apache Causeway™ software is a framework for rapidly developing domain-driven apps in Java. This repo contains a sample app to use as a template for getting you started.,Java,10,4,2019-07-08T10:39:04Z,2026-10-29T15:18:23Z
@@ -584,7 +584,7 @@ cayenne,Mirror of Apache Cayenne,Java,347,139,2009-05-21T01:05:37Z,2026-11-19T18
 cayenne-examples,Apache Cayenne examples and tutorials,Java,5,5,2019-04-15T09:06:51Z,2026-07-24T12:13:47Z
 cayenne-modeler,Mirror of Apache Cayenne Modeler UI,Java,12,5,2017-01-04T08:00:07Z,2026-07-22T02:19:27Z
 cayenne-website,Mirror of Apache cayenne website,HTML,6,10,2017-05-30T07:00:07Z,2026-11-09T21:15:45Z
-celeborn,Apache Celeborn is an elastic and high-performance service for shuffle and spilled data.,Java,1083,465,2021-12-10T08:57:16Z,2026-11-27T10:08:42Z
+celeborn,Apache Celeborn is an elastic and high-performance service for shuffle and spilled data.,Java,1082,466,2021-12-10T08:57:16Z,2026-11-28T15:32:53Z
 celeborn-website,Apache Celeborn Site,Shell,9,43,2022-11-14T15:46:33Z,2026-11-11T03:34:26Z
 celix,Apache Celix is a framework for C and C++14 to develop dynamic modular software applications using component and in-process service-oriented programming.,C,200,101,2014-08-09T07:00:07Z,2026-11-12T20:04:17Z
 celix-site,Website sources for the Apache Celix website,JavaScript,15,17,2017-10-13T07:00:09Z,2026-08-28T02:20:45Z
@@ -612,7 +612,7 @@ cloudberry-go-libs,go-libs for Apache Cloudberry (Incubating),Go,3,8,2023-11-16T
 cloudberry-gpbackup-s3-plugin,S3 plugin for Apache Cloudberry (Incubating) backup utility,Go,5,6,2024-06-25T05:55:10Z,2026-03-31T07:21:36Z
 cloudberry-pxf,Platform Extension Framework (PXF) for Apache Cloudberry (Incubating),Java,14,15,2023-11-29T03:42:40Z,2026-11-05T19:07:10Z
 cloudberry-site,Website sources for Apache Cloudberry™️ (Incubating),TypeScript,26,46,2023-05-12T04:05:16Z,2026-11-16T17:35:49Z
-cloudstack,Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform,Java,3139,1431,2013-04-29T22:27:12Z,2026-11-27T16:54:12Z
+cloudstack,Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform,Java,3140,1431,2013-04-29T22:27:12Z,2026-11-28T06:21:02Z
 cloudstack-cloudmonkey,Apache Cloudstack Cloudmonkey,Go,122,82,2013-10-17T07:00:46Z,2026-11-15T14:16:37Z
 cloudstack-csbench,`csbench` is a benchmarking tool for Apache CloudStack,Go,6,10,2023-11-08T09:39:58Z,2026-07-22T03:08:07Z
 cloudstack-docs,Apache Cloudstack Docs,HTML,15,55,2013-10-17T07:00:47Z,2026-11-19T09:18:47Z
@@ -639,7 +639,7 @@ comdev-metrics,Apache comdev,Python,1,3,2026-09-09T14:05:54Z,2026-10-30T16:31:20
 comdev-people,Apache Comdev source for 'PhoneBook' website,JavaScript,10,12,2024-10-07T16:00:07Z,2026-11-20T16:12:09Z
 comdev-projects,Mirror of SVN Apache Comdev - Projects,JavaScript,22,32,2018-04-21T10:51:27Z,2026-11-12T05:20:17Z
 comdev-reporter,ASF board report helper for top-level projects,não informado,3,2,2023-06-29T09:01:00Z,2026-08-06T01:53:25Z
-comdev-site,Website sources for the Apache Community Development Website,HTML,299,219,2018-04-21T10:02:14Z,2026-11-25T19:00:18Z
+comdev-site,Website sources for the Apache Community Development Website,HTML,300,220,2018-04-21T10:02:14Z,2026-11-27T18:53:47Z
 comdev-working-groups,Working Groups Documents for the Apache Community Development,não informado,63,29,2024-02-12T15:21:20Z,2026-11-26T20:35:45Z
 comdev-wwwsite,Apache community website,Python,2,2,2019-04-26T16:47:15Z,2026-11-25T18:59:37Z
 commons-bcel,Apache Commons BCEL,Java,274,145,2013-07-13T07:00:12Z,2026-11-25T13:26:29Z
@@ -649,13 +649,13 @@ commons-build-plugin,Apache Commons Build Plugin,não informado,8,18,2016-12-06T
 commons-chain,Apache Commons Chain (Dormant),Java,82,55,2013-07-12T07:00:17Z,2026-11-08T17:04:29Z
 commons-cli,Apache Commons CLI,Java,394,264,2009-05-28T08:00:15Z,2026-11-23T06:37:40Z
 commons-codec,Apache Commons Codec,Java,492,302,2009-05-21T01:20:25Z,2026-11-24T13:11:21Z
-commons-collections,Apache Commons Collections,Java,729,542,2009-05-21T01:12:20Z,2026-11-22T07:47:44Z
+commons-collections,Apache Commons Collections,Java,728,542,2009-05-21T01:12:20Z,2026-11-28T09:27:21Z
 commons-compress,Apache Commons Compress,Java,412,340,2011-10-15T07:00:08Z,2026-11-22T02:02:26Z
 commons-configuration,Apache Commons Configuration,Java,214,163,2013-02-26T08:00:12Z,2026-11-12T01:50:00Z
 commons-crypto,Apache Commons Crypto,Java,138,100,2016-04-13T07:00:07Z,2026-11-15T05:15:18Z
-commons-csv,Apache Commons CSV,Java,419,317,2013-06-12T07:00:17Z,2026-11-12T01:38:37Z
+commons-csv,Apache Commons CSV,Java,420,317,2013-06-12T07:00:17Z,2026-11-28T11:56:34Z
 commons-daemon,Apache Commons Daemon,C,106,75,2013-07-12T07:00:18Z,2026-11-09T13:15:47Z
-commons-dbcp,Apache Commons DBCP,Java,373,261,2013-07-10T07:00:11Z,2026-11-12T01:50:43Z
+commons-dbcp,Apache Commons DBCP,Java,373,260,2013-07-10T07:00:11Z,2026-11-12T01:50:43Z
 commons-dbutils,Apache Commons DbUtils,Java,390,191,2013-07-12T07:00:18Z,2026-11-12T12:40:38Z
 commons-digester,Apache Commons Digester,Java,62,50,2013-07-12T07:00:18Z,2026-11-09T13:20:53Z
 commons-el,Mirror of Apache Commons EL,não informado,1,0,2016-10-05T07:00:07Z,2026-07-22T02:17:54Z
@@ -666,19 +666,19 @@ commons-functor,Apache Commons Functor (Dormant),Java,27,28,2013-07-11T07:00:16Z
 commons-geometry,Apache Commons Geometry,Java,67,36,2018-04-02T10:19:46Z,2026-11-09T13:15:13Z
 commons-graph,Apache Commons Graph (Sandbox),Java,45,14,2020-06-07T03:47:18Z,2026-11-08T17:41:07Z
 commons-imaging,Apache Commons Imaging (previously Sanselan) is a pure-Java image library,Java,488,215,2013-07-11T07:00:17Z,2026-11-19T20:42:33Z
-commons-io,Apache Commons IO,Java,1086,796,2009-05-21T01:38:37Z,2026-11-25T11:29:07Z
+commons-io,Apache Commons IO,Java,1087,797,2009-05-21T01:38:37Z,2026-11-28T04:23:15Z
 commons-jci,Apache Commons JCI,Java,22,19,2013-07-11T07:00:17Z,2026-11-12T01:39:38Z
 commons-jcs,Apache Commons JCS,Java,108,58,2013-07-10T07:00:13Z,2026-11-12T01:41:01Z
 commons-jelly,Apache Commons Jelly,Java,26,29,2013-07-10T07:00:13Z,2026-11-19T09:18:55Z
 commons-jexl,Apache Commons JEXL,Java,243,115,2013-07-10T07:00:14Z,2026-11-12T01:41:33Z
 commons-jxpath,Apache Commons JXPath,Java,43,77,2013-07-10T07:00:14Z,2026-11-12T01:42:21Z
-commons-lang,Apache Commons Lang,Java,3018,2070,2009-05-21T01:24:46Z,2026-11-19T18:30:53Z
+commons-lang,Apache Commons Lang,Java,3017,2071,2009-05-21T01:24:46Z,2026-11-28T11:40:47Z
 commons-logging,Apache Commons Logging,Java,170,145,2009-05-21T08:42:09Z,2026-11-19T22:54:17Z
 commons-math,Apache Commons Math,Java,660,404,2014-10-08T07:00:06Z,2026-11-22T13:24:26Z
 commons-net,Apache Commons Net,Java,297,227,2012-12-11T08:00:16Z,2026-11-12T01:51:12Z
 commons-numbers,Apache Commons Numbers,Java,87,69,2016-10-26T07:00:06Z,2026-11-09T13:12:01Z
 commons-ognl,Apache Commons OGNL (Dormant),Java,92,43,2013-07-10T07:00:15Z,2026-11-09T13:17:12Z
-commons-parent,Apache Commons Parent,JavaScript,37,37,2017-08-29T07:00:08Z,2026-11-12T15:11:38Z
+commons-parent,Apache Commons Parent,Java,37,37,2017-08-29T07:00:08Z,2026-11-28T14:52:44Z
 commons-pool,Apache Commons Pool,Java,556,310,2013-07-08T07:00:28Z,2026-11-15T03:12:15Z
 commons-proxy,Apache Commons Proxy (Dormant),Java,30,23,2013-07-10T07:00:15Z,2026-11-19T09:18:56Z
 commons-rdf,Apache Commons RDF,Java,59,44,2015-03-19T07:00:05Z,2026-11-19T09:18:57Z
@@ -699,7 +699,7 @@ conferences-cc-website,CommunityOverCode Website,Rich Text Format,2,8,2026-07-07
 continuum,Mirror of Apache Continuum,Java,8,10,2009-05-21T02:05:27Z,2026-07-22T02:02:17Z
 cordova,Apache Cordova,não informado,713,74,2018-02-13T10:02:11Z,2026-11-19T20:49:37Z
 cordova-amazon-fireos,[DEPRECATED] Apache Cordova,Java,21,22,2014-01-06T17:23:03Z,2023-01-28T18:32:38Z
-cordova-android,Apache Cordova Android,JavaScript,3792,1572,2012-11-28T08:00:22Z,2026-11-26T08:35:20Z
+cordova-android,Apache Cordova Android,JavaScript,3793,1573,2012-11-28T08:00:22Z,2026-11-28T12:22:23Z
 cordova-apache-board-reports,Apache Cordova - Board Reports,não informado,9,10,2012-02-19T03:08:40Z,2026-09-08T15:34:28Z
 cordova-app-harness,[DEPRECATED] Apache Cordova app harness,JavaScript,53,46,2013-04-08T07:20:19Z,2024-10-07T22:04:07Z
 cordova-app-hello-world,Apache Cordova Template App,CSS,202,221,2012-11-28T08:00:29Z,2026-09-12T22:25:11Z
@@ -709,23 +709,23 @@ cordova-blackberry,[DEPRECATED] Apache Cordova blackberry,JavaScript,29,58,2012-
 cordova-browser,Apache Cordova Browser,JavaScript,175,87,2014-01-06T17:23:03Z,2026-11-13T09:53:28Z
 cordova-cli,Apache Cordova CLI,JavaScript,967,345,2012-12-12T08:00:28Z,2026-11-21T23:49:12Z
 cordova-coho,Apache Cordova coho,JavaScript,33,63,2012-11-28T08:00:17Z,2026-11-12T08:36:13Z
-cordova-common,Apache Cordova Common Tooling Library,JavaScript,43,48,2016-11-28T08:00:08Z,2026-11-11T18:51:48Z
+cordova-common,Apache Cordova Common Tooling Library,JavaScript,44,48,2016-11-28T08:00:08Z,2026-11-28T12:22:35Z
 cordova-contribute,Apache Cordova Contributor Documentation,não informado,4,5,2018-08-22T12:50:40Z,2026-07-22T02:39:53Z
 cordova-create,Apache Cordova Create,JavaScript,11,18,2016-07-31T07:00:06Z,2026-10-29T07:34:26Z
 cordova-discuss,Discussions on features and the future,não informado,19,26,2015-04-10T19:28:59Z,2026-07-22T02:13:42Z
 cordova-docs,Apache Cordova Documentation,JavaScript,353,562,2012-11-28T08:00:26Z,2026-11-19T18:52:46Z
 cordova-electron,Apache Cordova Electron,JavaScript,137,61,2016-08-31T07:00:06Z,2026-10-22T07:39:15Z
-cordova-eslint,Apache Cordova - ESLint,JavaScript,9,7,2019-10-21T17:34:10Z,2026-10-08T13:05:39Z
+cordova-eslint,Apache Cordova - ESLint,JavaScript,10,7,2019-10-21T17:34:10Z,2026-11-28T12:23:49Z
 cordova-fetch,Apache Cordova Fetch Library,JavaScript,30,30,2016-11-28T08:00:09Z,2026-11-10T16:11:55Z
 cordova-firefoxos,[DEPRECATED] Apache Cordova firefoxos,JavaScript,45,32,2013-04-08T07:20:20Z,2023-10-19T09:20:06Z
-cordova-ios,Apache Cordova iOS,JavaScript,2225,999,2012-11-28T08:00:23Z,2026-11-19T18:52:46Z
+cordova-ios,Apache Cordova iOS,JavaScript,2226,999,2012-11-28T08:00:23Z,2026-11-28T12:22:26Z
 cordova-js,Apache Cordova JavaScript Bridge,JavaScript,641,811,2012-11-28T08:00:22Z,2026-11-23T23:32:47Z
 cordova-labs,Apache Cordova labs,não informado,50,50,2012-11-28T08:00:28Z,2026-07-22T02:10:08Z
 cordova-lib,Apache Cordova Tooling Library,JavaScript,232,244,2014-05-07T07:00:06Z,2026-11-05T08:50:53Z
 cordova-medic,[DEPRECATED] Apache Cordova Medic,JavaScript,16,24,2013-10-17T07:00:47Z,2026-06-11T12:03:20Z
 cordova-mobile-spec,Apache Cordova mobile-spec,JavaScript,65,103,2012-11-28T08:00:19Z,2026-10-22T07:38:29Z
 cordova-new-committer-and-pmc,Apache Cordova New Committer and PMC Member Process. File a new issue for the checklist. Don't use real names since an invitation can be rejected or the Apache Board can veto pmc inclusion.,não informado,2,1,2016-09-20T07:36:48Z,2026-07-22T02:17:52Z
-cordova-node-xcode,Apache Cordova - Xcode Node,JavaScript,218,101,2017-04-08T07:00:06Z,2026-11-18T12:16:02Z
+cordova-node-xcode,Apache Cordova - Xcode Node,JavaScript,219,101,2017-04-08T07:00:06Z,2026-11-28T12:22:52Z
 cordova-osx,[DEPRECATED] Apache Cordova OSX,Objective-C,229,79,2012-12-12T08:00:28Z,2026-10-10T17:06:38Z
 cordova-paramedic,Apache Cordova - Paramedic,JavaScript,39,56,2016-03-04T08:00:05Z,2026-10-08T13:07:53Z
 cordova-plugin-battery-status,Apache Cordova Battery Status Plugin,JavaScript,106,143,2013-06-22T07:00:13Z,2026-10-25T07:26:23Z
@@ -746,7 +746,7 @@ cordova-plugin-legacy-whitelist,[DEPRECATED] Apache Cordova plugin legacy whitel
 cordova-plugin-media,Apache Cordova Media Plugin,JavaScript,390,758,2013-06-22T07:00:17Z,2026-11-19T18:59:50Z
 cordova-plugin-media-capture,Apache Cordova Media Capture Plugin,JavaScript,313,492,2013-06-22T07:00:17Z,2026-11-19T18:59:49Z
 cordova-plugin-network-information,Apache Cordova Network Information Plugin,Objective-C,464,340,2013-06-22T07:00:18Z,2026-11-19T18:59:50Z
-cordova-plugin-screen-orientation,Apache Cordova Screen Orientation Plugin,JavaScript,218,237,2016-06-02T07:00:06Z,2026-11-20T20:06:59Z
+cordova-plugin-screen-orientation,Apache Cordova Screen Orientation Plugin,JavaScript,219,237,2016-06-02T07:00:06Z,2026-11-28T13:45:16Z
 cordova-plugin-splashscreen,Apache Cordova Plugin splashscreen,JavaScript,639,616,2013-06-22T07:00:18Z,2026-11-19T18:59:50Z
 cordova-plugin-statusbar,Apache Cordova Status Bar Plugin,Objective-C,617,486,2014-03-15T07:00:07Z,2026-11-19T19:11:30Z
 cordova-plugin-test-framework,Apache Cordova,JavaScript,74,32,2014-07-09T07:00:07Z,2026-09-17T07:26:18Z
@@ -765,11 +765,11 @@ cordova-test-platform,Apache cordova,JavaScript,5,8,2017-04-08T07:00:07Z,2026-07
 cordova-tizen,[DEPRECATED] Apache Cordova Tizen,JavaScript,29,25,2012-11-28T08:00:22Z,2026-06-11T12:03:48Z
 cordova-ubuntu,[DEPRECATED] Apache Cordova,C++,24,35,2013-11-27T08:00:14Z,2026-10-08T19:02:52Z
 cordova-webos,[DEPRECATED] Apache Cordova webos,JavaScript,20,16,2012-11-28T08:00:23Z,2026-06-11T12:03:46Z
-cordova-weinre,Mirror of Apache Weinre,JavaScript,532,133,2012-11-28T08:00:19Z,2026-11-19T18:52:46Z
+cordova-weinre,Mirror of Apache Weinre,JavaScript,532,132,2012-11-28T08:00:19Z,2026-11-19T18:52:46Z
 cordova-windows,[DEPRECATED] Apache Cordova Windows,JavaScript,202,170,2012-11-28T08:00:28Z,2026-06-11T12:03:30Z
 cordova-wp7,[DEPRECATED] Apache Cordova wp7,não informado,9,15,2012-11-28T08:00:27Z,2026-06-11T12:03:44Z
 cordova-wp8,[DEPRECATED] Apache Cordova WP8,C#,82,91,2012-11-28T08:00:21Z,2026-06-11T12:03:51Z
-couchdb,"Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability",Erlang,7020,1093,2009-05-21T02:03:38Z,2026-11-27T16:29:24Z
+couchdb,"Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability",Erlang,7021,1092,2009-05-21T02:03:38Z,2026-11-28T08:07:41Z
 couchdb-admin,Mirror of Apache CouchDB Project Admin,Shell,8,10,2013-10-29T07:00:16Z,2026-07-22T02:10:04Z
 couchdb-b64url,URL-safe Base64 encoder,não informado,1,6,2014-08-01T07:00:07Z,2023-01-27T19:36:43Z
 couchdb-bear,Mirror of Apache CouchDB,Erlang,3,6,2014-02-13T08:00:07Z,2026-06-05T12:42:34Z
@@ -829,7 +829,7 @@ couchdb-mango,Mirror of Apache CouchDB Mango,Erlang,36,13,2015-02-04T08:00:05Z,2
 couchdb-meck,Mirror of Apache CouchDB,Erlang,5,6,2014-02-13T08:00:10Z,2026-07-30T16:27:47Z
 couchdb-mem3,Mirror of Apache CouchDB,Erlang,9,15,2014-01-17T08:00:09Z,2023-07-25T13:50:31Z
 couchdb-mochiweb,Mirror of Apache CouchDB,Erlang,7,8,2014-01-17T08:00:09Z,2026-08-16T17:02:22Z
-couchdb-nano,Nano: The official Apache CouchDB library for Node.js,JavaScript,692,168,2015-07-14T07:00:05Z,2026-11-25T15:28:20Z
+couchdb-nano,Nano: The official Apache CouchDB library for Node.js,JavaScript,693,168,2015-07-14T07:00:05Z,2026-11-28T13:03:16Z
 couchdb-nmo,Mirror of Apache CouchDB NMO,JavaScript,13,8,2015-07-14T07:00:06Z,2026-03-10T04:54:30Z
 couchdb-oauth,Mirror of Apache CouchDB,Erlang,9,7,2014-01-17T08:00:09Z,2026-03-10T04:54:46Z
 couchdb-passage,Mirror for Apache CouchDB,Erlang,0,1,2019-11-19T16:53:51Z,2026-06-05T12:42:30Z
@@ -853,7 +853,7 @@ creadur-site,Apache Creadur website,HTML,4,1,2016-09-10T07:00:07Z,2026-10-24T22:
 creadur-tentacles,Apache Creadur Tentacles,Java,5,9,2013-04-29T22:27:13Z,2026-11-11T22:33:45Z
 creadur-whisker,Apache Creadur Whisker,Java,9,8,2013-04-29T22:27:14Z,2026-11-12T09:40:03Z
 crunch,Mirror of Apache Crunch (Incubating),Java,110,83,2012-10-19T07:00:12Z,2026-03-21T16:49:58Z
-ctakes,Apache cTAKES is a Natural Language Processing (NLP) platform for clinical text.,Java,143,29,2022-11-29T13:43:35Z,2026-11-25T10:09:42Z
+ctakes,Apache cTAKES is a Natural Language Processing (NLP) platform for clinical text.,Java,144,29,2022-11-29T13:43:35Z,2026-11-27T23:41:31Z
 ctakes-site,Apache CTakes Website,Python,1,3,2021-05-31T18:34:53Z,2026-07-22T02:57:36Z
 ctakes-website,Apache cTAKES is a Natural Language Processing (NLP) platform for clinical text.,HTML,1,3,2023-06-07T15:07:59Z,2026-07-22T03:06:48Z
 curator,Apache Curator,Java,3171,1249,2014-03-03T08:00:07Z,2026-11-21T11:06:40Z
@@ -872,11 +872,11 @@ daffodil-schema.g8,Apache Daffodil DFDL Schema Template,Scala,3,8,2021-02-25T18:
 daffodil-site,Apache Daffodil Website,HTML,5,17,2017-12-04T12:49:03Z,2026-10-21T11:21:05Z
 daffodil-vscode,Apache Daffodil™ Extension for Visual Studio Code,TypeScript,18,34,2021-05-04T21:42:39Z,2026-11-11T19:20:47Z
 datafu,Mirror of Apache DataFu,Java,124,68,2014-01-14T08:00:07Z,2026-10-08T12:58:26Z
-datafusion,Apache DataFusion SQL Query Engine,Rust,9679,2692,2021-04-17T15:40:23Z,2026-11-27T17:19:05Z
-datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2183,355,2022-05-19T14:32:27Z,2026-11-25T22:27:36Z
+datafusion,Apache DataFusion SQL Query Engine,Rust,9683,2699,2021-04-17T15:40:23Z,2026-11-28T15:39:23Z
+datafusion-ballista,Apache DataFusion Ballista Distributed Query Engine,Rust,2183,356,2022-05-19T14:32:27Z,2026-11-25T22:27:36Z
 datafusion-ballista-python,Apache Arrow Ballista Python bindings,Shell,42,10,2023-01-30T13:53:36Z,2026-10-09T02:58:34Z
 datafusion-benchmarks,Apache DataFusion Benchmarks,Python,24,20,2024-05-14T12:59:32Z,2026-10-10T06:51:58Z
-datafusion-comet,Apache DataFusion Comet Spark Accelerator,Scala,1330,426,2024-01-15T17:33:42Z,2026-11-27T02:17:41Z
+datafusion-comet,Apache DataFusion Comet Spark Accelerator,Scala,1330,425,2024-01-15T17:33:42Z,2026-11-27T02:17:41Z
 datafusion-iceberg,Apache DataFusion Iceberg Integration,Rust,35,42,2026-09-09T11:09:45Z,2026-11-24T23:01:34Z
 datafusion-java,Java bindings for Apache DataFusion,Java,35,16,2026-05-12T22:03:12Z,2026-11-04T02:00:35Z
 datafusion-python,Apache DataFusion Python Bindings,Python,612,186,2022-07-20T11:19:28Z,2026-11-19T22:38:15Z
@@ -884,7 +884,7 @@ datafusion-ray,Apache DataFusion Ray,Python,233,30,2024-09-19T19:56:04Z,2026-11-
 datafusion-sandbox,DataFusion Test Sandbox,Rust,6,5,2025-09-17T18:32:54Z,2026-07-22T06:10:32Z
 datafusion-site,Apache DataFusion Blogs,JavaScript,13,35,2024-05-15T19:28:33Z,2026-11-06T18:53:26Z
 datafusion-spark,Apache Spark-compatible expressions for Apache DataFusion,Rust,13,31,2026-11-11T16:48:01Z,2026-11-26T16:18:50Z
-datafusion-sqlparser-rs,Extensible SQL Lexer and Parser for Rust,Rust,3487,825,2018-02-06T23:58:43Z,2026-11-25T17:29:36Z
+datafusion-sqlparser-rs,Extensible SQL Lexer and Parser for Rust,Rust,3486,827,2018-02-06T23:58:43Z,2026-11-28T13:10:42Z
 datafusion-testing,Apache DataFusion SQL Query Engine Testing,não informado,2,13,2024-12-22T17:02:08Z,2026-10-28T20:41:13Z
 datasketches,"A software library of stochastic streaming algorithms, a.k.a. sketches.",não informado,125,15,2019-05-08T19:29:09Z,2026-11-20T15:50:34Z
 datasketches-bigquery,Apache datasketches,JavaScript,21,9,2024-06-08T00:26:21Z,2026-08-09T18:43:22Z
@@ -916,7 +916,7 @@ deltacloud,Apache DeltaCloud (retired),Ruby,72,24,2010-07-29T23:31:00Z,2023-11-2
 deltaspike,Mirror of Apache Deltaspike,Java,154,130,2013-06-04T07:00:12Z,2026-07-22T02:09:56Z
 derby,Mirror of Apache Derby,Java,379,142,2011-06-19T07:00:34Z,2026-10-08T11:55:59Z
 devicemap-browsermap,Mirror of Apache Devicemap Browsermap,JavaScript,10,5,2013-07-06T07:00:14Z,2026-07-22T02:09:39Z
-devlake,"Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth.",Go,3211,848,2021-07-08T12:06:09Z,2026-11-27T07:03:59Z
+devlake,"Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth.",Go,3210,848,2021-07-08T12:06:09Z,2026-11-28T14:01:55Z
 devlake-helm-chart,Apache DevLake Helm Chart,Go Template,53,74,2022-10-25T08:36:25Z,2026-11-24T02:38:13Z
 devlake-playground,"Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth.",Python,10,5,2024-03-01T10:51:15Z,2026-09-05T03:44:40Z
 devlake-terraform,Apache devlake,Go,6,5,2023-11-14T03:58:49Z,2026-07-22T03:08:10Z
@@ -940,7 +940,7 @@ directory-studio,Apache Directory Studio,Java,164,74,2009-05-20T01:52:19Z,2026-1
 distributedlog,Apache DistributedLog,Java,188,65,2016-07-22T07:00:06Z,2026-07-28T13:44:54Z
 diversity-research,Apache Diversity  Inclusion - Research,não informado,2,0,2019-06-28T07:58:44Z,2026-10-23T17:53:38Z
 diversity-site,Apache diversity,Python,14,8,2019-06-19T12:02:47Z,2026-10-23T17:53:35Z
-dolphinscheduler,Apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code,Java,14571,5130,2019-03-01T16:39:25Z,2026-11-26T09:49:48Z
+dolphinscheduler,Apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code,Java,14570,5130,2019-03-01T16:39:25Z,2026-11-28T14:01:56Z
 dolphinscheduler-ambari,"Apache DolphinScheduler's Ambari plugin, deploy DolphinScheduler easier within Apache Ambari",Python,10,15,2021-11-22T09:13:22Z,2026-07-22T03:00:10Z
 dolphinscheduler-datawarehouse,Apache DolphinScheduler data warehouse.,não informado,3,3,2022-12-12T13:35:58Z,2024-11-26T13:11:28Z
 dolphinscheduler-maven-plugin,Apache dolphinscheduler,Java,7,11,2020-07-15T05:59:42Z,2026-07-22T02:53:03Z
@@ -949,7 +949,7 @@ dolphinscheduler-operator,Apache DolphinScheduler Kubernetes Operator.,Go,30,19,
 dolphinscheduler-sdk-python,"Apache DolphinScheduler Python API, aka PyDolphinscheduler.",Python,75,29,2022-11-07T10:27:11Z,2026-11-18T05:43:11Z
 dolphinscheduler-studio,Apache dolphinscheduler,TypeScript,5,8,2022-08-29T02:57:49Z,2024-11-26T12:45:43Z
 dolphinscheduler-website,Apache DolphinScheduler website,JavaScript,145,218,2019-09-04T17:57:45Z,2026-10-09T17:15:57Z
-doris,Apache Doris is a real-time analytics and hybrid search database for AI agents.,Java,16272,4041,2017-08-10T12:13:30Z,2026-11-27T15:03:20Z
+doris,Apache Doris is a real-time analytics and hybrid search database for AI agents.,Java,16274,4044,2017-08-10T12:13:30Z,2026-11-28T15:41:20Z
 doris-cli,Agent Doris CLI,Rust,18,7,2026-05-29T02:54:05Z,2026-11-26T12:16:26Z
 doris-flink-connector,Flink Connector for Apache Doris,Java,384,281,2022-02-11T14:48:32Z,2026-11-27T13:23:14Z
 doris-jeager,Apache doris,não informado,0,0,2024-10-29T13:43:21Z,2026-07-22T03:11:45Z
@@ -957,24 +957,24 @@ doris-kafka-connector,Kafka Connector for Apache Doris,Java,29,23,2024-03-03T08:
 doris-manager,Cluster manager for Apache Doris,Java,193,94,2022-02-10T03:42:12Z,2026-09-17T02:55:47Z
 doris-mcp-server,Apache Doris MCP Server,Python,360,109,2025-05-06T03:21:08Z,2026-11-26T08:37:44Z
 doris-opentelemetry-demo,Apache doris,JavaScript,14,10,2025-05-12T09:24:28Z,2026-10-30T05:24:57Z
-doris-operator,Doris kubernetes operator,Go,139,78,2023-07-05T03:25:30Z,2026-11-27T02:46:23Z
+doris-operator,Doris kubernetes operator,Go,139,79,2023-07-05T03:25:30Z,2026-11-27T02:46:23Z
 doris-sdk,SDK for Apache Doris,Go,11,10,2023-05-04T14:46:14Z,2026-11-26T08:57:00Z
 doris-shade,Apache Doris Shade Repository,não informado,2,21,2023-03-21T03:40:38Z,2026-11-27T12:54:25Z
 doris-skills,Agent skills for Apache Doris,Shell,52,18,2026-05-28T22:04:04Z,2026-11-26T06:10:03Z
 doris-spark-connector,Spark Connector for Apache Doris,Java,107,130,2022-02-10T03:40:38Z,2026-11-26T13:13:54Z
 doris-streamloader,Stream Loader for Apache Doris,Go,37,25,2024-01-17T09:47:53Z,2026-11-27T12:53:16Z
 doris-thirdparty,Self-managed thirdparty dependencies for Apache Doris,não informado,52,71,2022-08-03T02:17:20Z,2026-11-27T13:38:11Z
-doris-website,Apache Doris Website,MDX,138,491,2018-09-21T15:24:57Z,2026-11-27T13:38:47Z
+doris-website,Apache Doris Website,MDX,138,491,2018-09-21T15:24:57Z,2026-11-28T11:26:38Z
 drat,"A distributed, parallelized (Map Reduce) wrapper around Apache RAT™ to allow it to complete on large code repositories of multiple file types where Apache RAT™ hangs forever.",JavaScript,31,28,2014-01-08T16:57:38Z,2023-08-29T16:07:03Z
 drill,Apache Drill is a distributed MPP query layer for self describing data,Java,2025,986,2012-09-05T07:00:26Z,2026-11-26T08:16:12Z
 drill-mcp,Apache drill,Python,2,2,2026-08-12T16:52:42Z,2026-11-18T16:28:12Z
 drill-site,Apache Drill Site,HTML,13,31,2015-05-05T07:00:05Z,2026-11-05T21:40:42Z
 drill-test-framework,Apache Drill Test Framework,Eiffel,1,2,2022-03-17T08:43:53Z,2026-07-22T03:01:26Z
-druid,Apache Druid: a high performance real-time analytics database.,Java,14099,3822,2012-10-23T19:08:07Z,2026-11-26T08:20:29Z
+druid,Apache Druid: a high performance real-time analytics database.,Java,14099,3822,2012-10-23T19:08:07Z,2026-11-28T16:28:45Z
 druid-operator,Apache druid,Go,11,11,2026-02-18T04:18:20Z,2026-10-05T10:20:21Z
 druid-website,Apache Druid Website Incubating,JavaScript,3,18,2018-04-11T18:31:51Z,2026-10-06T17:52:54Z
 druid-website-src,Apache druid,CSS,28,102,2019-02-02T19:46:07Z,2026-10-06T20:45:22Z
-dubbo,The java implementation of Apache Dubbo. An RPC and microservice framework.,Java,41573,26296,2012-06-19T07:56:02Z,2026-11-27T05:43:41Z
+dubbo,The java implementation of Apache Dubbo. An RPC and microservice framework.,Java,41569,26299,2012-06-19T07:56:02Z,2026-11-28T14:29:14Z
 dubbo-admin,The ops and reference implementation for Apache Dubbo.,Go,4055,2170,2018-01-11T05:30:17Z,2026-11-21T19:55:11Z
 dubbo-ai,Apache dubbo,Java,6,6,2024-06-27T03:14:01Z,2026-11-13T08:45:57Z
 dubbo-async-processor,Source processor Dubbo interface.,Java,21,9,2018-05-30T12:53:38Z,2026-10-30T06:36:57Z
@@ -985,13 +985,13 @@ dubbo-dubbo-go-pixiu-admin,Apache dubbo,não informado,1,0,2026-01-18T13:20:56Z,
 dubbo-erlang,Apache Dubbo Erlang Implementation.,Erlang,51,22,2018-10-17T11:27:38Z,2026-11-11T14:45:35Z
 dubbo-feature-test,Apache Dubbo feature test,Java,14,6,2017-10-24T05:43:23Z,2026-07-22T02:32:20Z
 dubbo-getty,a netty like asynchronous network I/O library based on tcp/udp/websocket; a bidirectional RPC framework based on JSON/Protobuf; a microservice framework based on zookeeper/etcd,Go,229,73,2019-04-02T07:46:34Z,2026-11-16T06:12:24Z
-dubbo-go,Go Implementation For Apache Dubbo .,Go,4982,1057,2018-08-08T05:30:36Z,2026-11-26T17:45:31Z
+dubbo-go,Go Implementation For Apache Dubbo .,Go,4981,1056,2018-08-08T05:30:36Z,2026-11-28T12:53:57Z
 dubbo-go-contrib,Apache dubbo,Go,2,2,2023-06-08T09:22:03Z,2026-07-22T03:06:51Z
 dubbo-go-extensions,Apache dubbo,Go,11,6,2026-01-08T02:57:42Z,2026-10-31T07:32:46Z
 dubbo-go-hessian2,caucho hessian2 implementation in Go for [apache/dubbo-go](https://github.com/apache/dubbo-go) which is compatible with [dubbo-hessian-lite](https://github.com/apache/dubbo-hessian-lite),Go,231,128,2018-12-12T06:22:58Z,2026-11-17T07:23:38Z
 dubbo-go-pixiu,"Based on the proxy gateway service of dubbo-go, it solves the problem that the external protocol calls the internal Dubbo cluster. At present, it supports HTTP and gRPC[developing].",Go,577,198,2020-01-16T06:27:37Z,2026-11-20T07:04:03Z
 dubbo-go-pixiu-admin,Apache dubbo,não informado,4,3,2026-01-18T13:22:32Z,2026-07-22T06:10:02Z
-dubbo-go-pixiu-samples,Apache dubbo,Go,27,43,2022-08-07T13:20:16Z,2026-11-09T08:05:05Z
+dubbo-go-pixiu-samples,Apache dubbo,Go,27,44,2022-08-07T13:20:16Z,2026-11-09T08:05:05Z
 dubbo-go-samples,Apache dubbo,Go,298,251,2020-10-13T01:15:44Z,2026-10-30T03:38:54Z
 dubbo-helm-charts,Apache Dubbo Helm Charts.,Go Template,3,3,2025-06-15T08:50:30Z,2026-07-23T11:03:17Z
 dubbo-hessian-lite,Hessian Lite for Apache Dubbo,Java,74,57,2018-06-04T09:47:14Z,2026-11-06T06:49:34Z
@@ -1013,11 +1013,11 @@ dubbo-sentinel-support,Sentinel integration for Apache Dubbo,Java,57,16,2018-07-
 dubbo-serialization-gson,Dubbo gson serialization extension,Java,3,2,2018-11-01T02:58:31Z,2026-07-22T02:41:11Z
 dubbo-spi-extensions,Apache Dubbo SPI Extensions,Java,206,124,2020-05-14T15:51:35Z,2026-08-13T06:28:53Z
 dubbo-spi-samples,Samples For Apache Dubbo SPI.,Java,8,10,2024-05-17T02:15:21Z,2026-07-22T03:09:58Z
-dubbo-spring-boot-project,Spring Boot Project for Apache Dubbo,Java,5367,1841,2018-01-18T12:10:50Z,2026-11-26T09:43:50Z
+dubbo-spring-boot-project,Spring Boot Project for Apache Dubbo,Java,5366,1841,2018-01-18T12:10:50Z,2026-11-28T09:44:46Z
 dubbo-test-tools,Apache dubbo,Java,4,8,2022-09-26T11:02:16Z,2026-07-22T03:03:22Z
-dubbo-website,Apache Dubbo documents,CSS,491,807,2015-06-09T06:43:04Z,2026-11-19T19:36:35Z
+dubbo-website,Apache Dubbo documents,CSS,491,808,2015-06-09T06:43:04Z,2026-11-19T19:36:35Z
 eagle,Mirror of Apache Eagle,Java,412,177,2015-11-18T08:00:06Z,2026-10-22T05:30:40Z
-echarts,"Apache ECharts is a powerful, interactive charting and data visualization library for browser",TypeScript,67815,19866,2013-04-03T03:18:59Z,2026-11-27T18:15:57Z
+echarts,"Apache ECharts is a powerful, interactive charting and data visualization library for browser",TypeScript,67819,19866,2013-04-03T03:18:59Z,2026-11-28T15:38:38Z
 echarts-bar-racing,A bar-racing tool for Apache ECharts,TypeScript,7,5,2020-12-29T09:29:38Z,2026-09-14T04:43:24Z
 echarts-bot,A robot for Apache ECharts issues and pull requests,JavaScript,12,3,2019-09-25T09:13:16Z,2026-10-10T12:44:09Z
 echarts-custom-series,Apache ECharts Custom Series,TypeScript,74,11,2024-09-02T07:03:59Z,2026-11-14T16:32:51Z
@@ -1033,7 +1033,7 @@ echarts-www,Source of Apache ECharts website,JavaScript,68,67,2015-05-05T11:14:4
 empire-db,Mirror of Apache Empire-db,Java,95,27,2011-07-14T07:03:04Z,2026-11-09T07:55:06Z
 esme,Mirror of Apache ESME (incubating),Scala,19,8,2010-05-26T23:38:08Z,2026-07-24T17:58:09Z
 etch,Mirror of Apache Etch,Java,19,8,2009-03-27T15:41:55Z,2026-09-28T13:04:52Z
-eventmesh,EventMesh is a new generation serverless event middleware for building distributed event-driven applications.,Java,1761,662,2019-09-16T03:04:56Z,2026-11-27T14:23:51Z
+eventmesh,EventMesh is a new generation serverless event middleware for building distributed event-driven applications.,Java,1760,662,2019-09-16T03:04:56Z,2026-11-28T14:02:02Z
 eventmesh-catalog,EventMesh catalog,Go,8,7,2023-03-28T12:24:24Z,2026-07-22T03:05:55Z
 eventmesh-dashboard,Apache EventMesh Dashboard,Java,27,25,2023-03-28T08:01:40Z,2026-09-16T16:07:53Z
 eventmesh-go,EventMesh go,Go,12,14,2023-03-28T08:06:00Z,2026-07-22T03:05:54Z
@@ -1048,8 +1048,8 @@ felix-atomos,Apache Felix Atomos,Java,44,20,2020-02-24T22:02:20Z,2026-08-06T05:5
 felix-dev,Apache felix,Java,165,173,2020-02-24T22:09:29Z,2026-11-13T17:40:37Z
 felix-site-pub,Apache felix published website,HTML,3,2,2021-05-04T18:38:27Z,2026-11-09T14:26:28Z
 fesod,Fast. Easy. Done. Processing spreadsheets without worrying about large files causing OOM.,Java,6299,558,2024-10-05T11:42:50Z,2026-11-27T03:38:23Z
-fineract,Apache Fineract,Java,2675,3026,2015-12-22T08:00:06Z,2026-11-27T13:34:53Z
-fineract-backoffice-ui,"Angular back-office UI for Apache Fineract, the open-source core banking platform",TypeScript,23,88,2026-02-25T14:22:28Z,2026-11-18T05:17:03Z
+fineract,Apache Fineract,Java,2678,3029,2015-12-22T08:00:06Z,2026-11-28T13:53:02Z
+fineract-backoffice-ui,"Angular back-office UI for Apache Fineract, the open-source core banking platform",TypeScript,23,87,2026-02-25T14:22:28Z,2026-11-18T05:17:03Z
 fineract-business-intelligence,Apache fineract,Python,7,7,2026-05-20T04:38:26Z,2026-11-10T08:11:09Z
 fineract-chat-archive,💾 Archive Slack messages into a static website.,Java,3,6,2026-01-26T19:02:41Z,2026-07-22T03:15:40Z
 fineract-cn-accounting,"Apache Fineract account, ledger, and journal entry service",Java,31,129,2017-12-08T10:47:18Z,2026-11-09T09:47:20Z
@@ -1115,11 +1115,11 @@ flex-tourjs,Mirror of Apache FlexJS 'Tour de FlexJS',não informado,1,0,2017-09-
 flex-typedefs,Mirror of Apache Flex TypeDefs,não informado,1,0,2017-09-28T07:00:10Z,2026-07-22T02:23:22Z
 flex-utilities,Mirror of Apache Flex utilities,HTML,80,67,2012-08-30T07:00:22Z,2026-11-15T02:35:19Z
 flex-whiteboard,Mirror of Apache Flex - Whiteboard (Incubating),não informado,14,6,2012-02-11T08:00:12Z,2026-08-01T08:24:34Z
-flink,Apache Flink,Java,26502,14132,2014-06-07T07:00:10Z,2026-11-27T13:05:40Z
+flink,Apache Flink,Java,26504,14132,2014-06-07T07:00:10Z,2026-11-28T08:45:57Z
 flink-agents,Flink Agents is an Agentic AI framework based on Apache Flink,Java,496,192,2025-06-08T11:45:47Z,2026-11-27T12:30:53Z
 flink-agents-demos,Demo projects and examples for Apache Flink Agents,Python,18,16,2026-03-05T06:38:48Z,2026-10-07T20:55:05Z
 flink-benchmarks,Benchmarks for Apache Flink,Java,191,102,2020-04-20T10:02:36Z,2026-11-23T09:52:36Z
-flink-cdc,Flink CDC is a streaming data integration tool,Java,6494,2210,2020-07-27T19:23:33Z,2026-11-26T08:08:46Z
+flink-cdc,Flink CDC is a streaming data integration tool,Java,6493,2211,2020-07-27T19:23:33Z,2026-11-28T14:02:04Z
 flink-ci-docker,Apache flink,Dockerfile,3,5,2026-06-12T12:02:09Z,2026-11-04T08:44:03Z
 flink-connector-aws,Apache flink,Java,81,103,2022-07-27T14:55:32Z,2026-11-09T18:51:07Z
 flink-connector-cassandra,Apache flink,Java,22,38,2022-11-10T10:46:04Z,2026-11-26T04:43:07Z
@@ -1128,7 +1128,7 @@ flink-connector-gcp-pubsub,Apache flink,Java,14,27,2022-11-23T15:29:46Z,2026-10-
 flink-connector-hbase,Apache flink,Java,34,43,2022-11-22T14:44:22Z,2026-10-12T15:33:25Z
 flink-connector-hive,Apache flink,Java,16,33,2022-11-23T22:00:12Z,2026-10-11T12:43:53Z
 flink-connector-http,Apache flink,Java,14,17,2025-07-08T05:53:24Z,2026-11-11T18:10:15Z
-flink-connector-jdbc,Apache flink,Java,181,226,2022-11-23T21:59:29Z,2026-11-12T12:30:07Z
+flink-connector-jdbc,Apache flink,Java,181,227,2022-11-23T21:59:29Z,2026-11-12T12:30:07Z
 flink-connector-kafka,Apache flink,Java,194,218,2022-11-22T14:01:46Z,2026-11-25T15:46:00Z
 flink-connector-kudu,Apache flink,Java,8,14,2024-03-26T08:13:43Z,2026-09-23T10:53:38Z
 flink-connector-mongodb,Apache flink,Java,53,38,2022-10-10T10:09:04Z,2026-11-12T15:20:24Z
@@ -1140,24 +1140,24 @@ flink-connector-redis-streams,Apache flink,não informado,19,8,2022-04-29T18:49:
 flink-connector-shared-utils,Apache flink,não informado,16,29,2022-10-20T10:30:08Z,2026-10-28T09:48:56Z
 flink-docker,Docker packaging for Apache Flink,Shell,359,221,2020-01-31T10:36:54Z,2026-11-19T21:41:17Z
 flink-jira-bot,Apache Flink Jira Bot,Python,9,8,2021-04-07T18:37:11Z,2026-10-09T02:17:00Z
-flink-kubernetes-operator,Apache Flink Kubernetes Operator,Java,1044,564,2022-02-10T05:00:35Z,2026-11-27T13:11:15Z
+flink-kubernetes-operator,Apache Flink Kubernetes Operator,Java,1045,564,2022-02-10T05:00:35Z,2026-11-27T22:04:43Z
 flink-ml,Machine learning library of Apache Flink,Java,333,92,2021-03-26T00:42:03Z,2026-11-19T22:10:21Z
 flink-playgrounds,Apache Flink Playgrounds,Java,556,259,2019-07-12T09:56:05Z,2026-11-27T02:12:21Z
 flink-shaded,Apache Flink shaded artifacts repository,Shell,140,133,2017-06-22T07:00:07Z,2026-10-22T01:36:11Z
-flink-statefun,Apache Flink Stateful Functions,Java,533,181,2019-12-03T13:24:13Z,2026-10-08T15:55:57Z
+flink-statefun,Apache Flink Stateful Functions,Java,532,181,2019-12-03T13:24:13Z,2026-11-28T14:02:10Z
 flink-statefun-docker,Docker packaging for Apache Flink Stateful Functions,Shell,18,14,2020-03-30T08:14:12Z,2026-07-22T02:50:41Z
 flink-statefun-playground,Apache Flink Stateful Functions Playground,Java,135,57,2021-03-15T11:31:25Z,2026-10-09T23:02:13Z
 flink-training,Apache Flink Training Excercises,Java,1049,707,2020-04-20T10:01:03Z,2026-11-24T09:58:23Z
 flink-web,Apache Flink Website,HTML,162,340,2015-05-17T07:00:05Z,2026-11-04T16:27:52Z
-fluss,Apache Fluss is a streaming storage built for real-time analytics.,Java,2254,679,2024-10-31T06:36:35Z,2026-11-27T13:47:35Z
+fluss,Apache Fluss is a streaming storage built for real-time analytics.,Java,2254,679,2024-10-31T06:36:35Z,2026-11-28T16:15:28Z
 fluss-benchmarks,Benchmarks for Apache Fluss (Incubating),Shell,13,3,2025-08-04T02:50:57Z,2026-08-04T10:29:54Z
 fluss-blog,Apache Fluss Blog,CSS,10,11,2026-04-18T09:21:02Z,2026-11-02T11:40:52Z
-fluss-kubernetes-operator,Kubernetes operator for deploying and managing Apache Fluss clusters.,não informado,1,3,2026-11-19T15:38:12Z,2026-11-19T17:31:07Z
+fluss-kubernetes-operator,Kubernetes operator for deploying and managing Apache Fluss clusters.,não informado,2,4,2026-11-19T15:38:12Z,2026-11-28T14:26:20Z
 fluss-rust,Rust Client for Apache Fluss (Incubating),Rust,59,52,2025-08-22T06:38:45Z,2026-11-09T12:19:14Z
 fluss-shaded,Apache Fluss (Incubating) shaded artifacts repository,Java,7,6,2025-07-01T14:57:17Z,2026-10-09T03:23:22Z
 fluss-website,Apache Fluss Website,não informado,4,4,2025-07-01T14:56:12Z,2026-09-25T14:15:18Z
 forrest,Mirror of Apache Forrest,XSLT,9,13,2010-10-16T07:00:22Z,2026-03-12T07:01:08Z
-fory,"A blazingly fast multi-language serialization framework for idiomatic domain objects, schema IDL, and cross-language data exchange.",Java,4589,476,2023-04-28T03:57:00Z,2026-11-27T05:49:22Z
+fory,"A blazingly fast multi-language serialization framework for idiomatic domain objects, schema IDL, and cross-language data exchange.",Java,4587,476,2023-04-28T03:57:00Z,2026-11-28T14:30:36Z
 fory-site,Apache Fory Website,TypeScript,30,39,2023-05-23T09:35:25Z,2026-11-07T14:36:33Z
 foundation-site,ASF Foundation Website,CSS,1,4,2020-08-31T08:14:54Z,2026-07-22T02:54:14Z
 freemarker,Apache Freemarker,Java,1112,285,2015-09-04T07:00:05Z,2026-11-26T05:43:02Z
@@ -1203,14 +1203,14 @@ geronimo-website,Mirror of Apache Geronimo Website,HTML,3,3,2017-09-01T07:00:09Z
 geronimo-xbean,Mirror of Apache Geronimo xbean,Java,28,43,2009-07-01T08:09:07Z,2026-11-24T13:15:57Z
 geronimo-yoko,Mirror of Apache Geronimo yoko,Java,6,17,2009-07-01T08:14:50Z,2026-07-23T17:49:43Z
 giraph,Mirror of Apache Giraph,Java,619,299,2011-08-28T07:00:33Z,2026-11-19T18:40:29Z
-gluten,Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.,Scala,1632,688,2021-12-06T05:46:27Z,2026-11-27T09:09:52Z
+gluten,Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.,Scala,1631,688,2021-12-06T05:46:27Z,2026-11-28T15:29:17Z
 gluten-site,Apache Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.,HTML,5,13,2024-02-08T07:57:05Z,2026-11-02T06:56:51Z
 gobblin,"A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.",Java,2270,751,2014-12-01T18:10:50Z,2026-11-19T19:24:42Z
 gobblin-site,Apache Gobblin (Incubating),HTML,1,4,2017-07-21T07:00:07Z,2026-11-19T09:19:01Z
 gora,The Apache Gora open source framework provides an in-memory data model and persistence for big data.,Java,123,131,2014-05-19T07:00:07Z,2026-10-15T03:18:40Z
 gora-site,Apache Gora Website,HTML,1,5,2021-05-31T18:36:03Z,2026-07-22T02:57:37Z
 grails-cache,Grails Cache Plugin,não informado,22,37,2012-01-10T20:09:25Z,2026-05-21T07:31:33Z
-grails-core,Grails - the Web Application Framework,Groovy,2941,978,2010-02-10T23:57:57Z,2026-11-26T00:31:08Z
+grails-core,Grails - the Web Application Framework,Groovy,2941,977,2010-02-10T23:57:57Z,2026-11-26T00:31:08Z
 grails-data-hibernate6,GORM for Hibernate 6,não informado,3,3,2025-01-17T18:36:00Z,2025-07-10T15:34:51Z
 grails-data-mapping,GORM - Groovy Object Mapping,não informado,224,196,2013-09-25T11:27:04Z,2026-09-08T18:45:03Z
 grails-doc,Documentation Project For The Grails Web Application Framework,não informado,201,526,2010-02-10T23:59:05Z,2026-05-21T07:31:28Z
@@ -1219,7 +1219,7 @@ grails-forge-ui,,JavaScript,3,8,2022-12-30T15:58:43Z,2026-11-04T16:09:35Z
 grails-geb,Geb Functional Testing for Grails® framework,não informado,12,10,2014-12-11T00:35:11Z,2026-05-21T07:31:32Z
 grails-github-actions,Apache Grails - GitHub Actions,Groovy,5,5,2023-07-22T07:33:04Z,2026-10-30T12:47:51Z
 grails-gradle-codestyle,Apache grails,não informado,1,0,2025-10-14T17:55:07Z,2026-07-22T06:10:29Z
-grails-gradle-plugin,,não informado,6,9,2021-06-15T09:58:51Z,2026-05-21T07:31:34Z
+grails-gradle-plugin,,não informado,6,8,2021-06-15T09:58:51Z,2026-05-21T07:31:34Z
 grails-gradle-publish,Apache Grails - Gradle Plugin - Grails Publish,Groovy,8,2,2025-07-05T04:24:53Z,2026-10-13T20:24:09Z
 grails-intellij-plugin,Grails plugin for IntelliJ IDEA,Java,19,7,2026-06-08T19:10:14Z,2026-11-04T18:33:40Z
 grails-micronaut,Apache Grails Micronaut integration,Groovy,1,1,2026-09-06T00:29:07Z,2026-10-26T16:46:06Z
@@ -1232,13 +1232,13 @@ grails-static-website,Apache Grails Website,Groovy,31,100,2015-01-14T14:41:50Z,2
 grails-views,View Technologies for Grails,não informado,56,43,2015-08-26T12:57:17Z,2026-10-29T05:00:09Z
 grails-website,Apache Grails Website & Documentation,não informado,5,13,2025-09-19T19:35:05Z,2026-11-12T13:45:00Z
 grails-wrapper,Grails Wrapper,não informado,3,7,2016-11-02T14:45:27Z,2026-05-21T07:31:30Z
-gravitino,"World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.",Java,3434,1005,2023-04-23T02:09:00Z,2026-11-27T14:43:40Z
+gravitino,"World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.",Java,3439,1005,2023-04-23T02:09:00Z,2026-11-28T15:51:54Z
 gravitino-mcp-gateway,"Apache Gravitino MCP Gateway: a secure authentication gateway for MCP servers, with single sign-on, access control and auditing.",Python,2,4,2026-11-18T04:30:12Z,2026-11-25T19:48:34Z
 gravitino-playground,A playground to experience Gravitino,Jupyter Notebook,84,56,2023-12-08T09:00:46Z,2026-11-25T20:44:13Z
 gravitino-site,Apache gravitino,HTML,5,22,2024-07-01T12:38:02Z,2026-10-01T07:58:55Z
 griffin,Mirror of Apache griffin,Scala,1171,585,2017-02-15T08:00:06Z,2026-09-24T03:15:56Z
 griffin-site,Web site for Apache Griffin,CSS,1,11,2017-03-10T08:00:06Z,2026-01-19T18:02:01Z
-groovy,Apache Groovy: A powerful multi-faceted programming language for the JVM platform,Groovy,5493,1917,2015-04-16T07:00:05Z,2026-11-27T17:57:15Z
+groovy,Apache Groovy: A powerful multi-faceted programming language for the JVM platform,Groovy,5494,1917,2015-04-16T07:00:05Z,2026-11-28T11:39:38Z
 groovy-dev-site,Apache Groovy developer documentation and project site,HTML,7,7,2017-04-24T07:00:07Z,2026-11-11T07:55:35Z
 groovy-examples,Apache Groovy Examples,Groovy,15,20,2018-08-24T10:39:04Z,2026-07-22T02:39:59Z
 groovy-geb,Apache Geb: Very Groovy Browser Automation,Groovy,1174,237,2010-08-03T03:58:46Z,2026-11-19T18:34:10Z
@@ -1247,9 +1247,9 @@ groovy-user-site,Apache Groovy user documentation,não informado,1,2,2017-04-24T
 groovy-website,Apache Groovy content to generate sites,Groovy,48,75,2018-11-20T20:35:23Z,2026-11-11T10:47:14Z
 guacamole-client,"The Apache Guacamole web application, official extensions, and JavaScript library.",Java,1763,875,2016-03-22T07:00:06Z,2026-11-27T15:40:20Z
 guacamole-manual,Apache Guacamole's official documentation (the Guacamole User's Guide). A copy of this guide for each release of Guacamole can be found at the project website.,Jinja,64,67,2016-03-22T07:00:06Z,2026-11-08T13:25:50Z
-guacamole-server,"The Apache Guacamole proxy daemon (guacd), C API (libguac), and protocol support.",C,4059,842,2016-03-22T07:00:06Z,2026-11-26T22:32:27Z
+guacamole-server,"The Apache Guacamole proxy daemon (guacd), C API (libguac), and protocol support.",C,4060,842,2016-03-22T07:00:06Z,2026-11-28T14:22:50Z
 guacamole-website,The source and content of the public website of the Apache Guacamole project.,JavaScript,317,137,2016-04-27T07:00:06Z,2026-11-19T19:58:35Z
-hadoop,Apache Hadoop,Java,15723,9253,2014-08-28T07:00:08Z,2026-11-27T15:06:54Z
+hadoop,Apache Hadoop,Java,15723,9252,2014-08-28T07:00:08Z,2026-11-28T05:37:40Z
 hadoop-api-shim,Apache hadoop,Java,6,4,2023-06-02T17:15:28Z,2026-07-22T03:06:45Z
 hadoop-cloudstore,Apache hadoop,Java,3,3,2026-05-14T14:59:03Z,2026-09-05T20:30:29Z
 hadoop-common,Mirror of Apache Hadoop common,Java,162,150,2014-10-21T07:00:09Z,2026-03-25T02:14:52Z
@@ -1260,7 +1260,7 @@ hadoop-release-support,Apache hadoop,Java,4,6,2024-02-21T14:22:53Z,2026-10-28T20
 hadoop-site,Apache Hadoop Site,não informado,13,41,2018-09-04T19:57:23Z,2026-11-11T18:26:17Z
 hadoop-thirdparty,Apache Hadoop Thirdparty,Shell,7,46,2019-09-23T18:00:19Z,2026-11-02T17:12:02Z
 hama,Mirror of Apache Hama,Java,133,71,2010-08-25T07:00:06Z,2026-03-24T03:46:02Z
-hamilton,"Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage/tracing and metadata. Runs and scales everywhere python does.",Jupyter Notebook,2637,238,2023-02-23T17:16:48Z,2026-11-27T05:03:28Z
+hamilton,"Apache Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage/tracing and metadata. Runs and scales everywhere python does.",Jupyter Notebook,2637,241,2023-02-23T17:16:48Z,2026-11-27T05:03:28Z
 hamilton-101,Apache hamilton,não informado,0,0,2025-04-18T15:02:36Z,2026-07-22T03:13:27Z
 harmony,Mirror of Apache Harmony,Java,95,39,2010-05-26T23:38:08Z,2026-10-13T12:34:15Z
 harmony-classlib,Mirror of Apache Harmony classlib,Java,6,8,2009-05-21T01:36:05Z,2026-07-22T02:01:59Z
@@ -1276,61 +1276,61 @@ hbase-kustomize,Apache HBase deployments on Kubernetes using Kustomize,Shell,4,3
 hbase-native-client,Apache HBase Native Client,C++,36,20,2019-04-10T07:39:10Z,2026-07-22T02:43:57Z
 hbase-operator-tools,Apache HBase Operator Tools,Java,186,150,2018-07-31T23:07:55Z,2026-10-28T08:19:03Z
 hbase-site,Apache HBase Site,HTML,12,21,2019-01-09T17:00:44Z,2026-10-30T23:57:39Z
-hbase-thirdparty,Apache HBase Third Party Libs,Java,22,59,2017-06-21T07:00:07Z,2026-10-09T11:12:13Z
+hbase-thirdparty,Apache HBase Third Party Libs,Java,22,59,2017-06-21T07:00:07Z,2026-11-27T18:38:53Z
 hcatalog,Mirror of Apache HCatalog,Java,59,45,2011-04-14T07:00:07Z,2025-04-05T01:31:46Z
 helix,Mirror of Apache Helix,Java,505,264,2014-01-13T08:00:06Z,2026-11-19T19:08:29Z
 hertzbeat,An AI-powered next-generation open source real-time observability system.,Java,7480,1371,2022-02-04T14:48:56Z,2026-11-27T10:25:31Z
 hertzbeat-collector-go,"Real-time observability system with agentless, performance cluster, prometheus-compatible, custom monitoring and status page building capabilities.",Go,26,11,2025-09-01T02:55:26Z,2026-07-22T06:10:34Z
 hertzbeat-helm-chart,An AI-powered next-generation open source real-time observability system.,Go Template,10,8,2024-07-23T06:25:15Z,2026-08-17T11:18:35Z
-hive,Apache Hive,Java,6037,4796,2009-05-21T02:31:01Z,2026-11-26T21:23:15Z
+hive,Apache Hive,Java,6037,4798,2009-05-21T02:31:01Z,2026-11-26T21:23:15Z
 hive-dev-box,Apache hive,Shell,0,1,2024-01-23T06:03:59Z,2026-07-22T03:09:02Z
 hive-site,Apache Hive Website,CSS,12,69,2022-01-21T18:38:29Z,2026-10-19T12:08:53Z
 hive-test-datasets,Apache hive,não informado,1,1,2026-09-29T11:35:02Z,2026-11-05T08:42:34Z
-hop,Hop Orchestration Platform,Java,1550,499,2019-09-24T10:48:12Z,2026-11-27T13:38:15Z
+hop,Hop Orchestration Platform,Java,1551,499,2019-09-24T10:48:12Z,2026-11-28T04:29:45Z
 hop-website,Apache Hop Website,JavaScript,24,32,2020-10-11T15:00:14Z,2026-11-12T11:57:24Z
-horaedb,"Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.",Rust,2818,222,2022-05-26T06:22:14Z,2026-11-19T22:35:25Z
+horaedb,"Apache HoraeDB (incubating) is a high-performance, distributed, cloud native time-series database.",Rust,2817,222,2022-05-26T06:22:14Z,2026-11-28T14:02:16Z
 horaedb-client-go,Apache HoraeDB (Incubating) Golang Client.,Go,6,12,2022-08-31T09:40:33Z,2026-03-12T16:25:21Z
 horaedb-client-java,Apache HoraeDB (Incubating) Java Client.,Java,23,14,2022-06-08T08:15:35Z,2026-09-03T13:01:24Z
 horaedb-client-py,Apache HoraeDB (Incubating) Python Client.,Rust,10,7,2022-07-05T08:40:22Z,2026-03-12T16:25:18Z
 horaedb-client-rs,Apache HoraeDB (Incubating) Rust Client.,Rust,18,17,2022-07-05T08:39:44Z,2026-03-12T16:25:20Z
 horaedb-docs,Apache HoraeDB (incubating) Website.,HTML,7,29,2023-01-16T09:43:40Z,2026-03-12T16:25:21Z
 httpasyncclient,Mirror of Apache HttpComponents HttpAsyncClient,Java,88,59,2011-10-15T07:00:08Z,2026-11-23T11:57:47Z
-httpcomponents-client,Mirror of Apache HttpClient,Java,1537,998,2009-05-21T01:43:06Z,2026-11-27T06:04:30Z
+httpcomponents-client,Mirror of Apache HttpClient,Java,1537,999,2009-05-21T01:43:06Z,2026-11-27T06:04:30Z
 httpcomponents-core,Mirror of Apache HttpCore,Java,367,367,2009-05-21T01:41:50Z,2026-11-25T15:01:44Z
 httpcomponents-parent,Mirror of Apache HttpComponents Parent Project,não informado,6,10,2017-05-29T07:00:08Z,2026-10-02T07:29:58Z
 httpcomponents-stylecheck,Mirror of Apache HttpComponents Style Check Resources,Java,3,3,2017-05-29T07:00:09Z,2026-07-22T02:21:09Z
 httpcomponents-website,Apache HttpComponents Site,CSS,9,33,2017-05-19T07:00:07Z,2026-11-02T16:58:45Z
-httpd,Apache HTTP Server,C,4060,1348,2009-05-20T02:02:59Z,2026-11-27T16:04:10Z
+httpd,Apache HTTP Server,C,4058,1350,2009-05-20T02:02:59Z,2026-11-28T11:39:02Z
 httpd-dev-tools,Apache httpd,Shell,0,0,2026-11-23T18:46:25Z,2026-11-24T21:04:56Z
 httpd-docs-build,Mirror of Apache HTTPD Docs Build,Perl,6,5,2009-12-11T09:00:14Z,2026-07-22T02:11:26Z
 httpd-flood,Mirror of Apache Flood,C,11,4,2010-05-26T23:38:07Z,2026-08-02T02:45:01Z
 httpd-mod_fcgid,Mirror of SVN Apache HTTPD mod_fcgid,C,2,2,2020-10-19T19:30:20Z,2026-07-22T02:54:45Z
 httpd-site,Apache httpd Website,HTML,10,16,2021-06-16T22:44:51Z,2026-11-12T21:38:19Z
 httpd-tests,Perl-based test framework module for Apache httpd,Perl,8,13,2020-02-26T23:56:21Z,2026-11-05T18:06:38Z
-hudi,"Upserts, Deletes And Incremental Processing on Big Data.",Java,6396,2548,2016-12-14T15:53:41Z,2026-11-27T17:53:53Z
+hudi,"Upserts, Deletes And Incremental Processing on Big Data.",Java,6397,2550,2016-12-14T15:53:41Z,2026-11-28T08:48:40Z
 hudi-rs,"The native Rust implementation for Apache Hudi, with C++ & Python API bindings.",Rust,283,82,2024-05-02T21:40:33Z,2026-11-13T07:50:42Z
-hugegraph,"A graph database that supports more than 100+ billion data, high performance and scalability (Include OLTP Engine & REST-API & Backends)",Java,3215,651,2018-07-18T03:30:20Z,2026-11-26T09:14:29Z
-hugegraph-ai,The integration of HugeGraph with AI/LLM & GraphRAG,Python,149,102,2023-10-08T12:03:07Z,2026-11-24T06:28:11Z
+hugegraph,"A graph database that supports more than 100+ billion data, high performance and scalability (Include OLTP Engine & REST-API & Backends)",Java,3215,652,2018-07-18T03:30:20Z,2026-11-26T09:14:29Z
+hugegraph-ai,The integration of HugeGraph with AI/LLM & GraphRAG,Python,149,104,2023-10-08T12:03:07Z,2026-11-24T06:28:11Z
 hugegraph-commons,"(Archived Warning)Please visit ""apache/hugegraph"" repo instead",Java,30,44,2018-07-03T07:11:40Z,2026-09-07T12:55:42Z
 hugegraph-computer,HugeGraph Computer - A distributed graph processing system for hugegraph (OLAP),Java,65,55,2020-09-18T07:29:57Z,2026-11-05T18:49:22Z
-hugegraph-doc,HugeGraph Website and Doc,Python,73,130,2018-06-19T07:24:51Z,2026-11-13T10:29:03Z
-hugegraph-toolchain,HugeGraph toolchain - include a series useful graph modules,Java,123,134,2018-08-16T14:29:13Z,2026-11-12T14:32:43Z
+hugegraph-doc,HugeGraph Website and Doc,Python,73,131,2018-06-19T07:24:51Z,2026-11-13T10:29:03Z
+hugegraph-toolchain,HugeGraph toolchain - include a series useful graph modules,Java,123,135,2018-08-16T14:29:13Z,2026-11-12T14:32:43Z
 hugegraph-tools,HugeGraph Database deploy and manage tool,Java,21,28,2018-07-24T03:53:52Z,2026-02-24T15:24:17Z
-iceberg,Apache Iceberg,Java,9458,3716,2018-11-19T16:26:46Z,2026-11-27T06:50:54Z
+iceberg,Apache Iceberg,Java,9460,3717,2018-11-19T16:26:46Z,2026-11-28T08:48:22Z
 iceberg-cpp,Apache Iceberg C++,C++,227,148,2024-11-22T08:45:21Z,2026-11-20T13:47:40Z
 iceberg-docs,Apache Iceberg Documentation Site,SCSS,41,96,2021-11-23T21:16:00Z,2026-07-31T19:58:22Z
 iceberg-go,Apache Iceberg - Go,Go,481,280,2023-08-11T06:07:45Z,2026-11-25T10:37:51Z
-iceberg-python,PyIceberg,Python,1173,688,2023-08-11T06:07:31Z,2026-11-26T00:13:48Z
+iceberg-python,PyIceberg,Python,1174,692,2023-08-11T06:07:31Z,2026-11-28T01:44:50Z
 iceberg-rust,Apache Iceberg,Rust,1454,661,2023-07-21T06:16:00Z,2026-11-27T00:39:31Z
 iceberg-verification,Conformance fixtures for verifying Apache Iceberg implementations,Python,15,10,2026-08-24T19:17:26Z,2026-11-21T19:43:59Z
-iggy,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,Rust,5365,563,2023-03-18T21:39:42Z,2026-11-27T17:55:46Z
-iggy-connectors,Apache Iggy Connectors: move data between Apache Iggy streams and external systems,Rust,9,19,2026-11-09T10:50:36Z,2026-11-25T12:11:08Z
+iggy,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,Rust,5370,563,2023-03-18T21:39:42Z,2026-11-28T16:18:31Z
+iggy-connectors,Apache Iggy Connectors: move data between Apache Iggy streams and external systems,Rust,10,20,2026-11-09T10:50:36Z,2026-11-28T17:15:18Z
 iggy-demos,Apache Iggy demos: demo applications and use cases built on Apache Iggy,Java,0,2,2026-10-07T11:28:17Z,2026-10-08T11:25:27Z
 iggy-php-sdk,Apache iggy,não informado,0,0,2026-11-09T10:51:35Z,2026-11-09T10:51:38Z
 iggy-setup,Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed,TypeScript,2,2,2025-06-28T11:59:40Z,2026-07-24T17:26:46Z
 iggy-swift-sdk,Apache iggy,não informado,0,0,2026-11-09T10:51:07Z,2026-11-09T10:51:09Z
 iggy-website,Apache Iggy Website,HTML,6,16,2025-02-09T09:04:54Z,2026-11-23T13:37:58Z
-ignite,Apache Ignite,Java,5089,1934,2015-02-19T08:00:05Z,2026-11-27T12:27:53Z
+ignite,Apache Ignite,Java,5088,1934,2015-02-19T08:00:05Z,2026-11-28T14:02:18Z
 ignite-3,Apache Ignite 3,Java,338,148,2020-11-23T16:39:36Z,2026-11-19T22:02:49Z
 ignite-abbrev-plugin,Apache Ignite Abbreviations Plugin,Java,2,2,2018-12-17T13:52:47Z,2026-10-17T19:14:32Z
 ignite-extensions,Apache Ignite Extensions,Java,58,84,2019-10-31T20:11:20Z,2026-11-26T11:12:44Z
@@ -1381,10 +1381,10 @@ incubator-ignite,Mirror of Apache Ignite (Incubating),não informado,3,0,2015-08
 incubator-incubator-mynewt-pkg-bsp,Mirror of Apache Mynewt incubator bsp package skeleton,C,1,1,2016-10-11T07:00:06Z,2026-07-22T02:18:05Z
 incubator-incubator-mynewt-pkg-pkg,Mirror of Apache Mynewt incubator package skeleton,C,1,1,2016-10-11T07:00:07Z,2026-07-22T02:18:07Z
 incubator-incubator-mynewt-pkg-sdk,Mirror of Apache Mynewt incubator sdk package skeleton,C,1,2,2016-10-11T07:00:08Z,2026-07-22T02:18:09Z
-incubator-kie,"Apache KIE (Knowledge Is Everything) is the home of Drools, OptaPlanner, jBPM, and Kogito.",Java,6344,2608,2011-02-18T08:37:05Z,2026-11-26T08:05:43Z
+incubator-kie,"Apache KIE (Knowledge Is Everything) is the home of Drools, OptaPlanner, jBPM, and Kogito.",Java,6343,2608,2011-02-18T08:37:05Z,2026-11-28T14:02:20Z
 incubator-kie-benchmarks,KIE related benchmarks,Java,9,44,2016-04-06T12:20:00Z,2026-11-18T13:13:12Z
 incubator-kie-docs,Apache KIE documentation repository for Kogito,JavaScript,44,186,2015-07-17T07:12:45Z,2026-10-27T08:36:38Z
-incubator-kie-examples,"Apache KIE Examples repository with showcases on how to use Kogito, Drools, and jBPM",Java,299,450,2019-03-07T09:33:22Z,2026-11-12T09:07:24Z
+incubator-kie-examples,"Apache KIE Examples repository with showcases on how to use Kogito, Drools, and jBPM",Java,298,450,2019-03-07T09:33:22Z,2026-11-28T16:55:49Z
 incubator-kie-issues,,não informado,14,2,2022-10-25T17:22:14Z,2026-08-18T12:13:35Z
 incubator-kie-kogito-apps,Kogito Apps has moved to https://github.com/apache/incubator-kie-drools. This repository is archived. Kogito Apps houses source code for addons and supporting services for Kogito Runtimes,Java,77,164,2019-10-21T13:09:46Z,2026-11-17T11:53:17Z
 incubator-kie-kogito-benchmarks,"Bare-metal (""2nd-level"") benchmarks for Kogito Decision (DMN), Prediction (PMML) and Process (BPMN) Services",Java,1,10,2021-04-30T11:13:02Z,2026-07-22T02:57:13Z
@@ -1393,7 +1393,7 @@ incubator-kie-kogito-online,kogito-online resources,não informado,9,15,2019-09-
 incubator-kie-kogito-online-staging,,CSS,3,6,2021-03-31T17:57:00Z,2026-07-22T02:56:37Z
 incubator-kie-kogito-operator,Kubernetes Operator for Kogito,Go,44,79,2019-04-18T15:34:15Z,2026-07-16T13:09:48Z
 incubator-kie-kogito-pipelines,This repository is archived. The Kogito pipelines have been replaced by local CI and release scripts in the apache/incubator-kie and apache/incubator-kie-tools repositories.,Groovy,15,52,2020-03-12T16:18:08Z,2026-08-01T12:05:00Z
-incubator-kie-kogito-runtimes,Kogito Runtimes has moved to https://github.com/apache/incubator-kie-drools. This repository is archived. Kogito Runtimes is a cloud-native business automation technology for building cloud-ready business applications,Java,607,253,2019-03-07T08:49:09Z,2026-11-26T08:21:04Z
+incubator-kie-kogito-runtimes,Kogito Runtimes has moved to https://github.com/apache/incubator-kie-drools. This repository is archived. Kogito Runtimes is a cloud-native business automation technology for building cloud-ready business applications,Java,605,253,2019-03-07T08:49:09Z,2026-11-28T16:55:48Z
 incubator-kie-kogito-serverless-operator,Kubernetes operator for SonataFlow,Go,19,45,2022-06-22T07:59:08Z,2026-07-16T13:09:47Z
 incubator-kie-kogito-website,Kogito website,HTML,5,33,2019-07-02T18:54:02Z,2026-10-01T14:49:17Z
 incubator-kie-optaplanner,"OplaPlanner has moved to https://github.com/apache/incubator-kie-drools. This repository is archived. OptaPlanner is an AI constraint solver in Java to optimize the vehicle routing problem, employee rostering, task assignment, maintenance scheduling, conference scheduling and other planning problems.",Java,3512,972,2011-02-15T19:38:23Z,2026-11-19T18:36:53Z
@@ -1511,7 +1511,7 @@ incubator-retired-wave-docs,Apache Wave Docs retired.,Python,11,10,2015-05-01T07
 incubator-retired-zipkin-website,Apache Zipkin Website,HTML,5,3,2018-09-19T02:15:37Z,2024-06-06T04:13:54Z
 incubator-s2graph,Mirror of Apache S2Graph (Incubating),Scala,269,65,2016-01-08T08:00:06Z,2026-05-20T12:28:54Z
 incubator-samoa,Mirror of Apache Samoa (Incubating),Java,252,104,2015-01-27T08:00:05Z,2026-10-23T14:55:46Z
-incubator-seata,":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution.",Java,26008,8832,2018-12-28T08:37:22Z,2026-11-27T02:22:21Z
+incubator-seata,":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution.",Java,26008,8832,2018-12-28T08:37:22Z,2026-11-28T14:30:16Z
 incubator-seata-ctl,The operational tool for Seata-Server.,Go,10,8,2023-10-25T07:41:52Z,2026-08-24T17:12:10Z
 incubator-seata-go,Go Implementation For Seata,Go,1746,369,2020-04-10T09:20:34Z,2026-11-24T06:04:08Z
 incubator-seata-go-samples,Samples for seata-go,Go,47,48,2022-12-17T12:24:22Z,2026-09-28T17:58:47Z
@@ -1541,9 +1541,9 @@ incubator-taverna-workbench-product,Mirror of Apache Taverna Workbench Product (
 incubator-teaclave-verification,Teaclave specification and proofs.,Isabelle,2,6,2021-02-26T04:13:47Z,2025-09-02T18:42:52Z
 incubator-texera-site,Apache Texera Website,SCSS,3,15,2025-10-18T02:52:07Z,2026-10-23T01:22:49Z
 incubator-tez,Mirror of Apache Tez (Incubating),Java,61,42,2013-06-12T07:00:18Z,2026-05-12T06:14:20Z
-incubator-toree,Mirror of Apache Toree (Incubating),Scala,750,224,2016-01-07T08:00:06Z,2026-10-30T03:33:16Z
+incubator-toree,Mirror of Apache Toree (Incubating),Scala,748,224,2016-01-07T08:00:06Z,2026-11-28T14:38:51Z
 incubator-toree-website,Mirror of Apache Toree website (Incubating),CSS,5,17,2016-01-07T08:00:05Z,2026-11-09T04:41:44Z
-incubator-tuweni,"Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities.",Java,176,85,2019-03-29T19:02:36Z,2026-08-22T07:41:07Z
+incubator-tuweni,"Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities.",Java,175,85,2019-03-29T19:02:36Z,2026-11-28T14:02:25Z
 incubator-tuweni-website,Apache tuweni website,HTML,2,6,2019-04-07T06:53:29Z,2024-06-06T04:11:10Z
 incubator-twill,Mirror of Apache Twill,Java,1,7,2016-08-13T07:00:07Z,2025-11-12T13:39:11Z
 incubator-warble-node,Apache Warble (incubating) Monitoring Node Package,Python,0,2,2018-06-12T11:44:04Z,2026-07-22T02:38:18Z
@@ -1663,9 +1663,9 @@ jclouds-labs-aws,Apache jClouds Labs AWS,Java,3,3,2019-01-06T06:36:59Z,2026-11-1
 jclouds-labs-google,Apache jClouds Labs Google,não informado,1,1,2019-01-06T06:36:10Z,2026-11-19T09:19:11Z
 jclouds-labs-openstack,Apache jClouds Labs OpenStack,Java,1,3,2019-01-06T06:37:16Z,2025-08-06T12:07:13Z
 jclouds-site,Apache jClouds Site,HTML,2,12,2019-01-06T06:37:44Z,2026-06-27T11:53:05Z
-jena,"Apache Jena, A free and open source Java framework for building Semantic Web and Linked Data applications.",Java,1513,746,2013-01-04T08:00:32Z,2026-11-27T16:38:32Z
+jena,"Apache Jena, A free and open source Java framework for building Semantic Web and Linked Data applications.",Java,1512,748,2013-01-04T08:00:32Z,2026-11-28T15:15:20Z
 jena-site,Website sources for the Apache Jena website,HTML,22,74,2020-03-01T09:49:41Z,2026-09-09T20:45:10Z
-jmeter,Apache JMeter open-source load testing tool for analyzing and measuring the performance of a variety of services,Java,9616,2311,2010-05-26T23:38:07Z,2026-11-27T08:53:37Z
+jmeter,Apache JMeter open-source load testing tool for analyzing and measuring the performance of a variety of services,Java,9616,2310,2010-05-26T23:38:07Z,2026-11-28T13:07:35Z
 jmeter-bugzilla-attachments,Attachments migrated from Bugzilla for Apache JMeter,Java,1,1,2022-09-23T13:18:51Z,2026-07-22T03:03:16Z
 jmeter-site,Apache JMeter site,HTML,5,2,2019-03-15T06:50:56Z,2026-07-22T02:43:31Z
 jmeter-site-preview,Apache JMeter site preview,HTML,2,1,2019-07-29T12:27:08Z,2026-07-22T02:46:30Z
@@ -1682,7 +1682,7 @@ juddi-styles,Mirror of Apache jUDDI,XSLT,1,3,2014-02-21T08:00:08Z,2023-07-25T13:
 juneau,Apache Juneau,Java,98,44,2016-08-02T07:00:07Z,2026-11-12T16:27:44Z
 juneau-petstore,Apache Juneau,Java,9,13,2019-09-09T19:31:24Z,2026-07-22T02:46:57Z
 juneau-website,Apache Juneau,HTML,9,16,2016-07-11T07:00:06Z,2026-07-22T02:17:22Z
-kafka,Apache Kafka - A distributed event streaming platform,Java,34319,15899,2011-08-15T18:06:16Z,2026-11-27T18:07:59Z
+kafka,Apache Kafka - A distributed event streaming platform,Java,34312,15905,2011-08-15T18:06:16Z,2026-11-28T17:08:27Z
 kafka-merge-queue-sandbox,Apache kafka,Java,1,3,2024-07-02T16:42:10Z,2026-11-25T20:31:44Z
 kafka-site,Mirror of Apache Kafka site,HTML,90,409,2015-08-25T07:00:05Z,2026-11-27T01:08:47Z
 kalumet,Mirror of Apache Kalument (Incubating),Java,9,5,2011-11-06T07:00:10Z,2026-07-23T11:03:20Z
@@ -1699,7 +1699,7 @@ karaf-minho,Apache Karaf Minho,Java,7,6,2022-10-21T07:59:20Z,2026-07-22T03:03:36
 karaf-reactive-components,Apache Karaf Reactive Components,Java,3,2,2017-10-22T11:51:17Z,2026-07-22T02:32:14Z
 karaf-site,Mirror of Apache karaf Site,HTML,10,21,2011-02-14T08:00:29Z,2026-09-28T16:14:18Z
 karaf-webconsole,Mirror of Apache Karaf WebConsole,Java,8,12,2012-08-02T07:00:17Z,2026-07-22T02:10:17Z
-karaf-winegrower,Apache Winegrower,Java,13,8,2019-11-12T06:33:41Z,2026-07-22T02:47:59Z
+karaf-winegrower,Apache Winegrower,Java,13,8,2019-11-12T06:33:41Z,2026-11-28T05:07:09Z
 kibble,"Apache Kibble - a tool to collect, aggregate and visualize data about any software project",Python,35,10,2021-03-01T09:41:00Z,2025-11-11T13:33:42Z
 kibble-1,"Apache Kibble - a tool to collect, aggregate and visualize data about any software project",Python,58,29,2017-10-19T11:34:00Z,2026-09-11T12:05:28Z
 kibble-docker,Apache Kibble Docker Image,não informado,2,0,2018-10-21T09:59:29Z,2025-11-11T13:33:44Z
@@ -1708,7 +1708,7 @@ kibble-website,Apache Kibble Website,HTML,6,9,2017-10-19T10:14:34Z,2025-11-11T13
 knox,Mirror of Apache Knox,Java,222,291,2014-03-01T08:00:06Z,2026-11-12T14:11:27Z
 kudu,Mirror of Apache Kudu,C++,1919,667,2016-01-29T08:00:06Z,2026-11-11T21:19:30Z
 kudu-site,Apache Kudu Site,HTML,2,6,2019-01-09T18:08:44Z,2026-07-22T02:42:19Z
-kvrocks,Apache Kvrocks is a distributed key value NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol.,C++,4509,697,2019-08-15T06:04:51Z,2026-11-27T06:35:53Z
+kvrocks,Apache Kvrocks is a distributed key value NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol.,C++,4510,699,2019-08-15T06:04:51Z,2026-11-28T15:04:47Z
 kvrocks-controller,Apache Kvrocks Controller is a cluster management tool for Apache Kvrocks.,Go,144,76,2021-07-31T07:59:56Z,2026-10-30T14:35:15Z
 kvrocks-website,Apache Kvrocks Website,CSS,27,61,2022-05-07T07:00:32Z,2026-10-14T13:13:46Z
 kylin,Apache Kylin,Java,3784,1502,2015-01-03T08:00:05Z,2026-11-26T08:16:10Z
@@ -1720,11 +1720,11 @@ kyuubi-shaded,Apache Kyuubi Shaded Dependencies.,Java,6,11,2023-04-13T05:37:18Z,
 kyuubi-website,Apache Kyuubi Site,HTML,13,40,2021-07-09T02:36:25Z,2026-07-31T09:28:42Z
 lens,Mirror of Apache Lens,Java,63,94,2014-11-12T08:00:06Z,2026-03-14T15:20:21Z
 lenya,Mirror of Apache Lenya,Java,23,7,2011-12-26T08:00:11Z,2026-10-28T10:33:52Z
-libcloud,Apache Libcloud is a Python library that hides differences between different cloud provider APIs and allows you to manage different cloud resources through a unified and easy-to-use API.,Python,2129,944,2009-12-11T09:00:14Z,2026-11-19T18:31:59Z
+libcloud,Apache Libcloud is a Python library that hides differences between different cloud provider APIs and allows you to manage different cloud resources through a unified and easy-to-use API.,Python,2129,945,2009-12-11T09:00:14Z,2026-11-19T18:31:59Z
 libcloud-site,Apache Libcloud Website,HTML,5,9,2022-03-27T17:56:42Z,2026-07-22T03:01:30Z
-linkis,"Apache Linkis builds a computation middleware layer to facilitate connection, governance and orchestration between the upper applications and the underlying data engines.",Java,3415,1168,2019-07-23T06:41:51Z,2026-11-26T08:17:00Z
+linkis,"Apache Linkis builds a computation middleware layer to facilitate connection, governance and orchestration between the upper applications and the underlying data engines.",Java,3413,1168,2019-07-23T06:41:51Z,2026-11-28T16:13:32Z
 linkis-website,Apache Linkis documents,JavaScript,34,111,2021-09-28T14:16:07Z,2026-07-22T02:59:35Z
-livy,Apache Livy is an open source REST interface for interacting with Apache Spark from anywhere.,Scala,963,626,2017-06-25T07:00:09Z,2026-11-24T09:39:48Z
+livy,Apache Livy is an open source REST interface for interacting with Apache Spark from anywhere.,Scala,964,626,2017-06-25T07:00:09Z,2026-11-28T11:14:10Z
 livy-website,Mirror of Apache livy (Incubating),HTML,13,20,2017-06-25T07:00:08Z,2026-07-22T02:21:38Z
 log4j-component,Mirror of Apache log4j component,CSS,5,5,2010-05-26T23:38:07Z,2023-09-13T13:44:59Z
 log4j-extras,Mirror of Apache log4j extras,Java,15,8,2010-05-26T23:38:08Z,2023-09-13T13:45:31Z
@@ -1767,8 +1767,8 @@ logging-log4j-server,Apache logging,Java,0,1,2022-11-29T05:26:17Z,2023-11-14T15:
 logging-log4j-site,Apache log4j web site,não informado,3,9,2020-08-30T21:07:15Z,2026-11-09T08:41:23Z
 logging-log4j-tools,Tools internally used by the Apache Log4j project,Java,18,21,2016-11-06T07:00:08Z,2026-07-22T02:18:33Z
 logging-log4j-transform,Tools for binary post-processing of projects using Apache Log4j.,Java,6,9,2023-01-05T06:36:00Z,2026-07-22T03:04:48Z
-logging-log4j1,Apache log4j1,Java,867,596,2009-05-21T01:31:38Z,2026-09-07T07:17:31Z
-logging-log4j2,"Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java.",Java,3644,1766,2013-06-12T07:00:19Z,2026-11-26T18:28:17Z
+logging-log4j1,Apache log4j1,Java,868,597,2009-05-21T01:31:38Z,2026-11-28T16:52:08Z
+logging-log4j2,"Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java.",Java,3644,1767,2013-06-12T07:00:19Z,2026-11-26T18:28:17Z
 logging-log4net,"Apache Log4net is a versatile, feature-rich, efficient logging API and backend for .NET",C#,937,333,2017-04-26T07:00:06Z,2026-11-22T18:39:36Z
 logging-log4net-site,Apache log4net web site,não informado,4,5,2020-08-30T21:27:20Z,2026-07-22T02:54:10Z
 logging-log4php,Mirror of Apache log4php,PHP,102,82,2012-12-08T08:00:18Z,2025-12-30T15:36:47Z
@@ -1777,7 +1777,7 @@ logging-parent,Parent project internally used in Maven-based projects of the Apa
 logging-pipelines,Apache Logging Services Jenkins pipelines and shared libraries.,Groovy,1,1,2020-07-19T18:47:49Z,2025-08-25T03:03:38Z
 logging-site,Apache Logging Services site,não informado,3,9,2020-08-23T22:11:50Z,2026-11-09T08:41:30Z
 logging-slf4j,Bridges between Log4j API and SLF4J,Java,0,2,2024-11-06T08:15:05Z,2026-09-17T16:39:41Z
-lucene,Apache Lucene open-source search software,Java,3619,1466,2021-02-23T17:16:56Z,2026-11-27T17:49:55Z
+lucene,Apache Lucene open-source search software,Java,3620,1466,2021-02-23T17:16:56Z,2026-11-28T06:57:44Z
 lucene-jira-archive,Jira archive for Apache Lucene,Python,4,7,2022-06-29T09:15:12Z,2026-07-22T03:02:24Z
 lucene-site,Apache Lucene website,CSS,6,34,2019-10-16T20:26:33Z,2026-10-30T20:41:47Z
 lucene-solr,Apache Lucene and Solr open-source search software,não informado,4366,2584,2016-01-23T08:00:06Z,2026-11-19T19:51:37Z
@@ -1790,11 +1790,11 @@ lucy-charmonizer,Mirror of Apache Lucy,C,6,4,2014-01-06T17:23:04Z,2026-07-21T16:
 lucy-clownfish,Mirror of Apache Lucy,C,13,12,2014-01-06T17:23:04Z,2025-11-22T17:52:05Z
 madlib,Mirror of Apache MADlib,C++,476,149,2015-09-19T07:00:06Z,2026-11-06T09:24:31Z
 madlib-site,Mirror of Apache MADlib site,Jupyter Notebook,89,51,2015-09-19T07:00:06Z,2026-07-22T02:14:59Z
-magpie,"Agent-assisted maintainership and development framework for Apache projects — Triage, Mentoring, Drafting (agent-authored fixes with human review), and Pairing (developer-side dev-cycle) skills shipping; Agentic Autonomous (auto-merge) on the roadmap.",Python,160,136,2026-04-28T18:59:46Z,2026-11-27T16:41:44Z
+magpie,"Agent-assisted maintainership and development framework for Apache projects — Triage, Mentoring, Drafting (agent-authored fixes with human review), and Pairing (developer-side dev-cycle) skills shipping; Agentic Autonomous (auto-merge) on the roadmap.",Python,160,137,2026-04-28T18:59:46Z,2026-11-28T10:23:22Z
 magpie-economics,Apache magpie,não informado,1,1,2026-07-05T09:42:39Z,2026-07-22T06:09:16Z
-magpie-site,Website for Apache Magpie — agent-assisted repository maintainership and development.,JavaScript,9,11,2026-06-27T20:03:28Z,2026-11-12T02:48:54Z
+magpie-site,Website for Apache Magpie — agent-assisted repository maintainership and development.,JavaScript,9,12,2026-06-27T20:03:28Z,2026-11-12T02:48:54Z
 mahout,"Apache Mahout - an environment for quickly creating scalable, performant machine learning applications.",Rust,2310,1006,2014-05-23T07:00:07Z,2026-11-26T04:00:36Z
-maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,Rust,6014,583,2026-05-27T15:46:05Z,2026-11-27T15:37:43Z
+maka,Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.,Rust,6015,583,2026-05-27T15:46:05Z,2026-11-28T16:49:47Z
 manifoldcf,Mirror of Apache ManifoldCF,Java,87,69,2012-06-22T07:00:16Z,2026-11-26T13:33:07Z
 manifoldcf-integration-elasticsearch,Mirror of git.apache.org/manifoldcf-integration-elasticsearch.git,Java,1,2,2018-03-25T22:18:40Z,2026-07-22T02:36:36Z
 manifoldcf-integration-elasticsearch-1.5,Mirror of git.apache.org/manifoldcf-integration-elasticsearch-1.5.git,Java,1,1,2018-03-25T22:33:19Z,2026-07-22T02:36:38Z
@@ -1814,7 +1814,7 @@ manifoldcf-integration-solr-9x,Apache manifoldcf,Java,1,1,2024-06-24T18:51:05Z,2
 manifoldcf-sdk,Apache ManifoldCF SDK is a Maven project focused on helping developers to extend ManifoldCF with new connectors and extensions,Shell,1,1,2023-12-21T21:19:46Z,2026-07-22T03:08:43Z
 manifoldcf-site,Apache ManifoldCF website,Astro,3,5,2023-12-13T07:13:46Z,2026-11-26T15:07:10Z
 marmotta,Mirror of Apache Marmotta,Java,57,52,2014-01-22T08:00:07Z,2026-06-19T05:24:42Z
-maven,Apache Maven core,Java,5389,3075,2009-05-21T03:22:03Z,2026-11-27T15:08:28Z
+maven,Apache Maven core,Java,5390,3071,2009-05-21T03:22:03Z,2026-11-28T04:05:44Z
 maven-2,Mirror of Apache Maven 2,Java,15,13,2010-05-26T23:38:07Z,2026-07-22T02:11:21Z
 maven-acr-plugin,Apache Maven ACR Plugin,Java,5,11,2017-12-09T15:02:47Z,2026-11-19T09:19:13Z
 maven-ant-plugin,Apache Maven Ant Plugin - retired,Java,3,4,2017-12-09T15:03:10Z,2026-11-19T09:19:14Z
@@ -1823,16 +1823,16 @@ maven-antrun-plugin,Apache Maven AntRun Plugin,Java,37,23,2017-12-09T15:03:39Z,2
 maven-apache-parent,Apache Software Foundation Parent POM,não informado,47,36,2017-11-04T08:52:43Z,2026-11-19T09:19:16Z
 maven-apache-resources,Apache Software Foundation Resource Bundles,Java,10,10,2023-03-11T01:27:03Z,2026-11-19T09:19:17Z
 maven-app-engine,[deprecated] Mirror of Apache Maven App Engine,Java,3,5,2011-11-06T07:00:10Z,2023-07-25T13:43:43Z
-maven-archetype,Apache Maven Archetype (Plugin),Java,147,186,2009-05-21T08:40:29Z,2026-11-19T09:19:18Z
+maven-archetype,Apache Maven Archetype (Plugin),Java,147,187,2009-05-21T08:40:29Z,2026-11-19T09:19:18Z
 maven-archetypes,Apache Maven Archetype Bundles,Groovy,37,47,2018-01-02T08:00:08Z,2026-11-19T09:19:19Z
 maven-archiver,Apache Maven Archiver,Java,12,30,2017-12-07T18:13:37Z,2026-11-19T09:19:20Z
 maven-artifact,[deprecated] Mirror of Apache Maven artifact,Java,9,6,2009-05-21T03:16:01Z,2026-08-07T14:22:52Z
 maven-artifact-plugin,Apache Maven Artifact Plugin,Java,13,29,2020-06-04T16:56:50Z,2026-11-19T09:19:21Z
 maven-artifact-resolver,Apache Maven Artifact Resolver -- Archived,Java,3,5,2017-12-07T18:14:50Z,2026-11-19T09:19:22Z
 maven-artifact-transfer,Apache Maven Artifact Transfer (RETIRED),Java,5,22,2017-12-07T18:15:15Z,2026-11-19T09:19:23Z
-maven-assembly-plugin,Apache Maven Assembly Plugin,Java,109,80,2017-12-09T15:04:05Z,2026-11-19T09:19:24Z
+maven-assembly-plugin,Apache Maven Assembly Plugin,Java,109,81,2017-12-09T15:04:05Z,2026-11-19T09:19:24Z
 maven-blog,Apache Maven Blog,não informado,2,1,2023-04-16T14:42:55Z,2026-11-19T09:19:25Z
-maven-build-cache-extension,Apache Maven Build Cache Extension,Java,163,86,2022-01-04T12:02:15Z,2026-11-19T09:19:26Z
+maven-build-cache-extension,Apache Maven Build Cache Extension,Java,163,87,2022-01-04T12:02:15Z,2026-11-19T09:19:26Z
 maven-build-helper-plugin,Apache maven,não informado,0,1,2024-07-11T23:11:18Z,2026-11-19T09:19:27Z
 maven-changelog-plugin,Apache Maven Changelog Plugin,Java,31,15,2017-12-09T15:04:27Z,2026-11-24T13:15:49Z
 maven-changes-plugin,Apache Maven Changes Plugin,Java,13,25,2017-12-09T15:04:42Z,2026-11-19T09:19:28Z
@@ -1867,7 +1867,7 @@ maven-filtering,Apache Maven Filtering,Java,8,40,2017-12-07T18:17:01Z,2026-11-19
 maven-fluido-skin,Apache Maven Fluido Skin,Groovy,19,24,2017-11-04T08:53:51Z,2026-11-19T09:19:46Z
 maven-gh-actions-shared,Apache Maven Shared GH Actions,não informado,8,16,2021-10-14T01:24:53Z,2026-11-19T09:19:48Z
 maven-gpg-plugin,Apache Maven GPG Plugin,Java,31,29,2017-12-09T15:08:09Z,2026-11-19T09:19:49Z
-maven-help-plugin,Apache Maven Help Plugin,Java,28,48,2017-12-09T15:08:24Z,2026-11-19T09:19:50Z
+maven-help-plugin,Apache Maven Help Plugin,Java,28,47,2017-12-09T15:08:24Z,2026-11-19T09:19:50Z
 maven-hocon-extension,Apache Maven Hocon Extension (RETIRED),Java,33,4,2024-09-12T14:56:33Z,2026-11-19T09:19:51Z
 maven-indexer,Apache Maven Indexer,Java,73,73,2014-04-22T07:00:07Z,2026-11-19T09:19:52Z
 maven-install-plugin,Apache Maven Install Plugin,Java,42,46,2017-12-09T15:08:41Z,2026-11-19T09:19:53Z
@@ -1889,7 +1889,7 @@ maven-linkcheck-plugin,Apache Maven Linkcheck Plugin,Java,4,7,2017-12-09T15:12:5
 maven-mapping,Apache Maven Mapping,Java,1,10,2017-12-07T18:17:57Z,2026-11-19T09:20:04Z
 maven-mercury,[deprecated] Mirror of Apache Maven mercury,Java,2,5,2009-05-21T01:03:45Z,2023-07-25T13:41:18Z
 maven-metric-extension,Apache Maven Metric Extension,não informado,0,0,2020-05-09T21:02:48Z,2026-11-19T09:20:05Z
-maven-mvnd,Apache Maven Daemon,Java,3450,256,2019-09-21T17:49:30Z,2026-11-26T11:03:03Z
+maven-mvnd,Apache Maven Daemon,Java,3451,256,2019-09-21T17:49:30Z,2026-11-27T22:58:02Z
 maven-osgi,Apache Maven OSGi - This project is retired,Java,2,2,2017-12-07T18:18:11Z,2026-11-19T09:20:06Z
 maven-parent,Apache Maven Project Parent POMs,não informado,34,32,2017-11-04T08:53:09Z,2026-11-19T09:20:07Z
 maven-patch-plugin,Apache Maven Patch Plugin,Java,8,8,2017-12-09T15:13:15Z,2026-11-19T09:20:08Z
@@ -1916,7 +1916,7 @@ maven-resources,[deprecated] Mirror of Apache Maven resources,Java,2,9,2009-05-2
 maven-resources-plugin,Apache Maven Resources Plugin,Java,61,39,2017-12-09T15:14:54Z,2026-11-19T09:20:22Z
 maven-runtime,Apache Maven Runtime -- Archived,Java,1,6,2017-12-07T18:19:38Z,2026-11-19T09:20:23Z
 maven-sandbox,[deprecated] Mirror of Apache Maven sandbox,Java,4,6,2009-05-21T02:09:15Z,2023-07-25T13:41:20Z
-maven-scm,Apache Maven SCM (Plugin),Java,103,194,2009-05-21T00:33:04Z,2026-11-16T23:49:17Z
+maven-scm,Apache Maven SCM (Plugin),Java,103,195,2009-05-21T00:33:04Z,2026-11-16T23:49:17Z
 maven-scm-publish-plugin,Apache Maven SCM Publish Plugin,Java,18,20,2017-12-09T15:15:40Z,2026-11-19T09:20:24Z
 maven-script-interpreter,Apache Maven Script Interpreter,Java,14,14,2017-12-07T18:19:57Z,2026-11-16T23:48:12Z
 maven-scripting-plugin,Apache Maven Scripting Plugin,Java,15,12,2017-12-09T15:16:01Z,2026-11-19T09:20:25Z
@@ -1939,7 +1939,7 @@ maven-toolchains-plugin,Apache Maven Toolchains Plugin,Java,26,36,2017-12-09T15:
 maven-verifier,Apache Maven Verifier (RETIRED),Java,6,18,2017-12-07T18:21:20Z,2026-11-19T09:20:36Z
 maven-verifier-plugin,Apache Maven Verifier Plugin (RETIRED),Java,15,8,2017-12-09T15:17:47Z,2026-11-19T09:20:37Z
 maven-wagon,Apache Maven Wagon,Java,54,106,2009-05-20T02:01:12Z,2026-11-07T15:12:12Z
-maven-war-plugin,Apache Maven WAR Plugin,Java,48,103,2017-12-09T15:18:01Z,2026-11-19T09:20:38Z
+maven-war-plugin,Apache Maven WAR Plugin,Java,48,104,2017-12-09T15:18:01Z,2026-11-19T09:20:38Z
 maven-wrapper,Apache Maven Wrapper,Java,253,81,2021-12-05T10:36:02Z,2026-11-10T21:39:07Z
 maven-wrapper-plugin,Apache Maven Wrapper Plugin,Java,14,2,2020-02-08T09:58:01Z,2026-11-19T09:20:39Z
 maven-xinclude-extension,Apache maven,Java,5,4,2024-07-08T08:17:18Z,2026-11-19T09:20:40Z
@@ -1949,17 +1949,17 @@ metamodel,Mirror of Apache Metamodel,Java,159,149,2013-08-07T07:00:14Z,2026-08-1
 metamodel-membrane,Mirror of Apache MetaModel Membrane,Java,16,18,2017-07-23T07:00:08Z,2024-04-30T01:50:45Z
 metron,Apache Metron,Java,870,503,2015-12-08T08:00:05Z,2026-07-19T03:29:43Z
 metron-bro-plugin-kafka,Apache Metron,Shell,60,37,2017-04-11T07:00:06Z,2025-07-23T02:16:07Z
-mina,Mirror of Apache MINA,Java,920,427,2009-05-21T01:13:51Z,2026-11-19T18:30:52Z
+mina,Mirror of Apache MINA,Java,919,427,2009-05-21T01:13:51Z,2026-11-28T14:29:02Z
 mina-asyncweb,Apache Mina Async Web,Java,3,8,2019-01-12T09:32:56Z,2026-07-22T02:42:21Z
 mina-ftpserver,Apache Mina FTP Server,Java,67,40,2019-01-12T09:33:20Z,2026-11-27T09:08:20Z
 mina-site,Website sources for Apache MINA,HTML,8,3,2020-02-24T08:37:41Z,2026-10-29T08:31:18Z
-mina-sshd,Apache MINA sshd is a comprehensive Java library for client- and server-side SSH.,Java,1101,410,2010-05-26T23:38:08Z,2026-11-25T21:04:22Z
+mina-sshd,Apache MINA sshd is a comprehensive Java library for client- and server-side SSH.,Java,1102,410,2010-05-26T23:38:08Z,2026-11-28T03:23:33Z
 mina-vysper,Apache Mina Vysper,Java,29,10,2019-01-12T09:33:56Z,2026-11-27T04:37:05Z
 mnemonic,Apache Mnemonic - A non-volatile hybrid memory storage oriented library,Java,119,60,2016-03-29T07:00:06Z,2026-07-28T12:51:26Z
 mnemonic-site,Apache Mnemonic Site,SCSS,5,7,2019-01-25T14:08:12Z,2025-04-21T17:17:17Z
 mod_perl,Mirror of Apache mod_perl,Perl,39,18,2010-09-04T07:00:06Z,2026-11-19T14:09:14Z
 mrunit,Mirror of Apache MRUnit,Java,39,23,2011-03-26T07:00:07Z,2026-04-17T02:02:31Z
-mxnet,"Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more",C++,20788,6665,2015-04-30T16:21:15Z,2026-11-26T20:28:29Z
+mxnet,"Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more",C++,20786,6665,2015-04-30T16:21:15Z,2026-11-28T11:07:15Z
 mxnet-ci,Continuous Integration and other infrastructure code that serves Apache MXNet incubating. This repository is not intended for end-users.,Python,9,13,2019-08-15T19:40:23Z,2023-11-17T16:30:27Z
 mxnet-events,Apache MXNet Events,não informado,2,2,2020-11-02T18:37:17Z,2023-11-17T16:30:25Z
 mxnet-examples,Apache MXNet Examples,não informado,6,4,2020-07-16T20:23:02Z,2023-11-17T16:30:27Z
@@ -1989,15 +1989,15 @@ mynewt-newt,"An OS to build, deploy and securely manage billions of devices",Go,
 mynewt-newtmgr,Newt Manager (newtmgr) is the application tool that enables a user to communicate with and manage remote devices running the Mynewt OS,Go,39,86,2016-03-26T07:00:06Z,2026-11-02T12:18:04Z
 mynewt-nfc,Apache mynewt,não informado,4,0,2018-04-03T21:08:17Z,2026-08-17T04:01:46Z
 mynewt-nffs,Apache NFFS filesystem,C,36,14,2017-09-06T14:53:18Z,2026-07-22T02:22:59Z
-mynewt-nimble,Apache mynewt,C,898,529,2017-12-04T19:34:47Z,2026-11-27T09:09:54Z
+mynewt-nimble,Apache mynewt,C,899,529,2017-12-04T19:34:47Z,2026-11-27T23:10:21Z
 mynewt-pkg-bsp,This is a basic definition of a sample Mynewt package,C,3,3,2016-10-12T07:00:06Z,2025-11-12T13:38:11Z
 mynewt-pkg-pkg,This is a basic definition of a sample Mynewt package,C,3,2,2016-10-12T07:00:07Z,2025-11-12T13:38:16Z
 mynewt-pkg-sdk,This is a basic definition of a sample Mynewt package,C,3,2,2016-10-12T07:00:07Z,2025-11-12T13:38:23Z
 mynewt-site,Apache MyNewt Website Repo,HTML,31,63,2016-02-11T08:00:06Z,2026-07-27T06:48:31Z
 nano,Nano is now part of Apache CouchDB. Repo moved to https://GitHub.com/apache/couchdb-nano,JavaScript,1117,153,2011-08-11T23:17:21Z,2026-11-12T15:44:32Z
-netbeans,Apache NetBeans,Java,3160,941,2017-09-01T07:00:11Z,2026-11-27T16:46:47Z
+netbeans,Apache NetBeans,Java,3160,943,2017-09-01T07:00:11Z,2026-11-27T16:46:47Z
 netbeans-antora,Apache netbeans,JavaScript,8,9,2023-10-04T13:41:10Z,2026-11-09T14:09:33Z
-netbeans-antora-site,Apache netbeans,HTML,17,1544,2023-10-04T13:42:10Z,2026-10-30T14:53:00Z
+netbeans-antora-site,Apache netbeans,HTML,17,1545,2023-10-04T13:42:10Z,2026-10-30T14:53:00Z
 netbeans-antora-tutorials,Apache netbeans,Java,9,598,2023-10-04T13:15:51Z,2026-08-20T20:34:58Z
 netbeans-antora-ui,Apache netbeans,SCSS,6,8,2023-10-04T11:56:07Z,2026-11-06T09:11:30Z
 netbeans-antora-wiki,Apache netbeans,não informado,3,33,2023-10-04T13:13:37Z,2026-08-20T20:34:58Z
@@ -2026,7 +2026,7 @@ netbeans-vscode,Apache NetBeans for VS Code,TypeScript,12,14,2025-06-17T08:04:47
 netbeans-website,Apache NetBeans Website,não informado,242,176,2016-11-28T08:00:10Z,2026-07-22T02:19:01Z
 netbeans-website-cleanup,A repository to cleanup the older NetBeans website sources to have a clean repository for the new website to cleanup history and big files etc,HTML,5,6,2017-12-17T22:58:10Z,2025-10-17T17:54:56Z
 netbeans-webskin,Apache NetBeans maven site skin for maven build,JavaScript,0,2,2019-05-09T12:03:15Z,2025-10-17T18:06:58Z
-nifi,Apache NiFi,Java,6341,3011,2014-12-12T08:00:05Z,2026-11-27T11:13:02Z
+nifi,Apache NiFi,Java,6343,3010,2014-12-12T08:00:05Z,2026-11-28T14:43:26Z
 nifi-api,Apache NiFi API,Java,8,26,2024-09-09T19:13:30Z,2026-11-03T11:28:33Z
 nifi-container,Mirror of Apache NiFi containerization efforts,não informado,8,6,2017-11-21T08:00:10Z,2026-07-22T02:33:00Z
 nifi-fds,Mirror of Apache NiFi Flow Design System,HTML,48,26,2018-03-22T07:00:13Z,2026-08-14T07:09:31Z
@@ -2043,8 +2043,8 @@ nutch,Apache Nutch is an extensible and scalable web crawler,Java,3313,1285,2009
 nutch-airflow-tools,Apache nutch,não informado,0,0,2023-09-28T13:42:46Z,2026-07-22T03:07:47Z
 nutch-site,Apache Nutch Website,CSS,5,4,2020-09-16T10:27:43Z,2026-09-08T11:11:34Z
 nutch-webapp,Apache Nutch is an extensible and scalable web crawler,Java,10,4,2021-07-12T15:02:02Z,2026-07-22T02:58:14Z
-nuttx,"Apache NuttX is a mature, real-time embedded operating system (RTOS)",C,4136,1786,2019-12-14T23:27:55Z,2026-11-26T14:02:55Z
-nuttx-apps,"Apache NuttX Apps is a collection of tools, shells, network utilities, libraries, interpreters and can be used with the NuttX RTOS",C,476,815,2019-12-14T23:26:26Z,2026-11-26T14:03:30Z
+nuttx,"Apache NuttX is a mature, real-time embedded operating system (RTOS)",C,4136,1786,2019-12-14T23:27:55Z,2026-11-28T07:08:56Z
+nuttx-apps,"Apache NuttX Apps is a collection of tools, shells, network utilities, libraries, interpreters and can be used with the NuttX RTOS",C,476,815,2019-12-14T23:26:26Z,2026-11-28T07:09:10Z
 nuttx-ntfc,NuttX Test Framework for Community.,Python,4,7,2026-02-02T12:56:55Z,2026-11-11T10:20:40Z
 nuttx-ntfc-testing,Default test cases for NuttX Test Framework (NTFC).,Python,4,7,2026-02-02T12:57:28Z,2026-10-26T18:28:55Z
 nuttx-nxdart,Apache nuttx,não informado,1,0,2026-02-02T12:56:09Z,2026-07-22T06:09:58Z
@@ -2056,11 +2056,11 @@ ode-console,Mirror of Apache ODE Console,JavaScript,4,6,2015-03-12T07:00:05Z,202
 ode-jacob,Mirror of Apache Ode Jacob,Java,11,6,2013-04-29T22:27:17Z,2026-11-24T13:16:34Z
 odftoolkit,Apache ODF Toolkit (Incubating) - Project Retired.,Java,38,23,2012-07-28T07:00:12Z,2026-06-23T14:35:18Z
 ofbiz,Apache OFBiz - Main development has moved to the ofbiz-frameworks repository.,Java,804,547,2009-05-20T01:47:56Z,2026-11-19T18:30:51Z
-ofbiz-framework,"Apache OFBiz is an open source product for the automation of enterprise processes. It includes framework components and business applications for ERP, CRM, E-Business/E-Commerce, Supply Chain Management and Manufacturing Resource Planning. OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.",Java,1151,772,2017-02-13T08:00:07Z,2026-11-20T13:52:12Z
-ofbiz-plugins,"Apache OFBiz is an open source product for the automation of enterprise processes. It includes framework components and business applications for ERP, CRM, E-Business/E-Commerce, Supply Chain Management and Manufacturing Resource Planning. OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.",FreeMarker,179,223,2017-03-05T08:00:07Z,2026-11-26T09:02:54Z
+ofbiz-framework,"Apache OFBiz is an open source product for the automation of enterprise processes. It includes framework components and business applications for ERP, CRM, E-Business/E-Commerce, Supply Chain Management and Manufacturing Resource Planning. OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.",Java,1150,773,2017-02-13T08:00:07Z,2026-11-28T14:02:31Z
+ofbiz-plugins,"Apache OFBiz is an open source product for the automation of enterprise processes. It includes framework components and business applications for ERP, CRM, E-Business/E-Commerce, Supply Chain Management and Manufacturing Resource Planning. OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.",FreeMarker,179,223,2017-03-05T08:00:07Z,2026-11-27T19:07:59Z
 ofbiz-site,Apache ofbiz Site,HTML,13,24,2019-10-22T05:47:57Z,2026-11-04T19:10:14Z
 ofbiz-tools,Apache ofbiz tools,HTML,22,29,2019-10-22T13:24:25Z,2026-10-22T16:43:31Z
-olingo-odata2,Mirror of Apache Olingo,Java,43,79,2014-04-16T07:00:07Z,2026-06-11T01:06:58Z
+olingo-odata2,Mirror of Apache Olingo,Java,43,78,2014-04-16T07:00:07Z,2026-06-11T01:06:58Z
 olingo-odata3-js,Apache Olingo OData 3 JS,JavaScript,1,1,2018-12-11T20:04:30Z,2026-06-02T21:03:12Z
 olingo-odata4,Mirror of Apache Olingo,Java,184,205,2014-04-16T07:00:08Z,2026-10-28T16:44:36Z
 olingo-odata4-js,Mirror of Apache Olingo,JavaScript,43,26,2014-04-16T07:00:08Z,2026-10-28T16:44:29Z
@@ -2070,7 +2070,7 @@ onami,Apache Onami (retired),Java,10,1,2019-01-25T13:52:00Z,2026-11-24T13:16:31Z
 oodt,Mirror of Apache OODT,Java,65,58,2013-01-21T08:00:15Z,2026-05-12T06:12:10Z
 oozie,Mirror of Apache Oozie,Java,726,468,2011-09-14T07:00:10Z,2026-11-19T18:40:50Z
 oozie-site,Apache Oozie Website,não informado,1,1,2021-05-31T18:45:13Z,2025-03-24T17:59:41Z
-opendal,"Apache OpenDAL: One Layer, All Storage.",Rust,5506,868,2022-02-14T05:18:44Z,2026-11-27T15:12:15Z
+opendal,"Apache OpenDAL: One Layer, All Storage.",Rust,5510,868,2022-02-14T05:18:44Z,2026-11-28T14:02:33Z
 opendal-ghac-service-continuous-integration,Apache opendal,não informado,1,1,2026-06-09T08:13:09Z,2026-08-06T02:23:18Z
 opendal-go-services,Apache OpenDAL Go Binding Services Releases,Go,17,4,2024-07-13T07:46:08Z,2026-11-19T12:13:42Z
 opendal-oli,`oli` stands for OpenDAL Command Line Interface. It aims to provide a unified and user-friendly way to manipulate data stored in various storage service.,Rust,28,7,2025-10-17T07:48:49Z,2026-11-19T16:27:32Z
@@ -2080,7 +2080,7 @@ openjpa,Apache OpenJPA - Java persistence project,Java,151,164,2009-05-21T01:13:
 openjpa-site,Source for the Apache OpenJPA web site,Python,1,3,2021-05-31T18:37:58Z,2026-11-11T05:16:24Z
 openmeetings,Mirror of Apache Openmeetings,Java,690,264,2015-03-13T07:00:05Z,2026-11-19T19:30:36Z
 openmeetings-site,Mirror of Apache openmeetings,HTML,6,13,2017-04-27T07:00:07Z,2026-10-06T04:15:43Z
-opennlp,Apache OpenNLP,Java,1606,521,2011-11-09T08:00:09Z,2026-11-23T19:04:38Z
+opennlp,Apache OpenNLP,Java,1606,522,2011-11-09T08:00:09Z,2026-11-23T19:04:38Z
 opennlp-addons,Apache OpenNLP Add-ons,XSLT,22,14,2016-10-05T07:00:08Z,2026-11-09T18:49:16Z
 opennlp-corpus,Apache opennlp,não informado,1,0,2017-07-19T14:43:20Z,2026-07-22T02:22:00Z
 opennlp-models,Apache OpenNLP Models,Shell,17,6,2023-12-22T12:17:41Z,2026-11-09T18:48:04Z
@@ -2182,19 +2182,19 @@ openwhisk-workshop,[DEPRECATED] - OpenWhisk workshop to help developers learn ho
 openwhisk-wskdebug,Debugging and live development tool for Apache OpenWhisk,JavaScript,7,8,2020-02-24T18:26:43Z,2026-07-22T02:49:35Z
 openwhisk-wskdeploy,Apache OpenWhisk utility for deploying and managing OpenWhisk projects and packages,Go,75,74,2016-10-05T22:36:44Z,2026-07-22T02:18:01Z
 openwhisk-xcode,[DEPRECATED] - Collection of OpenWhisk tools for OS X implemented in Swift 3.,Objective-C,9,10,2016-07-21T23:09:35Z,2026-06-30T16:35:15Z
-orc,"Apache ORC - the smallest, fastest columnar storage for Hadoop workloads",Java,773,520,2015-05-06T07:00:05Z,2026-11-27T13:47:18Z
-orc-format,"Apache ORC - the smallest, fastest columnar storage for Hadoop workloads",não informado,18,8,2023-12-05T08:07:14Z,2026-11-24T09:14:54Z
+orc,"Apache ORC - the smallest, fastest columnar storage for Hadoop workloads",Java,774,519,2015-05-06T07:00:05Z,2026-11-28T00:15:06Z
+orc-format,"Apache ORC - the smallest, fastest columnar storage for Hadoop workloads",não informado,18,8,2023-12-05T08:07:14Z,2026-11-28T00:29:06Z
 ospo-site,The Apache Software Foundation — Open Source Program Office (OSPO) website,HTML,0,0,2026-11-25T06:11:15Z,2026-11-25T07:41:26Z
-ossie,"Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",Python,2814,372,2025-11-18T23:27:51Z,2026-11-27T16:47:32Z
-ossie-converters,"Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data. This is the Ossie converters.",Python,73,69,2026-09-29T11:28:19Z,2026-11-27T18:04:08Z
+ossie,"Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",Python,2820,374,2025-11-18T23:27:51Z,2026-11-28T16:24:18Z
+ossie-converters,"Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data. This is the Ossie converters.",Python,75,69,2026-09-29T11:28:19Z,2026-11-28T06:14:46Z
 ossie-temp,"Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",Java,82,9,2026-07-04T03:55:51Z,2026-10-13T11:27:59Z
-ossie-website,Apache Ossie Website,HTML,7,49,2026-07-04T03:56:25Z,2026-11-07T04:49:07Z
+ossie-website,Apache Ossie Website,HTML,7,50,2026-07-04T03:56:25Z,2026-11-07T04:49:07Z
 otava,Change Detection for Continuous Performance Engineering,Python,187,37,2021-08-24T20:04:22Z,2026-11-27T12:21:23Z
 otava-playground,,Python,2,1,2026-01-27T18:06:39Z,2026-07-23T18:52:11Z
 otava-website,Website for Apache Otava (incubating),TypeScript,1,6,2024-11-28T09:07:49Z,2026-11-11T02:12:28Z
 ozhera,Apache OzHera is an About Application Observable Platform in the Cloud Native Era.,Java,123,49,2023-09-08T09:43:53Z,2026-11-03T08:46:57Z
 ozhera-site,Website sources for the Apache OzHera(Incubating) website,Vue,0,7,2024-08-30T16:14:41Z,2026-07-22T03:11:00Z
-ozone,"Scalable, reliable, distributed storage system optimized for data analytics and object store workloads.",Java,1338,658,2019-10-02T15:56:19Z,2026-11-25T14:01:40Z
+ozone,"Scalable, reliable, distributed storage system optimized for data analytics and object store workloads.",Java,1339,659,2019-10-02T15:56:19Z,2026-11-28T14:00:54Z
 ozone-docker,Repository for building Apache Ozone Docker images,Dockerfile,20,29,2019-01-29T23:42:38Z,2026-11-14T21:40:34Z
 ozone-docker-builder,Container image to provide build environment for developing and testing Apache Ozone,Dockerfile,0,4,2020-11-16T17:25:00Z,2026-07-22T02:54:58Z
 ozone-docker-runner,Base image with tools for running and testing Apache Ozone,Dockerfile,6,37,2020-11-16T17:27:16Z,2026-11-12T13:28:43Z
@@ -2202,9 +2202,9 @@ ozone-docker-testkrb5,MIT Kerberos KDC for developing and testing Apache Ozone,D
 ozone-go,Apache Ozone go client and fuse driver (experimental),Go,7,12,2021-04-02T20:09:53Z,2026-07-22T02:56:40Z
 ozone-helm-charts,Helm chart for Apache Ozone,Go Template,23,14,2024-06-20T08:25:32Z,2026-11-10T14:05:12Z
 ozone-installer,Install Apache Ozone on bare metal,Python,9,5,2026-01-22T06:07:56Z,2026-11-05T16:44:01Z
-ozone-site,Website for Apache Ozone,HTML,34,90,2019-01-25T13:54:49Z,2026-11-12T13:57:26Z
+ozone-site,Website for Apache Ozone,HTML,34,91,2019-01-25T13:54:49Z,2026-11-12T13:57:26Z
 ozone-thirdparty,Third-party libraries for use with Apache Ozone,não informado,1,3,2026-05-19T10:41:37Z,2026-11-10T17:05:49Z
-paimon,Apache Paimon is a lake format that enables building a Realtime Lakehouse Architecture with Flink and Spark for both streaming and batch operations.,Java,3459,1446,2022-01-12T03:13:15Z,2026-11-25T07:07:04Z
+paimon,Apache Paimon is a lake format that enables building a Realtime Lakehouse Architecture with Flink and Spark for both streaming and batch operations.,Java,3461,1446,2022-01-12T03:13:15Z,2026-11-28T16:39:30Z
 paimon-cpp,Paimon-cpp is a high-performance C++ implementation of Apache Paimon.,C++,80,42,2026-05-21T12:14:49Z,2026-11-23T09:15:54Z
 paimon-full-text,Apache Paimon Full Text: Rust full text index for data lake search.,HTML,7,15,2026-07-03T11:25:58Z,2026-11-24T08:40:35Z
 paimon-mosaic,Apache Paimon Mosaic: a columnar-bucket hybrid format optimized for wide tables.,Rust,26,14,2026-05-18T04:57:44Z,2026-11-05T19:22:28Z
@@ -2218,7 +2218,7 @@ paimon-website,Apache Paimon Website,TypeScript,20,27,2023-03-15T04:33:14Z,2026-
 paimon-webui,Web ui for Apache Paimon.,Java,145,64,2023-07-06T06:15:26Z,2026-11-09T09:02:02Z
 parquet-benchmark,Apache parquet,não informado,0,4,2024-08-03T00:16:33Z,2026-07-22T03:10:48Z
 parquet-cpp,Apache Parquet,não informado,446,186,2014-06-10T07:00:07Z,2026-11-19T19:15:42Z
-parquet-format,Apache Parquet Format,Thrift,2679,520,2014-06-10T07:00:07Z,2026-11-26T18:59:02Z
+parquet-format,Apache Parquet Format,Thrift,2681,520,2014-06-10T07:00:07Z,2026-11-28T09:44:19Z
 parquet-java,Apache Parquet Java,Java,3095,1596,2014-06-10T07:00:07Z,2026-11-26T05:32:23Z
 parquet-site,Apache Parquet Site,HTML,17,64,2019-10-28T09:29:01Z,2026-11-11T01:55:40Z
 parquet-testing,Apache Parquet Testing,Python,90,86,2018-08-14T17:31:31Z,2026-11-10T04:50:16Z
@@ -2226,7 +2226,7 @@ pdfbox,Mirror of Apache PDFBox,Java,3144,970,2009-09-26T08:00:19Z,2026-11-24T15:
 pdfbox-docs,Mirror of Apache PDFBox Docs,HTML,33,51,2014-11-04T08:00:08Z,2026-10-21T12:43:45Z
 pdfbox-jbig2,Mirror of Apache PDFBox,Java,35,17,2017-10-16T07:00:09Z,2026-11-24T13:15:37Z
 pdfbox-testfiles,Mirror of Apache PDFBox Testfiles,não informado,2,1,2017-11-13T08:00:09Z,2026-07-22T02:32:58Z
-pekko,"Build highly concurrent, distributed, and resilient message-driven applications using Java/Scala",Scala,1676,212,2022-10-31T08:40:39Z,2026-11-26T14:30:47Z
+pekko,"Build highly concurrent, distributed, and resilient message-driven applications using Java/Scala",Scala,1675,212,2022-10-31T08:40:39Z,2026-11-28T10:51:13Z
 pekko-connectors,"Apache Pekko Connectors is a Reactive Enterprise Integration library for Java and Scala, based on Reactive Streams and Apache Pekko.",Scala,83,53,2022-10-31T08:52:35Z,2026-11-24T10:07:53Z
 pekko-connectors-kafka,"Apache Pekko Kafka Connector - Pekko-Connectors is a Reactive Enterprise Integration library for Java and Scala, based on Reactive Streams and Apache Pekko.",Scala,31,19,2022-10-31T08:53:01Z,2026-11-11T18:00:07Z
 pekko-connectors-samples,Example projects building Reactive Integrations using Apache Pekko Connectors,Java,5,7,2023-03-12T10:21:17Z,2026-09-06T20:46:54Z
@@ -2262,7 +2262,7 @@ phoenix-thirdparty,Apache phoenix Third Party Libs,não informado,0,11,2020-07-2
 photark,Mirror of Apache Photark (incubating),HTML,12,6,2010-08-12T03:32:41Z,2026-07-24T19:31:19Z
 photark-mobile,Mirror of Apache Photark - Mobile (Incubating),JavaScript,5,5,2012-03-22T07:00:39Z,2026-07-22T02:10:29Z
 pig,Mirror of Apache Pig,Java,685,443,2009-05-21T01:10:43Z,2026-11-19T18:30:52Z
-pinot,"Apache Pinot: a real-time analytics database for low-latency SQL and vector search, serving user-facing and agent-facing applications",Java,6176,1537,2014-05-19T23:27:48Z,2026-11-27T12:41:18Z
+pinot,"Apache Pinot: a real-time analytics database for low-latency SQL and vector search, serving user-facing and agent-facing applications",Java,6175,1537,2014-05-19T23:27:48Z,2026-11-28T14:02:34Z
 pinot-docs,Apache pinot docs,não informado,1,0,2020-03-25T17:20:19Z,2026-11-19T09:20:42Z
 pinot-site,Apache Pinot Website,não informado,13,25,2018-10-22T23:19:26Z,2026-11-14T21:51:18Z
 pivot,Mirror of Apache Pivot,Java,48,26,2011-08-18T07:00:12Z,2026-08-31T08:09:29Z
@@ -2271,11 +2271,11 @@ plc4x-build-tools,Apache plc4x Build Tools,Java,21,18,2019-06-24T15:40:22Z,2026-
 plc4x-extras,PLC4X The Industrial IoT adapter,Go,21,23,2024-03-24T09:55:37Z,2026-11-06T08:15:18Z
 plc4x-website,Apache PLC4X generated Website,HTML,12,13,2018-11-23T09:29:27Z,2026-11-12T15:57:41Z
 pluto,Mirror of Apache Pluto,não informado,4,7,2009-05-21T01:09:18Z,2026-07-22T02:01:31Z
-poi,Mirror of Apache POI gitbox. The Java API for Microsoft Documents.,Java,2292,863,2009-05-21T01:15:15Z,2026-11-26T01:04:33Z
+poi,Mirror of Apache POI gitbox. The Java API for Microsoft Documents.,Java,2292,864,2009-05-21T01:15:15Z,2026-11-26T01:04:33Z
 poi-site,Apache POI Website,não informado,1,0,2021-07-13T17:05:26Z,2026-08-25T06:07:55Z
 poi-xmlbeans,Mirror of Apache XMLBeans gitbox.,Java,64,72,2009-08-06T08:06:50Z,2026-11-11T07:27:39Z
 poi-xmlbeans-site,Apache XMLBeans Website,HTML,1,1,2021-07-13T17:34:39Z,2026-08-25T06:07:48Z
-polaris,"Apache Polaris, the interoperable, open source catalog for Apache Iceberg",Java,2126,582,2024-05-29T18:44:27Z,2026-11-27T11:12:39Z
+polaris,"Apache Polaris, the interoperable, open source catalog for Apache Iceberg",Java,2129,582,2024-05-29T18:44:27Z,2026-11-28T13:24:03Z
 polaris-tools,"Apache Polaris Tools, additional tooling for Apache Polaris",TypeScript,38,56,2025-02-25T13:50:06Z,2026-11-20T21:42:10Z
 polygene-java,Mirror of Apache Polygene java,Java,97,29,2015-03-28T07:00:06Z,2026-07-23T12:56:55Z
 polygene-sandbox,Mirror of Apache Polygene sandbox,Java,2,3,2015-03-28T07:00:06Z,2023-01-28T08:57:21Z
@@ -2285,7 +2285,7 @@ ponymail-foal,Apache Pony Mail Foal (Next Generation Suite),Python,47,27,2020-08
 ponymail-site,Apache Pony Mail,HTML,15,8,2016-05-30T07:00:06Z,2026-11-05T17:24:28Z
 ponymail-unit-tests,Apache Pony Mail Unit Tests,Python,0,1,2020-08-11T10:28:12Z,2026-08-04T18:18:05Z
 portals-pluto,Mirror of Apache Pluto,Java,27,40,2014-05-23T07:00:07Z,2026-05-13T11:53:15Z
-pouchdb,:kangaroo: - PouchDB is a pocket-sized database.,JavaScript,17635,1510,2010-06-10T18:34:24Z,2026-11-26T06:21:27Z
+pouchdb,:kangaroo: - PouchDB is a pocket-sized database.,JavaScript,17635,1510,2010-06-10T18:34:24Z,2026-11-28T16:51:36Z
 pouchdb-site,Apache pouchdb,HTML,1,2,2026-02-16T09:59:03Z,2026-07-22T06:09:53Z
 predictionio,"PredictionIO, a machine learning server for developers and ML engineers.",Scala,12520,1890,2013-01-25T19:42:32Z,2026-11-27T17:10:47Z
 predictionio-sdk-java,PredictionIO Java SDK,Java,109,54,2013-02-06T02:06:28Z,2026-03-19T08:10:35Z
@@ -2303,12 +2303,12 @@ predictionio-template-skeleton,PredictionIO vanilla engine template (Scala-based
 predictionio-template-text-classifier,Text Classification Engine,Scala,36,32,2015-05-06T22:11:46Z,2026-11-20T09:08:36Z
 privacy-website,Web site for Apache Data Privacy,SCSS,10,18,2020-12-23T12:48:05Z,2026-07-22T02:55:24Z
 publicaffairs-website,ASF Public Affairs Website,não informado,1,0,2023-07-24T07:02:27Z,2026-10-23T17:52:54Z
-pulsar,Apache Pulsar - distributed pub-sub messaging system,Java,15369,3803,2016-06-28T07:00:03Z,2026-11-27T14:04:48Z
+pulsar,Apache Pulsar - distributed pub-sub messaging system,Java,15369,3805,2016-06-28T07:00:03Z,2026-11-28T11:24:56Z
 pulsar-adapters,Apache Pulsar Adapters,Java,24,31,2020-04-12T18:37:05Z,2026-07-22T02:51:10Z
 pulsar-client-cpp,Apache Pulsar C++ client library,C++,72,96,2022-09-29T01:10:49Z,2026-10-25T18:58:52Z
 pulsar-client-go,Apache Pulsar Go Client Library,Go,745,396,2019-05-06T22:08:46Z,2026-11-26T18:18:30Z
 pulsar-client-node,Apache Pulsar NodeJS Client,C++,166,103,2019-03-01T12:35:51Z,2026-11-25T00:31:48Z
-pulsar-client-python,Apache Pulsar Python client library,Python,75,57,2022-09-29T01:10:23Z,2026-10-22T04:49:09Z
+pulsar-client-python,Apache Pulsar Python client library,Python,75,58,2022-09-29T01:10:23Z,2026-10-22T04:49:09Z
 pulsar-client-reactive,Reactive client for Apache Pulsar,Java,66,24,2022-09-07T17:29:14Z,2026-11-03T08:06:54Z
 pulsar-client-ruby,Apache Pulsar Ruby client,não informado,7,15,2019-05-30T19:00:12Z,2026-07-22T02:44:59Z
 pulsar-client-rust,Apache Pulsar Rust client library,Rust,2,2,2026-11-09T17:36:32Z,2026-11-20T03:22:17Z
@@ -2346,8 +2346,9 @@ qpid-site,Mirror of Apache Qpid Site,HTML,2,7,2017-07-19T07:00:08Z,2026-11-09T16
 rai-governor,Governor,Python,0,2,2026-11-16T02:52:58Z,2026-11-16T18:50:48Z
 rai-memory,Apache rai,não informado,0,0,2026-10-12T16:12:44Z,2026-10-12T16:12:46Z
 rai-site,Apache Responsible AI Website,HTML,1,7,2026-07-30T00:41:35Z,2026-11-21T22:48:12Z
+rai-touchstone,Apache rai,não informado,0,0,2026-11-28T06:41:10Z,2026-11-28T06:41:12Z
 rampart,Mirror of Apache Rampart,Java,2,13,2011-08-14T07:00:07Z,2026-07-22T02:10:45Z
-ranger,"Apache Ranger - Centralized, fine-grained authorization and auditing across data and AI platforms",Java,1090,1104,2014-07-27T07:00:08Z,2026-11-26T09:23:49Z
+ranger,"Apache Ranger - Centralized, fine-grained authorization and auditing across data and AI platforms",Java,1091,1104,2014-07-27T07:00:08Z,2026-11-28T08:51:03Z
 ranger-site,Apache ranger,HTML,2,3,2023-03-31T07:30:13Z,2026-07-22T03:06:02Z
 ranger-tools,Utilities for docker base image development/testing and examples to use Apache Ranger,Shell,1,6,2025-06-18T14:09:27Z,2026-09-17T20:33:54Z
 ratis,Open source Java implementation for Raft consensus protocol.,Java,1492,462,2017-01-31T08:00:07Z,2026-11-25T02:56:53Z
@@ -2368,7 +2369,7 @@ rocketmq-apis,RocketMQ APIs - Protobuf definition for Apache RocketMQ,Starlark,3
 rocketmq-awesome,"Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications.",não informado,7,3,2022-08-03T01:41:56Z,2026-08-18T06:25:55Z
 rocketmq-client-cpp,Apache RocketMQ cpp client,C++,392,168,2018-10-11T02:36:54Z,2026-11-19T21:07:45Z
 rocketmq-client-csharp,Apache rocketmq,C#,17,10,2022-02-11T11:55:21Z,2026-11-10T16:38:15Z
-rocketmq-client-go,Apache RocketMQ go client,Go,1409,445,2018-10-11T02:38:19Z,2026-11-19T21:07:46Z
+rocketmq-client-go,Apache RocketMQ go client,Go,1409,444,2018-10-11T02:38:19Z,2026-11-19T21:07:46Z
 rocketmq-client-nodejs,Apache RocketMQ nodejs client,C++,193,37,2018-10-11T02:39:56Z,2026-09-21T04:02:13Z
 rocketmq-client-python,Apache RocketMQ python client,Python,305,98,2018-10-11T02:37:36Z,2026-11-19T21:07:45Z
 rocketmq-client-rust,Apache rocketmq,Rust,12,4,2022-02-18T07:12:52Z,2026-08-18T06:25:24Z
@@ -2404,7 +2405,7 @@ royale-typedefs,Apache Royale TypeDefs,ActionScript,9,8,2016-07-17T07:00:06Z,202
 royale-website,Apache Royale Website,JavaScript,8,5,2017-09-27T15:15:06Z,2026-07-22T02:23:14Z
 rya,Mirror of Apache Rya,Java,115,69,2015-10-06T07:00:05Z,2026-07-22T02:15:12Z
 rya-site,Apache Rya Website,SCSS,2,7,2016-10-27T07:00:06Z,2026-07-22T02:18:23Z
-samza,Mirror of Apache Samza,Java,845,332,2015-03-14T07:00:05Z,2026-11-23T17:42:03Z
+samza,Mirror of Apache Samza,Java,846,332,2015-03-14T07:00:05Z,2026-11-28T04:28:11Z
 samza-beam-examples,Apache samza,Java,7,11,2019-01-04T00:20:18Z,2026-07-22T02:41:59Z
 samza-hello-samza,Mirror of Apache Samza,Java,111,134,2014-03-13T07:00:06Z,2026-07-22T02:11:13Z
 sandesha,Mirror of Apache Sandesha,Java,2,2,2011-08-13T07:01:15Z,2026-07-22T02:10:46Z
@@ -2423,7 +2424,7 @@ sdap-nexusproto,Mirror of Google Protobuf definition of a SDAP NEXUS Tile with b
 sdap-ningester,Mirror of Java batch job used to ingest datasets into SDAP NEXUS,Java,3,5,2018-01-10T08:00:11Z,2026-07-22T02:35:45Z
 sdap-ningesterpy,Mirror of Python module exposing an HTTP interface that can be used to transform SDAP NEXUS tiles during ingestion.,Python,1,7,2018-01-10T08:00:11Z,2026-07-22T02:35:46Z
 sdap-website,Mirror of Apache sdap (Incubating),HTML,3,7,2017-10-27T07:00:11Z,2026-07-22T02:32:34Z
-seatunnel,"SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",Java,9840,2482,2017-08-05T09:14:47Z,2026-11-27T11:13:05Z
+seatunnel,"SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",Java,9839,2482,2017-08-05T09:14:47Z,2026-11-28T14:02:36Z
 seatunnel-datasource-sdk,"SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).",Java,5,5,2022-12-19T02:32:12Z,2026-11-21T12:53:09Z
 seatunnel-shade,"SeaTunnel is a next-generation super high-performance, distributed, massive data integration tool.",Java,3,9,2023-01-04T08:32:42Z,2026-11-21T12:52:43Z
 seatunnel-tools,"SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.",Java,45,11,2025-08-14T07:03:49Z,2026-11-20T03:04:26Z
@@ -2433,7 +2434,7 @@ security-dash,Apache security,JavaScript,0,12,2026-08-12T16:08:49Z,2026-11-03T20
 security-site,Website sources for the Apache Security website,CSS,14,20,2022-02-14T12:13:54Z,2026-11-10T22:07:23Z
 security-vulnogram,Vulnogram is a tool for creating and editing CVE information in CVE JSON format,JavaScript,8,11,2019-08-06T17:45:56Z,2026-11-03T09:20:53Z
 sedona,A cluster computing framework for processing large-scale geospatial data,Java,2434,801,2015-04-24T18:01:29Z,2026-11-25T03:56:44Z
-sedona-db,A single-node analytical database engine with geospatial as a first-class citizen,Rust,534,74,2025-08-25T00:08:50Z,2026-11-22T15:19:38Z
+sedona-db,A single-node analytical database engine with geospatial as a first-class citizen,Rust,534,74,2025-08-25T00:08:50Z,2026-11-28T14:31:38Z
 sedona-spatialbench,A benchmark for assessing geospatial SQL analytics query performance across database systems,Rust,50,24,2025-08-25T00:05:34Z,2026-10-16T02:46:25Z
 sedona-testing,Apache sedona,Python,9,4,2025-06-04T00:07:17Z,2026-09-30T19:51:06Z
 sedona-website,Apache Sedona Website,não informado,5,3,2020-09-02T07:37:28Z,2026-07-22T02:54:17Z
@@ -2469,7 +2470,7 @@ servicemix4-legal,Mirror of Apache Servicemix 4 legal,não informado,3,3,2009-06
 servicemix4-nmr,Mirror of Apache Servicemix 4 NMR,Java,5,4,2009-06-12T08:00:36Z,2026-07-22T02:11:47Z
 servicemix4-specs,Mirror of Apache Servicemix 4 specs,Java,10,5,2009-06-12T08:05:23Z,2026-07-22T02:11:39Z
 servicemix5,Mirror of Apache ServiceMix 5,CSS,11,7,2011-06-30T07:00:12Z,2026-07-22T02:10:51Z
-shardingsphere,"Empowering Data Intelligence with Distributed SQL for Sharding, Scalability, and Security Across All Databases.",Java,20841,6912,2016-01-18T12:49:26Z,2026-11-27T08:41:41Z
+shardingsphere,"Empowering Data Intelligence with Distributed SQL for Sharding, Scalability, and Security Across All Databases.",Java,20841,6913,2016-01-18T12:49:26Z,2026-11-28T09:45:29Z
 shardingsphere-acceptance-test,Apache ShardingSphere,Java,5,3,2019-12-05T09:53:58Z,2026-03-10T08:59:04Z
 shardingsphere-benchmark,Distributed database middleware,Java,27,18,2019-08-30T04:38:04Z,2026-07-22T02:46:47Z
 shardingsphere-doc,Sharding-Sphere website & documents,HTML,174,198,2017-09-19T11:12:01Z,2026-11-27T01:47:27Z
@@ -2483,13 +2484,13 @@ shardingsphere-externals,Distributed database middleware,não informado,2,5,2020
 shardingsphere-on-cloud,A collection of tools and best practices to take ShardingSphere into the cloud,Go,87,33,2022-03-14T07:04:21Z,2026-10-05T13:03:40Z
 shardingsphere-plugin,Provides plugins for ShardingSphere pluggable architecture.,Java,40,24,2023-09-08T03:42:50Z,2026-10-27T09:57:30Z
 shardingsphere-ui,Distributed database middleware,Java,53,42,2020-06-19T05:40:03Z,2026-11-26T08:10:15Z
-shenyu,"Apache ShenYu is a Java native API Gateway for service proxy, protocol conversion and API governance.",Java,8937,3126,2018-07-11T08:17:45Z,2026-11-27T14:22:27Z
+shenyu,"Apache ShenYu is a Java native API Gateway for service proxy, protocol conversion and API governance.",Java,8936,3126,2018-07-11T08:17:45Z,2026-11-28T14:02:38Z
 shenyu-client-dotnet,Apache ShenYu Client SDK for donet.,C#,12,10,2022-04-18T06:52:51Z,2026-10-22T01:40:14Z
 shenyu-client-golang,Apache ShenYu Client SDK for golang.,Go,18,14,2022-04-18T06:54:46Z,2026-10-22T01:40:11Z
 shenyu-client-java,"Apache ShenYu is a Java native API Gateway for service proxy, protocol conversion and API governance.",Java,10,9,2025-02-10T07:18:08Z,2026-10-31T08:43:37Z
 shenyu-client-python,Apache ShenYu Client SDK for python.,Python,14,13,2022-02-09T06:47:52Z,2026-07-22T03:00:57Z
 shenyu-client-rust,Apache shenyu,Rust,14,6,2024-09-30T07:27:05Z,2026-07-22T03:11:13Z
-shenyu-dashboard,Apache ShenYu Dashboard,JavaScript,210,276,2018-07-22T14:40:54Z,2026-11-25T07:07:34Z
+shenyu-dashboard,Apache ShenYu Dashboard,JavaScript,210,277,2018-07-22T14:40:54Z,2026-11-25T07:07:34Z
 shenyu-helm-chart,Helm Chart for deploying Apache ShenYu in Kubernetes,Smarty,18,12,2022-03-21T04:03:34Z,2026-10-22T01:39:57Z
 shenyu-nginx,Apache ShenYu Nginx.,Lua,33,18,2021-11-23T11:41:33Z,2026-10-22T01:39:45Z
 shenyu-plugin-sore,Apache shenyu,não informado,1,0,2026-03-30T10:24:41Z,2026-07-22T06:09:47Z
@@ -2499,18 +2500,18 @@ shenyu-wasm,Apache ShenYu WASM SDK for java.,Java,11,6,2023-07-17T08:28:38Z,2026
 shenyu-watcher,Apache ShenYu release check.,Python,11,4,2022-09-09T08:36:11Z,2026-11-09T00:19:37Z
 shenyu-website,Apache ShenYu website.,TypeScript,83,252,2021-05-06T06:55:11Z,2026-11-14T21:51:15Z
 shindig,Mirror of Apache Shindig (incubating),Java,66,67,2009-05-21T08:41:05Z,2026-05-13T11:12:04Z
-shiro,"Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management",Java,4467,2299,2009-08-29T08:00:17Z,2026-11-24T17:44:37Z
+shiro,"Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management",Java,4467,2298,2009-08-29T08:00:17Z,2026-11-24T17:44:37Z
 shiro-site,Apache Shiro Website,HTML,25,194,2016-07-19T07:00:09Z,2026-11-15T05:48:14Z
-singa,a distributed deep learning platform,C++,3601,1261,2015-04-02T07:00:05Z,2026-11-20T15:58:38Z
+singa,a distributed deep learning platform,C++,3600,1261,2015-04-02T07:00:05Z,2026-11-28T08:28:50Z
 singa-doc,Apache singa,JavaScript,9,21,2019-12-17T05:30:24Z,2026-07-22T02:48:31Z
 singa-site,Apache singa site,HTML,4,7,2019-07-10T20:13:45Z,2026-07-22T02:46:06Z
 sirona,Mirror of Apache Sirona (Incubating),JavaScript,110,43,2013-10-24T07:00:14Z,2026-07-22T02:10:00Z
 sis,Java language library for developing geospatial applications following OGC/ISO standards.,Java,127,53,2013-06-11T07:00:15Z,2026-11-13T14:56:37Z
 sis-site,Website sources for the Apache SIS website,HTML,9,7,2021-04-25T08:26:27Z,2026-11-07T17:40:39Z
-skywalking,"APM, Application Performance Monitoring System",Java,25031,6630,2015-11-07T03:30:36Z,2026-11-27T11:13:09Z
+skywalking,"APM, Application Performance Monitoring System",Java,25033,6630,2015-11-07T03:30:36Z,2026-11-28T13:23:45Z
 skywalking-agent-test-tool,"The integration test tool for Apache SkyWalking, including Mock OAP server and trace validator.",Java,38,36,2020-02-28T02:18:33Z,2026-11-24T02:40:26Z
 skywalking-ai-sessionizer,Apache SkyWalking AI Sessionizer - conversation-level observability for long-lived AI agents,Go,7,5,2026-09-03T01:29:59Z,2026-11-07T23:34:23Z
-skywalking-banyandb,"An observability database aims to ingest, analyze and store Metrics, Tracing and Logging data.",Go,356,135,2021-03-26T02:26:42Z,2026-11-26T11:18:34Z
+skywalking-banyandb,"An observability database aims to ingest, analyze and store Metrics, Tracing and Logging data.",Go,357,135,2021-03-26T02:26:42Z,2026-11-28T10:19:18Z
 skywalking-banyandb-client-proto,BanyanDB public client Protocol Buffer and gRPC definitions,Python,5,2,2025-12-08T08:21:10Z,2026-07-22T06:10:21Z
 skywalking-banyandb-helm,BanyanDB Helm Chart repository provides ways to install and configure BanyanDB running in a cluster natively on Kubernetes.,Go Template,12,6,2023-08-11T07:59:30Z,2026-11-24T02:36:55Z
 skywalking-banyandb-java-client,The client implementation for SkyWalking BanyanDB in Java,Java,22,13,2021-08-31T03:18:08Z,2026-11-24T02:37:54Z
@@ -2535,7 +2536,7 @@ skywalking-nginx-lua,The Nginx Lua agent for Apache SkyWalking,Lua,202,69,2020-0
 skywalking-nodejs,The NodeJS agent for Apache SkyWalking,TypeScript,180,71,2020-06-25T03:42:13Z,2026-11-24T02:40:39Z
 skywalking-oal-tool,Apache skywalking,Java,9,3,2018-07-13T17:25:46Z,2026-11-24T02:41:01Z
 skywalking-php,Apache SkyWalking PHP Agent,Rust,178,25,2022-08-31T00:26:13Z,2026-11-24T02:38:39Z
-skywalking-python,The Python agent for Apache SkyWalking,Python,220,115,2020-05-05T12:13:49Z,2026-11-24T02:40:35Z
+skywalking-python,The Python agent for Apache SkyWalking,Python,219,115,2020-05-05T12:13:49Z,2026-11-28T14:02:39Z
 skywalking-query-protocol,Query Protocol for Apache SkyWalking in GraphQL format,não informado,73,71,2018-09-03T08:09:40Z,2026-11-24T02:41:05Z
 skywalking-rocketbot-ui,SkyWalking RocketBot UI,Vue,778,344,2018-10-16T13:59:29Z,2026-11-24T02:40:10Z
 skywalking-rover,"Monitor and profiler powered by eBPF to monitor network traffic, and diagnose CPU and network performance.",Go,238,53,2022-02-18T01:34:32Z,2026-11-24T02:38:33Z
@@ -2900,7 +2901,7 @@ sling-tooling-jenkins,Apache Sling Jenkins Tooling,Groovy,2,5,2017-10-18T16:47:1
 sling-tooling-release,Apache Sling Release Tooling,Shell,0,3,2017-11-22T21:00:25Z,2026-07-22T02:33:06Z
 sling-tooling-scm,Apache Sling SCM Tooling,Shell,0,1,2017-10-18T16:47:03Z,2026-07-22T02:32:08Z
 sling-whiteboard,Apache Sling Whiteboard - testing ground for new ideas,Java,48,33,2017-11-03T13:58:25Z,2026-10-30T11:25:48Z
-solr,Apache Solr open-source search software,Java,1708,874,2021-02-23T00:12:42Z,2026-11-27T11:13:00Z
+solr,Apache Solr open-source search software,Java,1709,874,2021-02-23T00:12:42Z,2026-11-28T06:34:01Z
 solr-docker,Official Dockerfile for Apache Solr,Dockerfile,32,28,2021-12-22T12:50:09Z,2026-11-20T09:51:41Z
 solr-mcp,Solr MCP Server,Java,24,19,2025-10-17T01:41:33Z,2026-11-24T17:24:30Z
 solr-operator,Official Kubernetes operator for Apache Solr,Go,285,154,2019-06-14T18:25:16Z,2026-11-16T20:15:10Z
@@ -2915,10 +2916,10 @@ sourcelume-site,Apache Sourcelume,CSS,2,3,2026-08-23T10:20:02Z,2026-10-26T13:21:
 sourcelume-spec,"Apache Sourcelume is open-source instrumentation for AI training-data provenance — a metadata specification, a reference registry, and tooling that let dataset curators and model producers publish signed, independently verifiable records of where their data came from and what terms it carries.",Python,3,4,2026-08-23T17:13:59Z,2026-10-26T13:38:39Z
 sourcelume-tooling,Apache sourcelume,Java,0,3,2026-10-12T11:23:29Z,2026-11-06T19:26:45Z
 spamassassin,Read-only mirror of Apache SpamAssassin.,Perl,345,92,2009-05-20T01:47:48Z,2026-11-12T11:34:51Z
-spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,44645,29542,2014-02-25T08:00:08Z,2026-11-27T18:06:21Z
+spark,Apache Spark - A unified analytics engine for large-scale data processing,Scala,44663,29542,2014-02-25T08:00:08Z,2026-11-28T17:06:38Z
 spark-connect-gateway,Apache Spark Connect Gateway,Rust,16,6,2026-08-09T17:40:22Z,2026-11-12T00:03:11Z
 spark-connect-go,Apache Spark Connect Client for Golang,Go,250,54,2023-05-30T10:09:28Z,2026-10-23T17:14:22Z
-spark-connect-rust,Apache Spark Connect Client for Rust (Rust core + Python wrapper),Python,52,26,2025-05-26T07:22:15Z,2026-11-12T15:14:44Z
+spark-connect-rust,Apache Spark Connect Client for Rust (Rust core + Python wrapper),Python,53,26,2025-05-26T07:22:15Z,2026-11-28T16:19:12Z
 spark-connect-swift,Apache Spark Connect Client for Swift,Swift,33,11,2025-03-10T23:20:04Z,2026-11-10T06:43:38Z
 spark-docker,Official Dockerfile for Apache Spark,Dockerfile,176,68,2022-10-10T05:02:05Z,2026-11-05T02:42:35Z
 spark-kubernetes-operator,Apache Spark Kubernetes Operator,Java,330,81,2024-03-29T02:44:06Z,2026-11-27T13:47:31Z
@@ -2932,12 +2933,12 @@ storm,Apache Storm,Java,6705,4026,2013-11-05T08:00:14Z,2026-11-25T07:01:27Z
 storm-docker,Docker image packaging for Apache Storm,Dockerfile,5,5,2024-01-10T18:50:21Z,2026-11-11T01:15:17Z
 storm-site,Source for the Apache Storm web site,CSS,6,13,2017-08-07T07:00:08Z,2026-11-11T02:46:43Z
 stormcrawler,"A scalable, mature and versatile web crawler based on Apache Storm",Java,1014,299,2013-04-12T14:13:30Z,2026-11-27T15:46:08Z
-stormcrawler-site,Source for the Apache StormCrawler web site,HTML,4,6,2024-04-15T18:35:11Z,2026-10-22T14:55:51Z
+stormcrawler-site,Source for the Apache StormCrawler web site,HTML,4,5,2024-04-15T18:35:11Z,2026-10-22T14:55:51Z
 stratos,Mirror of Apache Stratos,Java,160,115,2014-06-03T07:00:07Z,2026-03-24T07:14:37Z
-streampark,The Open Control Plane for Real-Time Data,Java,4353,1097,2019-05-27T05:56:03Z,2026-11-26T14:52:54Z
+streampark,The Open Control Plane for Real-Time Data,Java,4354,1097,2019-05-27T05:56:03Z,2026-11-28T07:24:57Z
 streampark-quickstart,Apache StreamPark quickstart,Shell,74,72,2021-04-07T10:58:23Z,2026-07-22T02:56:48Z
 streampark-website,Apache streampark Website,Less,25,90,2022-01-04T11:04:27Z,2026-10-21T01:38:24Z
-streampipes,"Apache StreamPipes - A self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams.",Java,762,253,2018-04-22T20:06:55Z,2026-11-25T00:31:45Z
+streampipes,"Apache StreamPipes - A self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams.",Java,761,254,2018-04-22T20:06:55Z,2026-11-28T14:02:40Z
 streampipes-examples,Examples supporting the StreamPipes developer guide,Java,6,3,2019-02-17T16:29:33Z,2026-07-22T02:43:01Z
 streampipes-extensions,"Apache StreamPipes - A self-service (Industrial) IoT toolbox to enable non-technical users to connect, analyze and explore IoT data streams. This repository contains ready-to-use pipeline elements and adapters for StreamPipes Connect",Java,26,17,2018-08-06T21:04:26Z,2024-04-10T07:54:18Z
 streampipes-installer,"Apache StreamPipes installation files for Linux, MacOS and Windows",Shell,15,12,2018-05-04T14:12:47Z,2024-04-10T07:54:15Z
@@ -2961,13 +2962,13 @@ struts1,Mirror of Apache Struts 1,Java,35,103,2009-05-21T01:36:19Z,2026-08-11T05
 submarine,Submarine is Cloud Native Machine Learning Platform.,Java,704,248,2019-09-19T04:00:17Z,2026-11-19T21:32:26Z
 submarine-site,Apache Submarine website,HTML,6,7,2019-10-29T15:16:26Z,2024-07-10T10:51:25Z
 subversion,Mirror of Apache Subversion,C,652,201,2009-12-31T09:00:10Z,2026-11-21T16:36:48Z
-superset,Apache Superset is a Data Visualization and Data Exploration Platform,Python,75715,18641,2015-07-21T18:55:34Z,2026-11-27T18:25:12Z
+superset,Apache Superset is a Data Visualization and Data Exploration Platform,Python,75723,18645,2015-07-21T18:55:34Z,2026-11-28T17:10:18Z
 superset-kubernetes-operator,Apache Superset Kubernetes Operator,Go,28,20,2025-02-25T00:51:19Z,2026-11-27T05:53:13Z
 superset-site,Apache superset (Incubating) website,HTML,11,20,2017-06-27T07:00:08Z,2026-11-12T15:45:14Z
 synapse,Apache Synapse is a lightweight and high-performance Enterprise Service Bus (ESB),Java,85,67,2009-05-21T01:01:59Z,2026-11-17T02:31:52Z
 synapse-go,Apache synapse,Go,6,6,2025-01-02T03:17:16Z,2026-07-22T03:12:41Z
 syncope,Apache Syncope,Java,349,213,2014-10-23T07:00:10Z,2026-11-22T10:06:23Z
-systemds,An open source ML system for the end-to-end data science lifecycle,Java,1101,556,2015-11-10T08:00:06Z,2026-11-24T22:38:40Z
+systemds,An open source ML system for the end-to-end data science lifecycle,Java,1100,556,2015-11-10T08:00:06Z,2026-11-28T14:02:43Z
 systemds-website,Apache SystemDS Website,HTML,22,28,2015-11-21T08:00:05Z,2026-11-07T16:02:38Z
 tac-website,Website sources for the Travel Assistance Committee,HTML,11,5,2023-02-09T19:52:36Z,2026-10-23T17:53:13Z
 tajo,Mirror of Apache Tajo,Java,136,111,2014-03-21T07:00:07Z,2026-07-13T20:11:16Z
@@ -2996,17 +2997,17 @@ terraform-provider-polaris,"Terraform provider for Apache Polaris, the interoper
 texera,Human-AI Collaborative Data Science Using Visual Workflows,Scala,343,205,2016-03-15T20:38:46Z,2026-11-25T18:27:13Z
 texera-security,Apache texera,não informado,0,0,2026-11-05T08:17:27Z,2026-11-05T08:17:30Z
 tez,Apache Tez,Java,523,445,2013-04-08T07:20:23Z,2026-11-19T18:57:12Z
-thrift,Apache Thrift,C++,10972,4132,2009-09-18T08:00:17Z,2026-11-25T23:21:29Z
+thrift,Apache Thrift,C++,10973,4131,2009-09-18T08:00:17Z,2026-11-28T07:42:06Z
 thrift-website,Apache Thrift Website,CSS,2,10,2020-10-30T10:11:47Z,2026-09-30T22:25:11Z
-tika,"The Apache Tika toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF).",Java,4161,1050,2009-05-21T02:12:11Z,2026-11-27T09:01:18Z
+tika,"The Apache Tika toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF).",Java,4163,1050,2009-05-21T02:12:11Z,2026-11-28T16:15:25Z
 tika-docker,Convenience Docker images for Apache Tika Server,Dockerfile,242,81,2020-01-08T22:06:03Z,2026-10-30T21:30:02Z
 tika-grpc-docker,Apache tika,Shell,1,1,2024-06-26T23:34:56Z,2026-07-22T03:10:09Z
 tika-helm,A Helm chart to deploy Apache Tika on Kubernetes.,Go Template,33,28,2021-04-16T15:00:55Z,2026-10-27T14:27:17Z
 tiles,Mirror of Apache Tiles,Java,110,89,2011-10-25T07:00:11Z,2026-10-13T13:13:15Z
 tiles-autotag,Mirror of Apache Tiles Autotag,Java,12,17,2012-05-09T07:00:16Z,2026-11-24T13:16:38Z
 tiles-request,Mirror of Apache Tiles Request,Java,10,23,2012-05-09T07:00:15Z,2026-07-22T02:10:27Z
-tinkerpop,Apache TinkerPop - a graph computing framework,Java,2156,865,2015-02-07T08:00:05Z,2026-11-27T13:27:02Z
-tomcat,Apache Tomcat,Java,8283,5599,2011-10-01T07:00:19Z,2026-11-26T18:22:47Z
+tinkerpop,Apache TinkerPop - a graph computing framework,Java,2156,864,2015-02-07T08:00:05Z,2026-11-27T13:27:02Z
+tomcat,Apache Tomcat,Java,8284,5597,2011-10-01T07:00:19Z,2026-11-28T14:18:16Z
 tomcat-connectors,Apache Tomcat Connectors,C,23,37,2010-08-12T03:32:41Z,2026-09-28T14:08:17Z
 tomcat-jakartaee-migration,Apache Tomcat migration tool for Jakarta EE,Java,194,70,2020-01-13T12:37:17Z,2026-11-02T07:49:34Z
 tomcat-maven-plugin,Apache Tomcat Maven plugin,Java,179,154,2011-09-01T07:00:15Z,2026-11-25T00:31:38Z
@@ -3055,7 +3056,7 @@ tooling-trusted-releases,Apache Trusted Releases,Python,32,33,2025-02-10T16:20:0
 trafficcontrol,Apache Traffic Control is an Open Source implementation of a Content Delivery Network,Go,1152,358,2016-09-02T07:00:06Z,2026-11-26T08:20:37Z
 trafficcontrol-trafficops-types,Apache trafficcontrol,TypeScript,0,4,2022-07-20T20:03:00Z,2025-11-24T16:09:04Z
 trafficcontrol-website,Apache Traffic Control Website,HTML,1,6,2018-06-13T18:42:49Z,2025-11-24T16:09:05Z
-trafficserver,"Apache Traffic Server™ is a fast, scalable and extensible HTTP/1.1 and HTTP/2 compliant caching proxy server.",C++,2002,902,2009-10-31T08:00:10Z,2026-11-27T07:08:01Z
+trafficserver,"Apache Traffic Server™ is a fast, scalable and extensible HTTP/1.1 and HTTP/2 compliant caching proxy server.",C++,2002,903,2009-10-31T08:00:10Z,2026-11-27T07:08:01Z
 trafficserver-ci,Apache Trafficserver CI,Shell,7,16,2021-02-18T23:28:36Z,2026-11-07T01:42:44Z
 trafficserver-ingress-controller,Apache Traffic Server Ingress Controller for Kubernetes,Go,46,13,2020-04-13T22:57:44Z,2026-11-26T15:35:09Z
 trafficserver-libswoc,Apache trafficserver,C++,5,10,2024-01-24T16:25:45Z,2026-11-03T02:32:57Z
@@ -3097,12 +3098,12 @@ tuscany-sca-1.x,Mirror of Apache Tuscany SCA 1.x,Java,3,7,2009-11-30T09:00:10Z,2
 tuscany-sca-2.x,Mirror of Apache Tuscany SCA 2.x,Java,26,15,2009-11-30T09:00:10Z,2026-10-05T05:54:38Z
 tuscany-sca-cpp,Mirror of Tuscany SCA C++,C++,9,6,2010-04-22T02:00:34Z,2026-07-23T21:28:23Z
 tuscany-sdo,Mirror of Apache Tuscany SDO,Java,8,10,2009-11-30T09:00:10Z,2026-07-23T14:10:55Z
-tvm,Open Machine Learning Compiler Framework,Python,13925,4061,2016-10-12T22:20:28Z,2026-11-27T18:30:23Z
+tvm,Open Machine Learning Compiler Framework,Python,13926,4064,2016-10-12T22:20:28Z,2026-11-28T11:21:51Z
 tvm-ffi,Open ABI and FFI for Machine Learning Systems,C++,485,113,2025-09-13T22:21:46Z,2026-11-27T06:19:19Z
 tvm-rfcs,A home for the final text of all TVM RFCs.,não informado,111,79,2021-02-24T21:06:54Z,2026-11-09T03:47:52Z
 tvm-site,repo for tvm,JavaScript,27,38,2019-10-08T18:44:15Z,2026-11-18T08:39:10Z
 tvm-tirx,Open ML Compiler Foundation for the Agentic Era,Python,118,42,2026-10-13T22:07:20Z,2026-11-27T05:41:16Z
-tvm-vta,"Open, Modular, Deep Learning Accelerator",Scala,375,101,2020-03-30T03:44:23Z,2026-11-27T07:51:13Z
+tvm-vta,"Open, Modular, Deep Learning Accelerator",Scala,375,101,2020-03-30T03:44:23Z,2026-11-28T06:03:13Z
 twill,Mirror of Apache Twill,Java,69,69,2016-07-29T07:00:06Z,2026-05-08T03:09:02Z
 uima-addons,Mirror of Apache UIMA addons,Java,11,13,2013-12-10T08:00:21Z,2026-05-19T12:29:37Z
 uima-async-scaleout,Apache UIMA UIMA Asynchronous Scaleout (UIMA-AS),Java,1,4,2020-04-23T13:46:12Z,2026-05-19T12:22:51Z
@@ -3118,7 +3119,7 @@ uima-uimacpp,C++ support for Apache UIMA,C++,16,18,2013-12-10T08:00:24Z,2026-07-
 uima-uimafit,Apache UIMA uimaFIT,Java,33,17,2013-12-10T08:00:25Z,2026-05-19T12:21:04Z
 uima-uimaj,Apache UIMA Java SDK,Java,71,41,2013-11-29T08:00:16Z,2026-11-02T15:15:04Z
 uima-uimaj-io-jsoncas,Apache UIMA Java SDK JSON CAS Support,Java,2,3,2022-02-09T14:07:59Z,2026-11-24T18:32:54Z
-uniffle,"Uniffle is a high performance, general purpose Remote Shuffle Service.",Java,455,180,2022-06-17T01:47:53Z,2026-11-12T10:20:20Z
+uniffle,"Uniffle is a high performance, general purpose Remote Shuffle Service.",Java,455,181,2022-06-17T01:47:53Z,2026-11-12T10:20:20Z
 uniffle-rust,Apache uniffle,não informado,2,0,2025-03-10T12:52:33Z,2026-10-20T07:31:03Z
 uniffle-website,Apache Uniffle Website,JavaScript,7,17,2022-08-25T04:16:37Z,2026-07-22T03:03:02Z
 universal-wiki-converter,"Universal Wiki Converter (UWC) is a Java tool used to convert various wikis into Confluence format. No need to fork it, ask for access!",Java,6,3,2018-07-20T20:31:47Z,2026-08-11T11:53:23Z
@@ -3149,7 +3150,7 @@ whimsy,Apache Whimsy is a collection of useful organizational tools used by the 
 whimsy-test,whimsy test,não informado,1,2,2015-12-04T17:51:54Z,2026-07-22T02:15:49Z
 whimsy-whimsical-site,Apache Whimsy Site,HTML,5,7,2019-01-07T18:36:13Z,2026-07-22T02:42:07Z
 whirr,Mirror of Apache Whirr,Java,96,56,2010-08-12T03:32:41Z,2026-05-12T03:38:49Z
-wicket,Apache Wicket - Component-based Java web framework,Java,801,438,2009-05-21T01:51:51Z,2026-11-26T22:03:50Z
+wicket,Apache Wicket - Component-based Java web framework,Java,801,439,2009-05-21T01:51:51Z,2026-11-26T22:03:50Z
 wicket-site,Mirror of Apache Wicket Web Site,HTML,7,17,2015-06-17T07:00:06Z,2026-11-01T20:32:54Z
 wink,Apache Wink (Retired),Java,20,22,2009-07-10T08:00:18Z,2023-07-07T12:23:48Z
 wink-website,Mirror of Apache Wink Website,HTML,2,2,2016-12-07T08:00:07Z,2024-06-06T04:19:03Z
@@ -3169,7 +3170,7 @@ xalan-site,Apache Xalan-Site,HTML,4,5,2019-04-15T17:08:42Z,2026-08-07T05:48:27Z
 xalan-test,Apache Xalan-Test,XSLT,3,9,2019-04-22T01:32:41Z,2026-07-22T02:44:21Z
 xerces-c,Apache Xerces-C   validating XML parser,C++,161,106,2020-01-10T10:00:34Z,2026-11-19T14:20:38Z
 xerces-c-admin,Apache Xerces-C   admininistration,não informado,2,1,2020-01-10T14:30:26Z,2026-07-22T02:48:59Z
-xerces-j,Apache Xerces-J,Java,10,23,2024-04-26T04:54:10Z,2026-11-12T14:32:05Z
+xerces-j,Apache Xerces-J,Java,10,23,2024-04-26T04:54:10Z,2026-11-27T19:35:12Z
 xerces2-j,Mirror of Apache Xerces2 Java,Java,44,66,2010-11-15T08:00:08Z,2026-09-23T21:43:06Z
 xmlgraphics,Apache xmlgraphics,não informado,0,1,2023-02-10T06:49:13Z,2026-10-18T00:44:21Z
 xmlgraphics-batik,Apache XML Graphics Batik,Java,249,157,2009-05-21T02:32:14Z,2026-11-27T15:59:19Z
@@ -3189,4 +3190,4 @@ yunikorn-web,Apache YuniKorn Web UI,TypeScript,39,90,2019-06-13T15:18:49Z,2026-1
 zeppelin,"Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",Java,6671,2834,2015-03-25T07:00:06Z,2026-11-23T09:02:53Z
 zeppelin-site,Apache zeppelin,JavaScript,12,27,2023-09-09T05:38:36Z,2026-10-25T08:13:12Z
 zetacomponents,Mirror of Apache Zeta Components,PHP,48,14,2011-03-06T08:00:07Z,2026-07-22T02:10:56Z
-zookeeper,Apache ZooKeeper,Java,12836,7330,2009-03-27T15:41:56Z,2026-11-26T18:59:37Z
+zookeeper,Apache ZooKeeper,Java,12837,7328,2009-03-27T15:41:56Z,2026-11-28T11:28:32Z
